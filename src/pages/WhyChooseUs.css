@@ -1,0 +1,652 @@
+/* =========================================================
+   SSK LOGISTICS - WHY CHOOSE US
+========================================================= */
+
+.why-choose-two {
+  --ssk-orange: #ED1C24;
+  --ssk-orange-dark: #c96400;
+  --ssk-orange-light: #fff1e1;
+
+  --ssk-dark: #171713;
+  --ssk-dark-light: #22221d;
+
+  --ssk-text: #706e68;
+  --ssk-border: #ebe5dc;
+  --ssk-bg: #faf8f4;
+
+  position: relative;
+
+  overflow: hidden;
+
+  padding: 15px 10px;
+
+  font-family: "Poppins", sans-serif;
+
+  background:
+    radial-gradient(
+      circle at 5% 10%,
+      rgba(233, 120, 0, 0.055),
+      transparent 22%
+    ),
+    var(--ssk-bg);
+}
+
+
+/* =========================================================
+   CONTAINER
+========================================================= */
+
+.why-choose-two .container {
+  position: relative;
+  z-index: 2;
+
+  width: 100%;
+  max-width: 1200px;
+
+  margin: 0 auto;
+}
+
+
+/* =========================================================
+   BACKGROUND TEXT
+========================================================= */
+
+.why-choose-two__bg-text {
+  position: absolute;
+
+  right: -25px;
+  bottom: -5px;
+
+  color: rgba(23, 23, 19, 0.025);
+
+  font-size: 100px;
+  font-weight: 800;
+
+  line-height: 1;
+
+  letter-spacing: 5px;
+
+  white-space: nowrap;
+
+  pointer-events: none;
+}
+
+
+/* =========================================================
+   MAIN WRAPPER
+========================================================= */
+
+.why-choose-two__wrapper {
+  display: grid;
+
+  grid-template-columns:
+    minmax(0, 0.8fr)
+    minmax(0, 1.2fr);
+
+  align-items: center;
+
+  gap: 65px;
+}
+
+
+/* =========================================================
+   LEFT
+========================================================= */
+
+.why-choose-two__left {
+  max-width: 500px;
+}
+
+
+/* =========================================================
+   TAGLINE
+========================================================= */
+
+.why-choose-two__tagline {
+  display: flex;
+
+  align-items: center;
+
+  gap: 10px;
+
+  margin-bottom: 13px;
+}
+
+
+.why-choose-two__tagline-line {
+  display: block;
+
+  width: 36px;
+  height: 2px;
+
+  background: var(--ssk-orange);
+}
+
+
+.why-choose-two__tagline h6 {
+  margin: 0;
+
+  color: var(--ssk-orange);
+
+  font-size: 13px;
+  font-weight: 700;
+
+  letter-spacing: 1.8px;
+}
+
+
+/* =========================================================
+   HEADING
+========================================================= */
+
+.why-choose-two__title {
+  margin: 0;
+
+  color: var(--ssk-dark);
+
+  font-size: clamp(35px, 4vw, 50px);
+  font-weight: 700;
+
+  line-height: 1.15;
+
+  letter-spacing: -1.5px;
+}
+
+
+.why-choose-two__title span {
+  display: block;
+
+  color: var(--ssk-orange);
+}
+
+
+/* =========================================================
+   DESCRIPTION
+========================================================= */
+
+.why-choose-two__text {
+  margin: 20px 0 0;
+
+  color: var(--ssk-text);
+
+  font-size: 14px;
+
+  line-height: 1.85;
+}
+
+
+/* =========================================================
+   TRUST POINTS
+========================================================= */
+
+.why-choose-two__trust {
+  display: flex;
+
+  flex-wrap: wrap;
+
+  gap: 16px;
+
+  margin-top: 23px;
+}
+
+
+.why-choose-two__trust > div {
+  display: flex;
+
+  align-items: center;
+
+  gap: 8px;
+
+  color: var(--ssk-dark);
+
+  font-size: 9px;
+  font-weight: 600;
+}
+
+
+.why-choose-two__trust > div > span {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  width: 23px;
+  height: 23px;
+
+  color: #ffffff;
+
+  font-size: 7px;
+
+  background: var(--ssk-orange);
+
+  border-radius: 50%;
+}
+
+
+/* =========================================================
+   BUTTON
+========================================================= */
+
+.why-choose-two__btn-box {
+  margin-top: 28px;
+}
+
+
+.why-choose-two__btn {
+  display: inline-flex;
+
+  align-items: center;
+
+  overflow: hidden;
+
+  color: #ffffff;
+
+  font-size: 10px;
+  font-weight: 700;
+
+  text-decoration: none;
+
+  background: var(--ssk-dark);
+
+  border-radius: 7px;
+
+  transition: all 0.3s ease;
+}
+
+
+.why-choose-two__btn > span {
+  padding: 14px 19px;
+}
+
+
+.why-choose-two__btn > div {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  align-self: stretch;
+
+  width: 45px;
+
+  color: #ffffff;
+
+  background: var(--ssk-orange);
+}
+
+
+.why-choose-two__btn > div svg {
+  font-size: 11px;
+
+  transition: transform 0.3s ease;
+}
+
+
+.why-choose-two__btn:hover {
+  color: #ffffff;
+
+  transform: translateY(-2px);
+
+  box-shadow:
+    0 12px 25px rgba(23, 23, 19, 0.15);
+}
+
+
+.why-choose-two__btn:hover > div svg {
+  transform: translateX(4px);
+}
+
+
+/* =========================================================
+   RIGHT FEATURES GRID
+========================================================= */
+
+.why-choose-two__features {
+  display: grid;
+
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+
+  gap: 15px;
+}
+
+
+/* =========================================================
+   CARD
+========================================================= */
+
+.why-choose-two__card {
+  position: relative;
+
+  min-height: 260px;
+
+  padding: 25px 22px;
+
+  overflow: hidden;
+
+  background: #ffffff;
+
+  border: 1px solid var(--ssk-border);
+
+  border-radius: 12px;
+
+  transition:
+    transform 0.3s ease,
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+
+.why-choose-two__card:hover {
+  transform: translateY(-5px);
+
+  border-color: rgba(233, 120, 0, 0.4);
+
+  box-shadow:
+    0 18px 40px rgba(43, 34, 20, 0.08);
+}
+
+
+/* top orange line */
+
+.why-choose-two__card::before {
+  content: "";
+
+  position: absolute;
+
+  top: 0;
+  left: 0;
+
+  width: 0;
+  height: 4px;
+
+  background: var(--ssk-orange);
+
+  transition: width 0.35s ease;
+}
+
+
+.why-choose-two__card:hover::before {
+  width: 100%;
+}
+
+
+/* =========================================================
+   CARD NUMBER
+========================================================= */
+
+.why-choose-two__number {
+  position: absolute;
+
+  top: 17px;
+  right: 18px;
+
+  color: #efebe4;
+
+  font-size: 25px;
+  font-weight: 800;
+
+  line-height: 1;
+
+  transition: color 0.3s ease;
+}
+
+
+.why-choose-two__card:hover
+.why-choose-two__number {
+  color: rgba(233, 120, 0, 0.18);
+}
+
+
+/* =========================================================
+   BIG ORANGE ICON BOX
+========================================================= */
+
+.why-choose-two__icon {
+  position: relative;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  width: 95px;
+  height: 95px;
+
+  margin-bottom: 22px;
+
+  overflow: hidden;
+
+  background:
+    linear-gradient(
+      135deg,
+      #f28a1d 0%,
+      var(--ssk-orange) 100%
+    );
+
+  border-radius: 15px;
+
+  box-shadow:
+    0 10px 25px rgba(233, 120, 0, 0.24);
+
+  transition:
+    background 0.3s ease,
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+
+/* Decorative circle */
+
+.why-choose-two__icon::before {
+  content: "";
+
+  position: absolute;
+
+  top: -22px;
+  right: -22px;
+
+  width: 60px;
+  height: 60px;
+
+  background: rgba(255, 255, 255, 0.12);
+
+  border-radius: 50%;
+}
+
+
+/* =========================================================
+   LARGE WHITE REACT ICON
+========================================================= */
+
+.why-choose-two__icon svg {
+  position: relative;
+  z-index: 2;
+
+  display: block;
+
+  width: 48px;
+  height: 48px;
+
+  color: #ffffff !important;
+
+  fill: #ffffff !important;
+
+  font-size: 48px;
+
+  transition: transform 0.3s ease;
+}
+
+
+/* =========================================================
+   ICON HOVER
+========================================================= */
+
+.why-choose-two__card:hover
+.why-choose-two__icon {
+  background: var(--ssk-dark);
+
+  transform: rotate(-3deg) scale(1.03);
+
+  box-shadow:
+    0 12px 25px rgba(23, 23, 19, 0.2);
+}
+
+
+.why-choose-two__card:hover
+.why-choose-two__icon svg {
+  color: #ffffff !important;
+
+  fill: #ffffff !important;
+
+  transform: scale(1.1);
+}
+
+
+/* =========================================================
+   CARD CONTENT
+========================================================= */
+
+.why-choose-two__content h4 {
+  margin: 0 0 9px;
+
+  color: var(--ssk-dark);
+
+  font-size: 15px;
+  font-weight: 700;
+
+  line-height: 1.4;
+}
+
+
+.why-choose-two__content p {
+  margin: 0;
+
+  color: var(--ssk-text);
+
+  font-size: 15px;
+
+  line-height: 1.7;
+}
+
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 1000px) {
+
+  .why-choose-two {
+    padding: 70px 20px;
+  }
+
+
+  .why-choose-two__wrapper {
+    grid-template-columns: 1fr;
+
+    gap: 45px;
+  }
+
+
+  .why-choose-two__left {
+    max-width: 700px;
+  }
+
+
+  .why-choose-two__features {
+    max-width: 800px;
+  }
+
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 650px) {
+
+  .why-choose-two {
+    padding: 55px 15px;
+  }
+
+
+  .why-choose-two__bg-text {
+    display: none;
+  }
+
+
+  .why-choose-two__wrapper {
+    gap: 35px;
+  }
+
+
+  .why-choose-two__title {
+    font-size: 35px;
+  }
+
+
+  .why-choose-two__text {
+    font-size: 10px;
+  }
+
+
+  .why-choose-two__features {
+    grid-template-columns: 1fr;
+  }
+
+
+  .why-choose-two__card {
+    min-height: auto;
+
+    padding: 22px;
+  }
+
+
+  .why-choose-two__icon {
+    width: 85px;
+    height: 85px;
+  }
+
+
+  .why-choose-two__icon svg {
+    width: 43px;
+    height: 43px;
+
+    font-size: 43px;
+  }
+
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+========================================================= */
+
+@media (max-width: 400px) {
+
+  .why-choose-two__title {
+    font-size: 31px;
+  }
+
+
+  .why-choose-two__trust {
+    flex-direction: column;
+
+    gap: 10px;
+  }
+
+
+  .why-choose-two__icon {
+    width: 80px;
+    height: 80px;
+  }
+
+
+  .why-choose-two__icon svg {
+    width: 40px;
+    height: 40px;
+
+    font-size: 40px;
+  }
+
+}

@@ -1,0 +1,888 @@
+.expertise-section{
+    padding:10px 0;
+    background:#f8fafc;
+}
+
+.expertise-heading{
+    text-align:center;
+    max-width:760px;
+    margin:0 auto 60px;
+}
+
+.expertise-heading span{
+    background:#ED1C24;
+    color:#fff;
+    padding:8px 24px;
+    border-radius:30px;
+    font-size:14px;
+    font-weight:700;
+    letter-spacing:2px;
+}
+
+.expertise-heading h2{
+    font-size:46px;
+    font-weight:800;
+    margin:20px 0;
+    color:#16213e;
+}
+
+.expertise-heading p{
+    color:#666;
+    line-height:30px;
+    font-size:17px;
+}
+
+.expertise-card{
+    background:#fff;
+    border-radius:22px;
+    padding:35px;
+    text-align:center;
+    height:100%;
+    box-shadow:0 15px 40px rgba(0,0,0,.08);
+    transition:.35s;
+    position:relative;
+    overflow:hidden;
+}
+
+.expertise-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 25px 50px rgba(0,0,0,.14);
+}
+
+.expertise-card::before{
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:5px;
+    background:linear-gradient(90deg,#ED1C24,#ffbf47);
+}
+
+.expertise-icon{
+    width:85px;
+    height:85px;
+    border-radius:20px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:0 auto 25px;
+    color:#fff;
+    font-size:34px;
+}
+
+.expertise-card h4{
+    font-size:24px;
+    font-weight:700;
+    color:#16213e;
+    margin-bottom:15px;
+}
+
+.expertise-card p{
+    color:#666;
+    line-height:28px;
+}
+
+@media(max-width:991px){
+
+.expertise-heading h2{
+    font-size:36px;
+}
+
+}
+
+@media(max-width:767px){
+
+.expertise-card{
+    padding:30px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =========================================================
+   SSK LOGISTICS - EXPERTISE SECTION
+========================================================= */
+
+.ssk-expertise {
+  --ssk-orange: #ED1C24;
+  --ssk-orange-dark: #c96300;
+  --ssk-orange-soft: #ff9b38;
+
+  --ssk-dark: #151512;
+  --ssk-dark-two: #1c1c18;
+  --ssk-card: #22221d;
+
+  --ssk-white: #ffffff;
+  --ssk-cream: #fff9f2;
+  --ssk-muted: #aaa9a2;
+
+  position: relative;
+  overflow: hidden;
+
+  padding: 15px 10px;
+
+  background:
+    radial-gradient(
+      circle at 90% 10%,
+      rgba(233, 120, 0, 0.12),
+      transparent 25%
+    ),
+    radial-gradient(
+      circle at 0% 90%,
+      rgba(233, 120, 0, 0.07),
+      transparent 30%
+    ),
+    #151512;
+
+  font-family: "Poppins", sans-serif;
+}
+
+.ssk-expertise-container {
+  position: relative;
+  z-index: 3;
+
+  width: 100%;
+  max-width: 1320px;
+
+  margin: 0 auto;
+}
+
+
+/* =========================================================
+   HEADER
+========================================================= */
+
+.ssk-expertise-header {
+  display: grid;
+
+  grid-template-columns: 1.15fr 0.85fr;
+
+  align-items: end;
+
+  gap: 80px;
+
+  margin-bottom: 58px;
+}
+
+
+/* Label */
+
+.ssk-expertise-label {
+  display: inline-flex;
+
+  align-items: center;
+
+  gap: 10px;
+
+  margin-bottom: 17px;
+
+  color: var(--ssk-orange);
+
+  font-size: 12px;
+  font-weight: 700;
+
+  letter-spacing: 2.5px;
+}
+
+
+.label-dot {
+  position: relative;
+
+  width: 9px;
+  height: 9px;
+
+  background: var(--ssk-orange);
+
+  border-radius: 50%;
+}
+
+
+.label-dot::after {
+  content: "";
+
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+
+  width: 19px;
+  height: 19px;
+
+  border: 1px solid rgba(233, 120, 0, 0.45);
+
+  border-radius: 50%;
+
+  transform: translate(-50%, -50%);
+}
+
+
+/* Main heading */
+
+.ssk-expertise-header h2 {
+  max-width: 720px;
+
+  margin: 0;
+
+  color: var(--ssk-white);
+
+  font-size: clamp(40px, 4.5vw, 62px);
+  font-weight: 700;
+
+  line-height: 1.12;
+
+  letter-spacing: -2px;
+}
+
+
+.ssk-expertise-header h2 span {
+  display: block;
+
+  color: var(--ssk-orange);
+}
+
+
+/* Right description */
+
+.ssk-expertise-header-right {
+  padding-bottom: 5px;
+}
+
+
+.ssk-expertise-header-right > p {
+  margin: 0 0 22px;
+
+  color: #b8b7b0;
+
+  font-size: 14px;
+  line-height: 1.9;
+}
+
+
+/* Small location */
+
+.ssk-expertise-mini-line {
+  display: inline-flex;
+
+  align-items: center;
+
+  gap: 10px;
+
+  color: #fff;
+
+  font-size: 12px;
+  font-weight: 600;
+}
+
+
+.ssk-expertise-mini-line svg {
+  color: var(--ssk-orange);
+
+  font-size: 16px;
+}
+
+
+/* =========================================================
+   GRID
+========================================================= */
+
+.ssk-expertise-grid {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 18px;
+}
+
+
+/* =========================================================
+   CARD
+========================================================= */
+
+.ssk-expertise-card {
+  position: relative;
+
+  min-height: 365px;
+
+  padding: 31px 30px 27px;
+
+  overflow: hidden;
+
+  background:
+    linear-gradient(
+      145deg,
+      #22221d 0%,
+      #1c1c18 100%
+    );
+
+  border: 1px solid rgba(255, 255, 255, 0.075);
+
+  border-radius: 5px;
+
+  transition:
+    transform 0.35s ease,
+    border-color 0.35s ease,
+    background 0.35s ease;
+}
+
+
+/* subtle pattern */
+
+.ssk-expertise-card::after {
+  content: "";
+
+  position: absolute;
+
+  top: -80px;
+  right: -80px;
+
+  width: 180px;
+  height: 180px;
+
+  border: 1px solid rgba(255, 255, 255, 0.035);
+
+  border-radius: 50%;
+
+  transition: all 0.5s ease;
+}
+
+
+.ssk-expertise-card:hover {
+  transform: translateY(-7px);
+
+  border-color: rgba(233, 120, 0, 0.45);
+
+  background:
+    linear-gradient(
+      145deg,
+      #27251e 0%,
+      #1d1c17 100%
+    );
+}
+
+
+.ssk-expertise-card:hover::after {
+  width: 230px;
+  height: 230px;
+
+  border-color: rgba(233, 120, 0, 0.13);
+}
+
+
+/* =========================================================
+   FEATURED CARDS
+========================================================= */
+
+.ssk-featured-card {
+  background:
+    linear-gradient(
+      145deg,
+      #302619 0%,
+      #201d17 100%
+    );
+
+  border-color: rgba(233, 120, 0, 0.25);
+}
+
+
+.ssk-featured-card::before {
+  content: "";
+
+  position: absolute;
+
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 3px;
+
+  background: var(--ssk-orange);
+}
+
+
+/* =========================================================
+   NUMBER
+========================================================= */
+
+.ssk-expertise-number {
+  position: absolute;
+
+  top: 25px;
+  right: 27px;
+
+  color: rgba(255, 255, 255, 0.08);
+
+  font-size: 40px;
+  font-weight: 700;
+
+  line-height: 1;
+
+  transition: color 0.35s ease;
+}
+
+
+.ssk-expertise-card:hover .ssk-expertise-number {
+  color: rgba(233, 120, 0, 0.2);
+}
+
+
+/* =========================================================
+   ICON
+========================================================= */
+
+.ssk-expertise-icon {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  width: 65px;
+  height: 65px;
+
+  margin-bottom: 31px;
+
+  color: var(--ssk-orange);
+
+  font-size: 25px;
+
+  background: rgba(233, 120, 0, 0.1);
+
+  border: 1px solid rgba(233, 120, 0, 0.24);
+
+  border-radius: 50%;
+
+  transition: all 0.35s ease;
+}
+
+
+.ssk-expertise-card:hover .ssk-expertise-icon {
+  color: #fff;
+
+  background: var(--ssk-orange);
+
+  border-color: var(--ssk-orange);
+
+  transform: rotate(-6deg);
+}
+
+
+/* =========================================================
+   CARD TEXT
+========================================================= */
+
+.ssk-expertise-short {
+  display: block;
+
+  margin-bottom: 8px;
+
+  color: var(--ssk-orange);
+
+  font-size: 9px;
+  font-weight: 700;
+
+  letter-spacing: 1.4px;
+
+  text-transform: uppercase;
+}
+
+
+.ssk-expertise-card h3 {
+  margin: 0 0 13px;
+
+  color: #fff;
+
+  font-size: 20px;
+  font-weight: 650;
+
+  line-height: 1.4;
+}
+
+
+.ssk-expertise-card > p {
+  margin: 0;
+
+  color: #aaa9a2;
+
+  font-size: 12.5px;
+  line-height: 1.8;
+}
+
+
+/* =========================================================
+   CARD BOTTOM
+========================================================= */
+
+.ssk-expertise-card-bottom {
+  position: absolute;
+
+  right: 30px;
+  bottom: 25px;
+  left: 30px;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 15px;
+}
+
+
+.ssk-expertise-card-bottom > span {
+  flex: 1;
+
+  height: 1px;
+
+  background: rgba(255, 255, 255, 0.08);
+}
+
+
+.ssk-expertise-arrow {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  width: 34px;
+  height: 34px;
+
+  color: var(--ssk-orange);
+
+  font-size: 13px;
+
+  border: 1px solid rgba(233, 120, 0, 0.35);
+
+  border-radius: 50%;
+
+  transition: all 0.3s ease;
+}
+
+
+.ssk-expertise-card:hover .ssk-expertise-arrow {
+  color: #fff;
+
+  background: var(--ssk-orange);
+
+  border-color: var(--ssk-orange);
+
+  transform: translateX(4px);
+}
+
+
+/* =========================================================
+   BOTTOM BAR
+========================================================= */
+
+.ssk-expertise-bottom {
+  display: grid;
+
+  grid-template-columns: 1fr auto auto;
+
+  align-items: center;
+
+  gap: 45px;
+
+  margin-top: 25px;
+
+  padding: 27px 30px;
+
+  background: #fff;
+
+  border-radius: 5px;
+}
+
+
+.ssk-expertise-bottom-title > span {
+  display: block;
+
+  margin-bottom: 3px;
+
+  color: var(--ssk-orange);
+
+  font-size: 9px;
+  font-weight: 700;
+
+  letter-spacing: 2px;
+}
+
+
+.ssk-expertise-bottom-title h3 {
+  margin: 0;
+
+  color: var(--ssk-dark);
+
+  font-size: 18px;
+  font-weight: 700;
+}
+
+
+/* points */
+
+.ssk-expertise-bottom-points {
+  display: flex;
+
+  align-items: center;
+
+  gap: 25px;
+}
+
+
+.ssk-expertise-bottom-points span {
+  display: flex;
+
+  align-items: center;
+
+  gap: 7px;
+
+  color: #57564f;
+
+  font-size: 11px;
+  font-weight: 600;
+
+  white-space: nowrap;
+}
+
+
+.ssk-expertise-bottom-points i {
+  width: 6px;
+  height: 6px;
+
+  background: var(--ssk-orange);
+
+  border-radius: 50%;
+}
+
+
+/* =========================================================
+   BUTTON
+========================================================= */
+
+.ssk-expertise-button {
+  display: inline-flex;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 11px;
+
+  padding: 14px 20px;
+
+  color: #fff;
+
+  font-size: 11px;
+  font-weight: 600;
+
+  text-decoration: none;
+
+  background: var(--ssk-orange);
+
+  border-radius: 3px;
+
+  transition: all 0.3s ease;
+}
+
+
+.ssk-expertise-button:hover {
+  color: #fff;
+
+  background: var(--ssk-orange-dark);
+
+  transform: translateY(-2px);
+}
+
+
+.ssk-expertise-button svg {
+  transition: transform 0.3s ease;
+}
+
+
+.ssk-expertise-button:hover svg {
+  transform: translateX(4px);
+}
+
+
+/* =========================================================
+   DECORATIVE ELEMENTS
+========================================================= */
+
+.ssk-expertise-glow {
+  position: absolute;
+
+  border-radius: 50%;
+
+  pointer-events: none;
+
+  filter: blur(2px);
+}
+
+
+.glow-one {
+  top: -200px;
+  right: -100px;
+
+  width: 480px;
+  height: 480px;
+
+  border: 80px solid rgba(233, 120, 0, 0.025);
+}
+
+
+.glow-two {
+  bottom: -250px;
+  left: -150px;
+
+  width: 500px;
+  height: 500px;
+
+  border: 90px solid rgba(233, 120, 0, 0.02);
+}
+
+
+/* Route decoration */
+
+.ssk-expertise-route {
+  position: absolute;
+
+  opacity: 0.08;
+
+  pointer-events: none;
+}
+
+
+.route-one {
+  top: 70px;
+  right: 7%;
+
+  width: 150px;
+  height: 80px;
+
+  border-top: 2px dashed var(--ssk-orange);
+  border-right: 2px dashed var(--ssk-orange);
+
+  border-radius: 0 70px 0 0;
+}
+
+
+.route-two {
+  bottom: 70px;
+  left: 5%;
+
+  width: 130px;
+  height: 80px;
+
+  border-bottom: 2px dashed var(--ssk-orange);
+  border-left: 2px dashed var(--ssk-orange);
+
+  border-radius: 0 0 0 70px;
+}
+
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 1100px) {
+
+  .ssk-expertise-header {
+    grid-template-columns: 1fr;
+
+    gap: 25px;
+  }
+
+  .ssk-expertise-header-right {
+    max-width: 700px;
+  }
+
+  .ssk-expertise-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .ssk-expertise-bottom {
+    grid-template-columns: 1fr auto;
+  }
+
+  .ssk-expertise-bottom-points {
+    grid-column: 1 / -1;
+
+    order: 3;
+  }
+
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 650px) {
+
+  .ssk-expertise {
+    padding: 70px 15px;
+  }
+
+  .ssk-expertise-header {
+    margin-bottom: 38px;
+  }
+
+  .ssk-expertise-header h2 {
+    font-size: 37px;
+
+    letter-spacing: -1px;
+  }
+
+  .ssk-expertise-header-right > p {
+    font-size: 13px;
+  }
+
+  .ssk-expertise-grid {
+    grid-template-columns: 1fr;
+
+    gap: 14px;
+  }
+
+  .ssk-expertise-card {
+    min-height: 340px;
+
+    padding: 26px 23px;
+  }
+
+  .ssk-expertise-card-bottom {
+    right: 23px;
+    left: 23px;
+  }
+
+  .ssk-expertise-bottom {
+    grid-template-columns: 1fr;
+
+    gap: 20px;
+
+    padding: 24px 20px;
+  }
+
+  .ssk-expertise-bottom-points {
+    grid-column: auto;
+
+    flex-direction: column;
+
+    align-items: flex-start;
+
+    gap: 10px;
+  }
+
+  .ssk-expertise-button {
+    width: 100%;
+  }
+
+}

@@ -1,0 +1,491 @@
+/* ==========================================================
+   SSK LOGISTICS - CLIENTS
+========================================================== */
+
+.ssk-clients {
+  --ssk-orange: #ED1C24;
+  --ssk-dark: #171713;
+  --ssk-text: #6e6b65;
+  --ssk-border: #eae5dc;
+  --ssk-bg: #faf8f4;
+
+  position: relative;
+
+  overflow: hidden;
+
+  padding: 10px 20px 10px;
+
+  font-family: "Poppins", sans-serif;
+
+  background: var(--ssk-bg);
+}
+
+
+/* ==========================================================
+   CONTAINER
+========================================================== */
+
+.client-container {
+  width: 100%;
+  max-width: 1250px;
+
+  margin: 0 auto;
+}
+
+
+/* ==========================================================
+   HEADING
+========================================================== */
+
+.client-heading {
+  max-width: 700px;
+
+  margin: 0 auto 40px;
+
+  text-align: center;
+}
+
+
+.client-small-title {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 10px;
+
+  margin-bottom: 9px;
+
+  color: var(--ssk-orange);
+
+  font-size: 9px;
+  font-weight: 700;
+
+  letter-spacing: 2px;
+}
+
+
+.client-small-title span {
+  width: 28px;
+  height: 2px;
+
+  background: var(--ssk-orange);
+}
+
+
+.client-heading h2 {
+  margin: 0;
+
+  color: var(--ssk-dark);
+
+  font-size: clamp(30px, 3.5vw, 43px);
+  font-weight: 700;
+
+  line-height: 1.2;
+
+  letter-spacing: -1px;
+}
+
+
+.client-heading h2 strong {
+  color: var(--ssk-orange);
+
+  font-weight: 700;
+}
+
+
+.client-heading p {
+  max-width: 630px;
+
+  margin: 13px auto 0;
+
+  color: var(--ssk-text);
+
+  font-size: 11px;
+
+  line-height: 1.75;
+}
+
+
+/* ==========================================================
+   SLIDER
+========================================================== */
+
+.client-slider {
+  position: relative;
+
+  width: 100%;
+
+  overflow: hidden;
+
+  padding: 10px 0 20px;
+}
+
+
+/* ==========================================================
+   TRACK
+========================================================== */
+
+.client-slider-track {
+  display: flex;
+
+  align-items: center;
+
+  width: max-content;
+
+  animation: sskClientScroll 32s linear infinite;
+
+  will-change: transform;
+}
+
+
+/* Pause slider on hover */
+
+.client-slider:hover .client-slider-track {
+  animation-play-state: paused;
+}
+
+
+/* ==========================================================
+   EACH SLIDE
+========================================================== */
+
+.client-slide {
+  flex: 0 0 210px;
+
+  width: 210px;
+
+  padding: 0 7px;
+}
+
+
+/* ==========================================================
+   LOGO CARD
+========================================================== */
+
+.client-logo-box {
+  position: relative;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 125px;
+
+  padding: 18px;
+
+  overflow: hidden;
+
+  background: #ffffff;
+
+  border: 1px solid var(--ssk-border);
+
+  border-radius: 10px;
+
+  box-shadow:
+    0 5px 20px rgba(40, 32, 20, 0.035);
+
+  transition:
+    transform 0.3s ease,
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+
+/* orange line */
+
+.client-logo-box::before {
+  content: "";
+
+  position: absolute;
+
+  left: 50%;
+  bottom: 0;
+
+  width: 0;
+  height: 3px;
+
+  background: var(--ssk-orange);
+
+  transform: translateX(-50%);
+
+  transition: width 0.3s ease;
+}
+
+
+.client-logo-box:hover {
+  transform: translateY(-5px);
+
+  border-color: rgba(233, 120, 0, 0.35);
+
+  box-shadow:
+    0 14px 30px rgba(40, 32, 20, 0.08);
+}
+
+
+.client-logo-box:hover::before {
+  width: 65%;
+}
+
+
+/* ==========================================================
+   CLIENT LOGO
+========================================================== */
+
+.client-logo {
+  display: block;
+
+  width: 100%;
+  max-width: 150px;
+
+  height: 80px;
+
+  object-fit: contain;
+
+  transition: transform 0.3s ease;
+}
+
+
+.client-logo-box:hover .client-logo {
+  transform: scale(1.05);
+}
+
+
+/* ==========================================================
+   LEFT / RIGHT FADE
+========================================================== */
+
+.client-slider-fade {
+  position: absolute;
+
+  top: 0;
+  bottom: 0;
+
+  z-index: 5;
+
+  width: 70px;
+
+  pointer-events: none;
+}
+
+
+.client-fade-left {
+  left: 0;
+
+  background:
+    linear-gradient(
+      to right,
+      var(--ssk-bg),
+      rgba(250, 248, 244, 0)
+    );
+}
+
+
+.client-fade-right {
+  right: 0;
+
+  background:
+    linear-gradient(
+      to left,
+      var(--ssk-bg),
+      rgba(250, 248, 244, 0)
+    );
+}
+
+
+/* ==========================================================
+   AUTO SLIDE ANIMATION
+========================================================== */
+
+@keyframes sskClientScroll {
+
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+
+}
+
+
+/* ==========================================================
+   BOTTOM TEXT
+========================================================== */
+
+.client-bottom {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 15px;
+
+  max-width: 650px;
+
+  margin: 15px auto 0;
+}
+
+
+.client-bottom > span {
+  flex: 1;
+
+  height: 1px;
+
+  background:
+    linear-gradient(
+      to right,
+      transparent,
+      #ddd8cf
+    );
+}
+
+
+.client-bottom > span:last-child {
+  background:
+    linear-gradient(
+      to left,
+      transparent,
+      #ddd8cf
+    );
+}
+
+
+.client-bottom p {
+  margin: 0;
+
+  color: #9a978f;
+
+  font-size: 8px;
+  font-weight: 500;
+
+  letter-spacing: 0.3px;
+
+  white-space: nowrap;
+}
+
+
+/* ==========================================================
+   TABLET
+========================================================== */
+
+@media (max-width: 900px) {
+
+  .ssk-clients {
+    padding: 60px 15px 50px;
+  }
+
+
+  .client-slide {
+    flex-basis: 185px;
+
+    width: 185px;
+  }
+
+
+  .client-logo-box {
+    height: 115px;
+  }
+
+
+  .client-logo {
+    max-width: 135px;
+
+    height: 70px;
+  }
+
+
+  .client-slider-track {
+    animation-duration: 28s;
+  }
+
+}
+
+
+/* ==========================================================
+   MOBILE
+========================================================== */
+
+@media (max-width: 600px) {
+
+  .ssk-clients {
+    padding: 50px 12px 45px;
+  }
+
+
+  .client-heading {
+    margin-bottom: 28px;
+  }
+
+
+  .client-heading h2 {
+    font-size: 30px;
+  }
+
+
+  .client-heading p {
+    font-size: 10px;
+  }
+
+
+  .client-slide {
+    flex-basis: 155px;
+
+    width: 155px;
+
+    padding: 0 5px;
+  }
+
+
+  .client-logo-box {
+    height: 100px;
+
+    padding: 13px;
+  }
+
+
+  .client-logo {
+    max-width: 115px;
+
+    height: 62px;
+  }
+
+
+  .client-slider-track {
+    animation-duration: 24s;
+  }
+
+
+  .client-slider-fade {
+    width: 30px;
+  }
+
+
+  .client-bottom > span {
+    display: none;
+  }
+
+
+  .client-bottom p {
+    white-space: normal;
+
+    text-align: center;
+  }
+
+}
+
+
+/* ==========================================================
+   ACCESSIBILITY
+========================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+
+  .client-slider-track {
+    animation: none;
+  }
+
+}

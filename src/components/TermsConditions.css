@@ -1,0 +1,764 @@
+/* =========================================================
+   SSK LOGISTICS - TERMS & CONDITIONS
+========================================================= */
+
+.ssk-terms-page {
+  --ssk-orange: #ED1C24;
+  --ssk-orange-dark: #c96300;
+  --ssk-orange-light: #fff2e4;
+
+  --ssk-dark: #171713;
+  --ssk-text: #706e67;
+  --ssk-border: #ebe5dc;
+  --ssk-bg: #faf8f4;
+
+  font-family: "Poppins", sans-serif;
+
+  background: var(--ssk-bg);
+}
+
+
+/* =========================================================
+   COMMON CONTAINER
+========================================================= */
+
+.terms-container {
+  position: relative;
+
+  width: 100%;
+  max-width: 1200px;
+
+  margin: 0 auto;
+}
+
+
+/* =========================================================
+   HERO
+========================================================= */
+
+.ssk-terms-hero {
+  position: relative;
+
+  overflow: hidden;
+
+  padding: 75px 20px 80px;
+
+  background: var(--ssk-dark);
+}
+
+
+/* =========================================================
+   BREADCRUMB
+========================================================= */
+
+.terms-breadcrumb {
+  display: flex;
+
+  align-items: center;
+
+  gap: 9px;
+
+  margin-bottom: 35px;
+
+  color: #8f8e88;
+
+  font-size: 8px;
+  font-weight: 600;
+
+  letter-spacing: 1.3px;
+}
+
+
+.terms-breadcrumb span:last-child {
+  color: var(--ssk-orange);
+}
+
+
+.terms-breadcrumb svg {
+  color: #55554f;
+
+  font-size: 8px;
+}
+
+
+/* =========================================================
+   HERO CONTENT
+========================================================= */
+
+.terms-hero-content {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 50px;
+}
+
+
+.terms-label {
+  display: flex;
+
+  align-items: center;
+
+  gap: 9px;
+
+  margin-bottom: 12px;
+
+  color: var(--ssk-orange);
+
+  font-size: 9px;
+  font-weight: 700;
+
+  letter-spacing: 2px;
+}
+
+
+.terms-label > span {
+  width: 33px;
+  height: 2px;
+
+  background: var(--ssk-orange);
+}
+
+
+.terms-hero-content h1 {
+  margin: 0;
+
+  color: #ffffff;
+
+  font-size: clamp(42px, 5vw, 65px);
+  font-weight: 700;
+
+  line-height: 1.1;
+
+  letter-spacing: -2px;
+}
+
+
+.terms-hero-content h1 strong {
+  color: var(--ssk-orange);
+
+  font-weight: 700;
+}
+
+
+.terms-hero-content p {
+  max-width: 600px;
+
+  margin: 18px 0 0;
+
+  color: #aaa9a2;
+
+  font-size: 13px;
+
+  line-height: 1.8;
+}
+
+
+/* =========================================================
+   HERO ICON
+========================================================= */
+
+.terms-hero-icon {
+  flex: 0 0 120px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  width: 120px;
+  height: 120px;
+
+  color: var(--ssk-orange);
+
+  font-size: 43px;
+
+  background: rgba(233, 120, 0, 0.08);
+
+  border: 1px solid rgba(233, 120, 0, 0.2);
+
+  border-radius: 25px;
+
+  transform: rotate(5deg);
+}
+
+
+.terms-hero-icon svg {
+  transform: rotate(-5deg);
+}
+
+
+/* =========================================================
+   HERO DECORATION
+========================================================= */
+
+.terms-hero-decoration {
+  position: absolute;
+
+  border-radius: 50%;
+
+  pointer-events: none;
+}
+
+
+.terms-circle-one {
+  top: -190px;
+  right: -130px;
+
+  width: 430px;
+  height: 430px;
+
+  border: 70px solid rgba(233, 120, 0, 0.035);
+}
+
+
+.terms-circle-two {
+  bottom: -190px;
+  left: -120px;
+
+  width: 330px;
+  height: 330px;
+
+  background: rgba(233, 120, 0, 0.025);
+}
+
+
+/* =========================================================
+   CONTENT SECTION
+========================================================= */
+
+.ssk-terms-content {
+  padding: 65px 20px 80px;
+}
+
+
+/* =========================================================
+   INTRO BOX
+========================================================= */
+
+.terms-intro {
+  display: flex;
+
+  align-items: center;
+
+  gap: 17px;
+
+  margin-bottom: 25px;
+
+  padding: 20px 22px;
+
+  background: #fffaf4;
+
+  border: 1px solid rgba(233, 120, 0, 0.18);
+
+  border-left: 4px solid var(--ssk-orange);
+
+  border-radius: 10px;
+}
+
+
+.terms-intro-icon {
+  flex: 0 0 40px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  width: 40px;
+  height: 40px;
+
+  color: #ffffff;
+
+  font-size: 12px;
+
+  background: var(--ssk-orange);
+
+  border-radius: 50%;
+}
+
+
+.terms-intro span {
+  display: block;
+
+  margin-bottom: 4px;
+
+  color: var(--ssk-orange);
+
+  font-size: 8px;
+  font-weight: 700;
+
+  letter-spacing: 1.5px;
+}
+
+
+.terms-intro p {
+  margin: 0;
+
+  color: #65635d;
+
+  font-size: 11px;
+
+  line-height: 1.7;
+}
+
+
+/* =========================================================
+   TERMS LIST
+========================================================= */
+
+.terms-list {
+  overflow: hidden;
+
+  background: #ffffff;
+
+  border: 1px solid var(--ssk-border);
+
+  border-radius: 14px;
+
+  box-shadow:
+    0 12px 40px rgba(42, 34, 22, 0.04);
+}
+
+
+/* =========================================================
+   TERM ROW
+========================================================= */
+
+.terms-item {
+  position: relative;
+
+  display: grid;
+
+  grid-template-columns: 50px 52px 1fr;
+
+  align-items: center;
+
+  gap: 17px;
+
+  padding: 25px 28px;
+
+  border-bottom: 1px solid var(--ssk-border);
+
+  transition:
+    background 0.3s ease,
+    padding-left 0.3s ease;
+}
+
+
+.terms-item:last-child {
+  border-bottom: none;
+}
+
+
+.terms-item:hover {
+  padding-left: 34px;
+
+  background: #fffaf4;
+}
+
+
+/* =========================================================
+   NUMBER
+========================================================= */
+
+.terms-number {
+  color: #d9d5ce;
+
+  font-size: 11px;
+  font-weight: 700;
+
+  letter-spacing: 1px;
+}
+
+
+.terms-item:hover .terms-number {
+  color: var(--ssk-orange);
+}
+
+
+/* =========================================================
+   ICON
+========================================================= */
+
+.terms-item-icon {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  width: 52px;
+  height: 52px;
+
+  color: var(--ssk-orange);
+
+  font-size: 17px;
+
+  background: var(--ssk-orange-light);
+
+  border-radius: 11px;
+
+  transition: all 0.3s ease;
+}
+
+
+.terms-item:hover .terms-item-icon {
+  color: #ffffff;
+
+  background: var(--ssk-orange);
+}
+
+
+/* =========================================================
+   TERM TEXT
+========================================================= */
+
+.terms-item-content h2 {
+  margin: 0 0 6px;
+
+  color: var(--ssk-dark);
+
+  font-size: 14px;
+  font-weight: 700;
+}
+
+
+.terms-item-content p {
+  max-width: 950px;
+
+  margin: 0;
+
+  color: var(--ssk-text);
+
+  font-size: 10.5px;
+
+  line-height: 1.75;
+}
+
+
+/* =========================================================
+   CONTACT BOX
+========================================================= */
+
+.terms-contact-box {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 35px;
+
+  margin-top: 30px;
+
+  padding: 28px 30px;
+
+  background: var(--ssk-dark);
+
+  border-radius: 14px;
+}
+
+
+/* =========================================================
+   CONTACT LEFT
+========================================================= */
+
+.terms-contact-left {
+  display: flex;
+
+  align-items: center;
+
+  gap: 17px;
+}
+
+
+.terms-contact-icon {
+  flex: 0 0 55px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  width: 55px;
+  height: 55px;
+
+  color: var(--ssk-orange);
+
+  font-size: 20px;
+
+  background: rgba(233, 120, 0, 0.12);
+
+  border-radius: 11px;
+}
+
+
+.terms-contact-left span {
+  display: block;
+
+  margin-bottom: 3px;
+
+  color: var(--ssk-orange);
+
+  font-size: 7px;
+  font-weight: 700;
+
+  letter-spacing: 1.5px;
+}
+
+
+.terms-contact-left h3 {
+  margin: 0;
+
+  color: #ffffff;
+
+  font-size: 17px;
+  font-weight: 700;
+}
+
+
+.terms-contact-left p {
+  max-width: 470px;
+
+  margin: 4px 0 0;
+
+  color: #8f8e87;
+
+  font-size: 9px;
+
+  line-height: 1.6;
+}
+
+
+/* =========================================================
+   CONTACT ACTIONS
+========================================================= */
+
+.terms-contact-actions {
+  display: flex;
+
+  gap: 9px;
+}
+
+
+.terms-contact-actions > a {
+  display: flex;
+
+  align-items: center;
+
+  gap: 10px;
+
+  min-width: 170px;
+
+  padding: 11px 14px;
+
+  color: #ffffff;
+
+  text-decoration: none;
+
+  background: #24241f;
+
+  border: 1px solid #33332d;
+
+  border-radius: 8px;
+
+  transition: all 0.3s ease;
+}
+
+
+.terms-contact-actions > a:hover {
+  background: var(--ssk-orange);
+
+  border-color: var(--ssk-orange);
+
+  transform: translateY(-2px);
+}
+
+
+.terms-contact-actions svg {
+  color: var(--ssk-orange);
+
+  font-size: 13px;
+}
+
+
+.terms-contact-actions > a:hover svg {
+  color: #ffffff;
+}
+
+
+.terms-contact-actions small {
+  display: block;
+
+  margin-bottom: 2px;
+
+  color: #898982;
+
+  font-size: 6px;
+  font-weight: 600;
+
+  letter-spacing: 1px;
+}
+
+
+.terms-contact-actions > a:hover small {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+
+.terms-contact-actions strong {
+  display: block;
+
+  color: #ffffff;
+
+  font-size: 9px;
+  font-weight: 600;
+}
+
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 900px) {
+
+  .terms-contact-box {
+    flex-direction: column;
+
+    align-items: flex-start;
+  }
+
+
+  .terms-contact-actions {
+    width: 100%;
+  }
+
+
+  .terms-contact-actions > a {
+    flex: 1;
+  }
+
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 650px) {
+
+  .ssk-terms-hero {
+    padding: 55px 15px 60px;
+  }
+
+
+  .ssk-terms-content {
+    padding: 45px 15px 60px;
+  }
+
+
+  .terms-breadcrumb {
+    margin-bottom: 25px;
+  }
+
+
+  .terms-hero-icon {
+    display: none;
+  }
+
+
+  .terms-hero-content h1 {
+    font-size: 42px;
+  }
+
+
+  .terms-hero-content p {
+    font-size: 11px;
+  }
+
+
+  .terms-intro {
+    align-items: flex-start;
+
+    padding: 17px;
+  }
+
+
+  .terms-item {
+    grid-template-columns: 40px 1fr;
+
+    gap: 12px;
+
+    padding: 20px 17px;
+  }
+
+
+  .terms-item:hover {
+    padding-left: 17px;
+  }
+
+
+  .terms-number {
+    display: none;
+  }
+
+
+  .terms-item-icon {
+    width: 40px;
+    height: 40px;
+
+    font-size: 14px;
+  }
+
+
+  .terms-item-content h2 {
+    font-size: 13px;
+  }
+
+
+  .terms-item-content p {
+    font-size: 9.5px;
+  }
+
+
+  .terms-contact-box {
+    padding: 22px 18px;
+  }
+
+
+  .terms-contact-actions {
+    flex-direction: column;
+  }
+
+
+  .terms-contact-actions > a {
+    width: 100%;
+  }
+
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+========================================================= */
+
+@media (max-width: 400px) {
+
+  .terms-hero-content h1 {
+    font-size: 37px;
+  }
+
+
+  .terms-contact-left {
+    align-items: flex-start;
+  }
+
+
+  .terms-contact-icon {
+    flex-basis: 45px;
+
+    width: 45px;
+    height: 45px;
+  }
+
+}

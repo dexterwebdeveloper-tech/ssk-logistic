@@ -1,0 +1,127 @@
+.ssk-contact{
+    padding:30px 0;
+    background:#f8f9fc;
+}
+
+.contact-heading{
+    max-width:750px;
+    margin:auto auto 60px;
+}
+
+.contact-heading span{
+    color:#ED1C24;
+    font-weight:700;
+    letter-spacing:2px;
+}
+
+.contact-heading h2{
+    font-size:48px;
+    font-weight:700;
+    color:#222;
+    margin:15px 0;
+}
+
+.contact-heading p{
+    color:#666;
+    line-height:30px;
+}
+
+.contact-box{
+    background:#fff;
+    border-radius:22px;
+    padding:35px 25px;
+    text-align:center;
+    box-shadow:0 15px 40px rgba(0,0,0,.08);
+    transition:.35s;
+    height:100%;
+}
+
+.contact-box:hover{
+    transform:translateY(-10px);
+}
+
+.contact-icon{
+    width:80px;
+    height:80px;
+    margin:auto;
+    border-radius:20px;
+    background:linear-gradient(135deg,#ED1C24,#ffb347);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#fff;
+    font-size:30px;
+    margin-bottom:20px;
+}
+
+.contact-box h4{
+    font-size:24px;
+    font-weight:700;
+    margin-bottom:12px;
+    color:#222;
+}
+
+.contact-box p{
+    color:#666;
+    line-height:28px;
+}
+
+.contact-left{
+    background:#222;
+    color:#fff;
+    padding:45px;
+    border-radius:25px;
+    height:100%;
+}
+
+.contact-left h3{
+    font-size:36px;
+    margin-bottom:20px;
+}
+
+.contact-left p{
+    color:#d7d7d7;
+    line-height:30px;
+}
+
+.contact-btn{
+    display:inline-flex;
+    align-items:center;
+    gap:10px;
+    margin-top:25px;
+    padding:16px 35px;
+    background:#ED1C24;
+    color:#fff;
+    border-radius:50px;
+    text-decoration:none;
+    font-weight:700;
+}
+
+.contact-btn:hover{
+    background:#fff;
+    color:#222;
+}
+
+.contact-map{
+    border-radius:25px;
+    overflow:hidden;
+    box-shadow:0 20px 50px rgba(0,0,0,.12);
+}
+
+.contact-map iframe{
+    width:100%;
+    height:420px;
+    border:0;
+}
+
+@media(max-width:991px){
+
+.contact-heading h2{
+    font-size:36px;
+}
+
+.contact-left{
+    margin-bottom:30px;
+}
+
+}

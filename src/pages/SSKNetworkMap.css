@@ -1,0 +1,1082 @@
+/* ==========================================================
+   SSK LOGISTICS - PAN INDIA NETWORK
+========================================================== */
+
+.ssk-network {
+  --ssk-orange: #ED1C24;
+  --ssk-orange-dark: #c96300;
+  --ssk-dark: #181815;
+  --ssk-dark-soft: #24241f;
+  --ssk-cream: #fff6e9;
+  --ssk-text: #706b63;
+  --ssk-border: #e9dfd3;
+
+  position: relative;
+
+  padding: 10px 10px;
+
+  overflow: hidden;
+
+  background:
+    radial-gradient(
+      circle at 10% 20%,
+      rgba(233, 120, 0, 0.08),
+      transparent 25%
+    ),
+    #faf7f2;
+}
+
+
+/* ==========================================================
+   WATERMARK
+========================================================== */
+
+.ssk-network__watermark {
+  position: absolute;
+
+  left: -20px;
+  bottom: -30px;
+
+  color: rgba(24, 24, 21, 0.025);
+
+  font-size: 170px;
+  font-weight: 900;
+
+  line-height: 1;
+
+  letter-spacing: 10px;
+
+  pointer-events: none;
+}
+
+
+/* ==========================================================
+   CONTAINER
+========================================================== */
+
+.ssk-network__container {
+  position: relative;
+  z-index: 2;
+
+  display: grid;
+
+  grid-template-columns:
+    minmax(0, 0.85fr)
+    minmax(500px, 1.15fr);
+
+  align-items: center;
+
+  gap: 70px;
+
+  width: 100%;
+  max-width: 1250px;
+
+  margin: 0 auto;
+}
+
+
+/* ==========================================================
+   LEFT CONTENT
+========================================================== */
+
+.ssk-network__content {
+  max-width: 520px;
+}
+
+
+/* ==========================================================
+   TAG
+========================================================== */
+
+.ssk-network__tag {
+  display: flex;
+
+  align-items: center;
+
+  gap: 10px;
+
+  margin-bottom: 14px;
+
+  color: var(--ssk-orange);
+
+  font-size: 10px;
+  font-weight: 800;
+
+  letter-spacing: 1.8px;
+}
+
+
+.ssk-network__tag > span {
+  width: 38px;
+  height: 2px;
+
+  background: var(--ssk-orange);
+}
+
+
+/* ==========================================================
+   HEADING
+========================================================== */
+
+.ssk-network__heading {
+  margin: 0;
+
+  color: var(--ssk-dark);
+
+  font-size: clamp(36px, 4vw, 53px);
+  font-weight: 750;
+
+  line-height: 1.12;
+
+  letter-spacing: -1.6px;
+}
+
+
+.ssk-network__heading > span {
+  display: block;
+
+  color: var(--ssk-orange);
+}
+
+
+/* ==========================================================
+   DESCRIPTION
+========================================================== */
+
+.ssk-network__description {
+  max-width: 500px;
+
+  margin: 21px 0 0;
+
+  color: var(--ssk-text);
+
+  font-size: 12px;
+
+  line-height: 1.85;
+}
+
+
+/* ==========================================================
+   STATS
+========================================================== */
+
+.ssk-network__stats {
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+
+  gap: 10px;
+
+  margin-top: 26px;
+}
+
+
+.ssk-network__stat {
+  position: relative;
+
+  padding: 16px 17px;
+
+  background: #ffffff;
+
+  border: 1px solid var(--ssk-border);
+  border-radius: 9px;
+}
+
+
+.ssk-network__stat::before {
+  content: "";
+
+  position: absolute;
+
+  top: 0;
+  left: 17px;
+
+  width: 30px;
+  height: 3px;
+
+  background: var(--ssk-orange);
+}
+
+
+.ssk-network__stat strong {
+  display: block;
+
+  margin-bottom: 3px;
+
+  color: var(--ssk-dark);
+
+  font-size: 18px;
+  font-weight: 800;
+}
+
+
+.ssk-network__stat span {
+  color: var(--ssk-text);
+
+  font-size: 9px;
+  font-weight: 500;
+}
+
+
+/* ==========================================================
+   CITY LIST
+========================================================== */
+
+.ssk-network__city-list {
+  display: flex;
+
+  flex-wrap: wrap;
+
+  gap: 7px;
+
+  margin-top: 20px;
+}
+
+
+.ssk-network__city {
+  display: inline-flex;
+
+  align-items: center;
+
+  gap: 5px;
+
+  padding: 7px 10px;
+
+  color: #555149;
+
+  font-size: 9px;
+  font-weight: 600;
+
+  background: #ffffff;
+
+  border: 1px solid var(--ssk-border);
+  border-radius: 5px;
+
+  transition:
+    color 0.3s ease,
+    border-color 0.3s ease,
+    background 0.3s ease;
+}
+
+
+.ssk-network__city svg {
+  color: var(--ssk-orange);
+
+  font-size: 9px;
+}
+
+
+.ssk-network__city:hover {
+  color: var(--ssk-orange);
+
+  border-color: rgba(233, 120, 0, 0.4);
+}
+
+
+/* Pune */
+
+.ssk-network__city--hub {
+  color: #ffffff;
+
+  background: var(--ssk-dark);
+
+  border-color: var(--ssk-dark);
+}
+
+
+.ssk-network__city--hub span {
+  color: #ffffff;
+}
+
+
+/* ==========================================================
+   BUTTON
+========================================================== */
+
+.ssk-network__button {
+  display: inline-flex;
+
+  align-items: center;
+
+  margin-top: 25px;
+
+  overflow: hidden;
+
+  color: #ffffff;
+
+  font-size: 10px;
+  font-weight: 700;
+
+  text-decoration: none;
+
+  background: var(--ssk-dark);
+
+  border-radius: 7px;
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+
+.ssk-network__button {
+  padding-left: 17px;
+}
+
+
+.ssk-network__button > span {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  width: 43px;
+  height: 42px;
+
+  margin-left: 15px;
+
+  color: #ffffff;
+
+  background: var(--ssk-orange);
+}
+
+
+.ssk-network__button:hover {
+  color: #ffffff;
+
+  transform: translateY(-2px);
+
+  box-shadow:
+    0 10px 20px rgba(24, 24, 21, 0.15);
+}
+
+
+/* ==========================================================
+   MAP AREA
+========================================================== */
+
+.ssk-network__map-area {
+  position: relative;
+
+  overflow: hidden;
+
+  background:
+    linear-gradient(
+      145deg,
+      #191916,
+      #25251f
+    );
+
+  border-radius: 20px;
+
+  box-shadow:
+    0 25px 60px rgba(24, 24, 21, 0.18);
+}
+
+
+/* orange line */
+
+.ssk-network__map-area::before {
+  content: "";
+
+  position: absolute;
+
+  z-index: 10;
+
+  top: 0;
+  left: 45px;
+
+  width: 85px;
+  height: 4px;
+
+  background: var(--ssk-orange);
+
+  border-radius: 0 0 7px 7px;
+}
+
+
+/* ==========================================================
+   MAP HEADER
+========================================================== */
+
+.ssk-network__map-header {
+  position: relative;
+  z-index: 5;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 15px;
+
+  padding: 21px 25px;
+
+  border-bottom:
+    1px solid rgba(255, 255, 255, 0.07);
+}
+
+
+.ssk-network__map-header > div {
+  display: flex;
+
+  align-items: center;
+
+  gap: 9px;
+
+  color: #ffffff;
+
+  font-size: 12px;
+  font-weight: 700;
+}
+
+
+.ssk-network__map-header svg {
+  color: var(--ssk-orange);
+
+  font-size: 15px;
+}
+
+
+/* ==========================================================
+   PAN INDIA BADGE
+========================================================== */
+
+.ssk-network__live {
+  display: flex;
+
+  align-items: center;
+
+  gap: 7px;
+
+  color: #c8c5bd;
+
+  font-size: 8px;
+  font-weight: 700;
+
+  letter-spacing: 1px;
+}
+
+
+.ssk-network__live i {
+  position: relative;
+
+  width: 7px;
+  height: 7px;
+
+  background: var(--ssk-orange);
+
+  border-radius: 50%;
+}
+
+
+.ssk-network__live i::before {
+  content: "";
+
+  position: absolute;
+
+  inset: -4px;
+
+  border:
+    1px solid rgba(233, 120, 0, 0.5);
+
+  border-radius: 50%;
+
+  animation:
+    sskNetworkPulse 1.8s infinite;
+}
+
+
+@keyframes sskNetworkPulse {
+
+  0% {
+    transform: scale(0.7);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(1.7);
+    opacity: 0;
+  }
+
+}
+
+
+/* ==========================================================
+   MAP
+========================================================== */
+
+.ssk-network__map {
+  position: relative;
+
+  width: 100%;
+  height: 580px;
+
+  overflow: hidden;
+
+  background:
+    radial-gradient(
+      circle at 50% 45%,
+      rgba(233, 120, 0, 0.06),
+      transparent 42%
+    );
+}
+
+
+/* grid background */
+
+.ssk-network__map::before {
+  content: "";
+
+  position: absolute;
+
+  inset: 0;
+
+  opacity: 0.035;
+
+  background-image:
+    linear-gradient(
+      rgba(255, 255, 255, 1) 1px,
+      transparent 1px
+    ),
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 1) 1px,
+      transparent 1px
+    );
+
+  background-size: 35px 35px;
+}
+
+
+/* ==========================================================
+   INDIA SVG
+========================================================== */
+
+.ssk-network__india {
+  position: absolute;
+
+  top: 3%;
+  left: 50%;
+
+  width: 74%;
+  height: 94%;
+
+  overflow: visible;
+
+  transform: translateX(-50%);
+}
+
+
+/* India */
+
+.ssk-network__india-shape {
+  fill: #302f28;
+
+  stroke: rgba(233, 120, 0, 0.38);
+
+  stroke-width: 2;
+
+  filter:
+    drop-shadow(
+      0 15px 25px rgba(0, 0, 0, 0.18)
+    );
+}
+
+
+/* ==========================================================
+   ROUTE LINES
+========================================================== */
+
+.ssk-network__route-line {
+  stroke: rgba(233, 120, 0, 0.45);
+
+  stroke-width: 1;
+
+  stroke-dasharray: 5 6;
+
+  vector-effect: non-scaling-stroke;
+
+  animation:
+    sskRouteMove 15s linear infinite;
+}
+
+
+@keyframes sskRouteMove {
+
+  to {
+    stroke-dashoffset: -200;
+  }
+
+}
+
+
+/* ==========================================================
+   MAP MARKER
+========================================================== */
+
+.ssk-map-marker {
+  position: absolute;
+  z-index: 10;
+
+  transform: translate(-50%, -50%);
+}
+
+
+/* ==========================================================
+   DOT
+========================================================== */
+
+.ssk-map-marker__dot {
+  position: relative;
+  z-index: 3;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  width: 25px;
+  height: 25px;
+
+  color: #ffffff;
+
+  background: var(--ssk-orange);
+
+  border: 3px solid #282822;
+
+  border-radius: 50%;
+
+  box-shadow:
+    0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+.ssk-map-marker__dot svg {
+  font-size: 9px;
+}
+
+
+/* ==========================================================
+   PULSE
+========================================================== */
+
+.ssk-map-marker__pulse {
+  position: absolute;
+
+  z-index: 1;
+
+  top: 50%;
+  left: 50%;
+
+  width: 32px;
+  height: 32px;
+
+  background:
+    rgba(233, 120, 0, 0.15);
+
+  border:
+    1px solid rgba(233, 120, 0, 0.45);
+
+  border-radius: 50%;
+
+  transform: translate(-50%, -50%);
+
+  animation:
+    markerPulse 2.3s infinite;
+}
+
+
+@keyframes markerPulse {
+
+  0% {
+    transform:
+      translate(-50%, -50%)
+      scale(0.7);
+
+    opacity: 1;
+  }
+
+  100% {
+    transform:
+      translate(-50%, -50%)
+      scale(1.8);
+
+    opacity: 0;
+  }
+
+}
+
+
+/* ==========================================================
+   CITY LABEL
+========================================================== */
+
+.ssk-map-marker__label {
+  position: absolute;
+
+  z-index: 5;
+
+  left: 31px;
+  top: 50%;
+
+  padding: 4px 7px;
+
+  color: #ffffff;
+
+  font-size: 7.5px;
+  font-weight: 700;
+
+  line-height: 1;
+
+  white-space: nowrap;
+
+  background:
+    rgba(19, 19, 16, 0.92);
+
+  border:
+    1px solid rgba(255, 255, 255, 0.09);
+
+  border-radius: 4px;
+
+  transform: translateY(-50%);
+}
+
+
+/* little line */
+
+.ssk-map-marker__label::before {
+  content: "";
+
+  position: absolute;
+
+  top: 50%;
+  left: -7px;
+
+  width: 7px;
+  height: 1px;
+
+  background: var(--ssk-orange);
+}
+
+
+/* ==========================================================
+   PUNE HUB
+========================================================== */
+
+.ssk-map-marker--hub {
+  z-index: 20;
+}
+
+
+.ssk-map-marker--hub
+.ssk-map-marker__dot {
+  width: 36px;
+  height: 36px;
+
+  background: #ffffff;
+
+  border:
+    4px solid var(--ssk-orange);
+}
+
+
+.ssk-map-marker--hub
+.ssk-map-marker__dot svg {
+  color: var(--ssk-orange);
+
+  font-size: 14px;
+}
+
+
+.ssk-map-marker--hub
+.ssk-map-marker__pulse {
+  width: 47px;
+  height: 47px;
+}
+
+
+/* hide normal Pune label */
+
+.ssk-map-marker--hub
+.ssk-map-marker__label {
+  display: none;
+}
+
+
+/* ==========================================================
+   PUNE HUB LABEL
+========================================================== */
+
+.ssk-network__hub-label {
+  position: absolute;
+
+  z-index: 25;
+
+  left: 14%;
+  bottom: 8%;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 10px;
+
+  padding: 10px 13px;
+
+  background: #ffffff;
+
+  border-radius: 8px;
+
+  box-shadow:
+    0 10px 25px rgba(0, 0, 0, 0.22);
+}
+
+
+.ssk-network__hub-label > span {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  width: 34px;
+  height: 34px;
+
+  color: #ffffff;
+
+  background: var(--ssk-orange);
+
+  border-radius: 7px;
+}
+
+
+.ssk-network__hub-label svg {
+  font-size: 14px;
+}
+
+
+.ssk-network__hub-label div {
+  display: flex;
+
+  flex-direction: column;
+}
+
+
+.ssk-network__hub-label small {
+  color: var(--ssk-orange);
+
+  font-size: 6px;
+  font-weight: 800;
+
+  letter-spacing: 1px;
+}
+
+
+.ssk-network__hub-label strong {
+  color: var(--ssk-dark);
+
+  font-size: 11px;
+  font-weight: 800;
+}
+
+
+/* ==========================================================
+   MAP BOTTOM
+========================================================== */
+
+.ssk-network__map-bottom {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 15px;
+
+  padding: 17px 24px;
+
+  border-top:
+    1px solid rgba(255, 255, 255, 0.07);
+}
+
+
+.ssk-network__map-bottom > div {
+  display: flex;
+
+  align-items: center;
+
+  gap: 8px;
+
+  color: #8f8d85;
+
+  font-size: 8px;
+}
+
+
+.ssk-network__map-bottom svg {
+  color: var(--ssk-orange);
+}
+
+
+.ssk-network__map-bottom strong {
+  color: var(--ssk-orange);
+
+  font-size: 8px;
+  font-weight: 700;
+
+  letter-spacing: 0.5px;
+}
+
+
+/* ==========================================================
+   TABLET
+========================================================== */
+
+@media (max-width: 1050px) {
+
+  .ssk-network {
+    padding: 70px 20px;
+  }
+
+
+  .ssk-network__container {
+    grid-template-columns: 1fr;
+
+    gap: 45px;
+  }
+
+
+  .ssk-network__content {
+    max-width: 750px;
+  }
+
+
+  .ssk-network__map-area {
+    max-width: 720px;
+
+    width: 100%;
+
+    margin: 0 auto;
+  }
+
+}
+
+
+/* ==========================================================
+   MOBILE
+========================================================== */
+
+@media (max-width: 650px) {
+
+  .ssk-network {
+    padding: 55px 14px;
+  }
+
+
+  .ssk-network__heading {
+    font-size: 34px;
+  }
+
+
+  .ssk-network__description {
+    font-size: 10.5px;
+  }
+
+
+  .ssk-network__stats {
+    grid-template-columns: 1fr 1fr;
+  }
+
+
+  .ssk-network__map-header {
+    padding: 18px 15px;
+  }
+
+
+  .ssk-network__map {
+    height: 500px;
+  }
+
+
+  .ssk-network__india {
+    width: 90%;
+  }
+
+
+  .ssk-map-marker__dot {
+    width: 21px;
+    height: 21px;
+
+    border-width: 2px;
+  }
+
+
+  .ssk-map-marker__dot svg {
+    font-size: 7px;
+  }
+
+
+  .ssk-map-marker__label {
+    left: 25px;
+
+    padding: 3px 5px;
+
+    font-size: 6.5px;
+  }
+
+
+  .ssk-map-marker--hub
+  .ssk-map-marker__dot {
+    width: 30px;
+    height: 30px;
+  }
+
+
+  .ssk-network__hub-label {
+    left: 10px;
+    bottom: 10px;
+  }
+
+
+  .ssk-network__map-bottom {
+    padding: 14px;
+  }
+
+}
+
+
+/* ==========================================================
+   SMALL MOBILE
+========================================================== */
+
+@media (max-width: 420px) {
+
+  .ssk-network__heading {
+    font-size: 30px;
+  }
+
+
+  .ssk-network__stats {
+    grid-template-columns: 1fr;
+  }
+
+
+  .ssk-network__map {
+    height: 450px;
+  }
+
+
+  .ssk-network__map-header > div {
+    font-size: 10px;
+  }
+
+
+  .ssk-network__map-bottom > div span {
+    display: none;
+  }
+
+
+  .ssk-map-marker__label {
+    font-size: 5.5px;
+  }
+
+}

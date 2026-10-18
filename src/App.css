@@ -1,38 +1,4449 @@
-.App {
-  text-align: center;
+/* Logo */
+.logoo {
+  width: 140px;
+  height: 190px;
+  object-fit: contain;
+  display: block;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
-.App-logo {
-  height: 40vmin;
+.logoo:hover {
+  transform: scale(1.05);
+}
+
+/* Laptop */
+@media (max-width: 992px) {
+  .logoo {
+    width: 150px;
+  }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  .logoo {
+    width: 130px;
+    margin: 0 auto;
+  }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+  .logoo {
+    width: 110px;
+    margin: 0 auto;
+  }
+}
+
+/* Small Mobile */
+@media (max-width: 400px) {
+  .logoo {
+    width: 95px;
+  }
+}
+
+
+
+
+
+
+
+
+
+.bgg-darkk{
+    background-color: #233F88;
+}
+
+
+
+
+
+
+
+
+
+html{
+    scroll-behavior:smooth;
+}
+
+.nav-link{
+    cursor:pointer;
+    margin:0 10px;
+    transition:.3s;
+    color:#111 !important;
+    font-weight:600;
+}
+
+.nav-link:hover{
+    color:#ED1C25 !important;
+}
+
+.active-nav{
+    color:#ED1C25 !important;
+}
+
+.logoo{
+    height:70px;
+}
+
+.navbar{
+    z-index:9999;
+}
+
+@media(max-width:991px){
+
+.nav-link{
+    padding:12px 0 !important;
+}
+
+}
+
+
+
+
+
+
+
+
+
+/* ===========================
+   CLIENT SECTION
+=========================== */
+
+.ssk-clients{
+    padding:20px 0;
+    background:linear-gradient(180deg,#f7fbff,#ffffff);
+}
+
+.client-heading{
+    text-align:center;
+    margin-bottom:60px;
+}
+
+.client-heading span{
+    display:inline-block;
+    padding:10px 26px;
+    border-radius:50px;
+    background:linear-gradient(90deg,#ED1D23,#ff9800);
+    color:#fff;
+    font-size:14px;
+    font-weight:700;
+    letter-spacing:2px;
+}
+
+.client-heading h2{
+    margin:18px 0;
+    font-size:46px;
+    font-weight:800;
+    color:#0d2d45;
+}
+
+.client-heading p{
+    max-width:760px;
+    margin:auto;
+    color:#666;
+    line-height:30px;
+    font-size:17px;
+}
+
+/* ===========================
+   GRID
+=========================== */
+
+.client-grid{
+    display:grid;
+    grid-template-columns:repeat(5,1fr);
+    gap:28px;
+}
+
+/* ===========================
+   CARD
+=========================== */
+
+.client-card{
+
+    background:#fff;
+
+    border-radius:22px;
+
+    padding:22px;
+
+    height:180px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    position:relative;
+
+    overflow:hidden;
+
+    transition:.35s;
+
+    border:1px solid #edf2f6;
+
+    box-shadow:0 12px 35px rgba(0,0,0,.08);
+
+}
+
+/* Top Gradient */
+
+.client-card::before{
+
+    content:"";
+
+    position:absolute;
+
+    left:0;
+
+    top:0;
+
+    width:100%;
+
+    height:5px;
+
+    background:linear-gradient(90deg,#ED1D23,#ffb000,#0d6efd);
+
+}
+
+.client-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 18px 45px rgba(0,0,0,.16);
+
+}
+
+/* Background Circle */
+
+.client-card::after{
+
+    content:"";
+
+    position:absolute;
+
+    right:-30px;
+
+    bottom:-30px;
+
+    width:90px;
+
+    height:90px;
+
+    background:#ED1D23;
+
+    opacity:.08;
+
+    border-radius:50%;
+
+}
+
+/* ===========================
+   LOGO
+=========================== */
+
+.client-logo-box{
+
+    width:100%;
+
+    height:80px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    margin-bottom:18px;
+
+}
+
+.client-logo{
+
+    max-width:140px;
+
+    max-height:65px;
+
+    width:auto;
+
+    height:auto;
+
+    object-fit:contain;
+
+    transition:.35s;
+
+}
+
+.client-card:hover .client-logo{
+
+    transform:scale(1.08);
+
+}
+
+/* ===========================
+   TITLE
+=========================== */
+
+/* .client-card h5{
+
+    margin:0;
+
+    font-size:19px;
+
+    font-weight:700;
+
+    color:#17324d;
+
+    line-height:26px;
+
+} */
+
+/* ===========================
+   RESPONSIVE
+=========================== */
+
+@media(max-width:1200px){
+
+.client-grid{
+    grid-template-columns:repeat(4,1fr);
+}
+
+}
+
+@media(max-width:992px){
+
+.client-grid{
+    grid-template-columns:repeat(3,1fr);
+}
+
+.client-heading h2{
+    font-size:36px;
+}
+
+}
+
+@media(max-width:768px){
+
+.client-grid{
+    grid-template-columns:repeat(2,1fr);
+    gap:20px;
+}
+
+.client-card{
+    height:165px;
+    padding:18px;
+}
+
+.client-logo{
+    max-width:110px;
+    max-height:55px;
+}
+
+.client-card h5{
+    font-size:16px;
+}
+
+}
+
+@media(max-width:576px){
+
+.client-grid{
+    grid-template-columns:1fr;
+}
+
+.client-heading h2{
+    font-size:30px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.services-two__icon{
+    width:80px;
+    height:80px;
+    border-radius:18px;
+    background:#ED1D23;
+    color:#fff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:36px;
+    transition:.35s;
+}
+
+.services-two__single:hover .services-two__icon{
+    background:#0d3b66;
+    transform:rotate(-8deg) scale(1.08);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.dummy-profile {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: #f5f5f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border: 2px solid #ED1D23;
+}
+
+.dummy-profile svg {
+  font-size: 70px;
+  color: #bcbcbc;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+.services-two__img {
+  width: 100%;
+  height: 250px; /* Change as needed */
+  overflow: hidden;
+}
+
+.services-two__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 400px) {
+    .carousel-inner img {
+        height: 180px;
+    }
+}
+
+.dropdown-item, .nav-link {
+    color: #ED1C25 !important;
+}
+
+@media (max-width: 768px) {
+    .navbar-nav .nav-item {
+        border-bottom: 1px solid #ED1C25;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+.nav-link{
+
+          border-bottom: 1px solid rgb(220, 101, 4) !important;
+
+}
+}
+
+
+@media (max-width: 768px) {
+    .navbar-nav .nav-item {
+        /* border-bottom: 1px solid rgb(220, 101, 4) !important; */
+    }
+}
+
+
+
+.page-banner {
+    position: relative;
+    width: 100%;
+    min-height: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+/* background: linear-gradient(135deg, #111111 0%, #2b0808 50%, #233F88 100%) !important; */
+    background:
+        linear-gradient(
+            135deg,
+            rgba(0, 0, 0, 0.88),
+            rgba(25, 25, 25, 0.72),
+            rgba(190, 0, 0, 0.70)
+        ),
+        url("./images/logistics-banner.jpg") center center / cover no-repeat;
+
+}
+
+
+.page-banner-container {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    max-width: 1200px;
+    padding: 80px 30px;
+    text-align: center;
+}
+
+/* Heading */
+.page-banner h2 {
+    margin: 0;
+    color: #ffffff;
+    font-size: 46px;
+    font-weight: 800;
+    line-height: 1.2;
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+    text-shadow: 0 4px 15px rgba(0, 0, 0, 0.45);
+}
+
+/* Red underline */
+.page-banner h2::after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 4px;
+    margin: 18px auto 0;
+    background: #233F88;
+    border-radius: 10px;
+}
+
+/* Tablet */
+@media (max-width: 991px) {
+    .page-banner {
+        min-height: 280px;
+    }
+
+    .page-banner-container {
+        padding: 70px 25px;
+    }
+
+    .page-banner h2 {
+        font-size: 38px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+    .page-banner {
+        min-height: 230px;
+    }
+
+    .page-banner-container {
+        padding: 60px 20px;
+    }
+
+    .page-banner h2 {
+        font-size: 28px;
+        line-height: 1.3;
+    }
+
+    .page-banner h2::after {
+        width: 55px;
+        height: 3px;
+        margin-top: 14px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   TOP PLACES - SSK LOGISTICS THEME
+   Orange + Black + Warm Cream
+========================================================== */
+
+.topPlaces {
+  --ssk-orange: #ED1C24;
+  --ssk-orange-dark: #c96300;
+  --ssk-dark: #171713;
+  --ssk-dark-soft: #24241f;
+  --ssk-cream: #fff6eb;
+  --ssk-cream-dark: #f6eadc;
+  --ssk-text: #5f5b54;
+
+  position: relative;
+
+  margin-top: 35px;
+  padding: 32px;
+
+  overflow: hidden;
+
+  background:
+    radial-gradient(
+      circle at 100% 0%,
+      rgba(233, 120, 0, 0.18),
+      transparent 32%
+    ),
+    linear-gradient(
+      135deg,
+      #fff8ef 0%,
+      #f8ecdd 100%
+    );
+
+  border: 1px solid #eddbc6;
+  border-radius: 18px;
+}
+
+
+/* Decorative orange shape */
+
+.topPlaces::before {
+  content: "";
+
+  position: absolute;
+  top: -75px;
+  right: -75px;
+
+  width: 180px;
+  height: 180px;
+
+  border: 30px solid rgba(233, 120, 0, 0.07);
+  border-radius: 50%;
+
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+/* ==========================================================
+   SECTION TITLE
+========================================================== */
+
+.topPlaces .sectionLead {
+  position: relative;
+
+  margin: 0 0 24px;
+  padding-left: 18px;
+
+  color: var(--ssk-dark);
+
+  font-size: 25px;
+  font-weight: 700;
+
+  line-height: 1.35;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+/* Orange line */
+
+.topPlaces .sectionLead::before {
+  content: "";
+
+  position: absolute;
+
+  left: 0;
+  top: 4px;
+
+  width: 5px;
+  height: calc(100% - 8px);
+
+  background: var(--ssk-orange);
+
+  border-radius: 10px;
+}
+
+
+/* Small underline */
+
+.topPlaces .sectionLead::after {
+  content: "";
+
+  display: block;
+
+  width: 55px;
+  height: 3px;
+
+  margin-top: 10px;
+
+  background:
+    linear-gradient(
+      90deg,
+      var(--ssk-orange),
+      transparent
+    );
+
+  border-radius: 10px;
+}
+
+
+/* ==========================================================
+   PLACE CARD
+========================================================== */
+
+.topPlaces .placeCard {
+  position: relative;
+
   display: flex;
-  flex-direction: column;
+
+  align-items: center;
+
+  gap: 18px;
+
+  min-height: 120px;
+
+  margin-bottom: 14px;
+  padding: 20px 55px 20px 20px;
+
+  overflow: hidden;
+
+  background:
+    linear-gradient(
+      105deg,
+      var(--ssk-dark) 0%,
+      #20201b 100%
+    );
+
+  border: 1px solid rgba(233, 120, 0, 0.16);
+
+  border-radius: 12px;
+
+  box-shadow:
+    0 8px 22px rgba(23, 23, 19, 0.08);
+
+  transition:
+    transform 0.3s ease,
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+
+/* Remove old border if borderr class has another style */
+
+.topPlaces .placeCard.borderr {
+  border:
+    1px solid rgba(233, 120, 0, 0.18) !important;
+}
+
+
+/* ==========================================================
+   ALTERNATE CARD BACKGROUND
+========================================================== */
+
+.topPlaces .placeCard:nth-of-type(even) {
+  background:
+    linear-gradient(
+      105deg,
+      #fff2e3 0%,
+      #f8e6d0 100%
+    );
+
+  border-color: #ead0b1 !important;
+}
+
+
+/* ==========================================================
+   ORANGE SIDE ACCENT
+========================================================== */
+
+.topPlaces .placeCard::before {
+  content: "";
+
+  position: absolute;
+
+  left: 0;
+  top: 50%;
+
+  width: 4px;
+  height: 0;
+
+  background: var(--ssk-orange);
+
+  transform: translateY(-50%);
+
+  transition: height 0.3s ease;
+}
+
+
+.topPlaces .placeCard:hover::before {
+  height: 70%;
+}
+
+
+/* ==========================================================
+   NUMBER BADGE
+========================================================== */
+
+.topPlaces .placeBadge {
+  flex: 0 0 55px;
+
+  display: flex;
+
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+  width: 55px;
+  height: 55px;
+
+  color: #ffffff;
+
+  font-size: 17px;
+  font-weight: 800;
+
+  background:
+    linear-gradient(
+      135deg,
+      #f58a1a,
+      var(--ssk-orange-dark)
+    );
+
+  border: 3px solid rgba(255, 255, 255, 0.08);
+
+  border-radius: 12px;
+
+  box-shadow:
+    0 8px 18px rgba(233, 120, 0, 0.22);
+
+  transition:
+    transform 0.3s ease,
+    background 0.3s ease;
 }
 
-.App-link {
-  color: #61dafb;
+
+/* Even card badge */
+
+.topPlaces .placeCard:nth-of-type(even) .placeBadge {
+  border-color: rgba(23, 23, 19, 0.08);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+/* ==========================================================
+   BODY
+========================================================== */
+
+.topPlaces .placeBody {
+  flex: 1;
+
+  min-width: 0;
 }
+
+
+/* ==========================================================
+   TITLE - DARK CARD
+========================================================== */
+
+.topPlaces .placeTitle {
+  margin: 0 0 7px;
+
+  color: #ffffff;
+
+  font-size: 17px;
+  font-weight: 700;
+
+  line-height: 1.4;
+
+  transition: color 0.3s ease;
+}
+
+
+/* ==========================================================
+   DESCRIPTION - DARK CARD
+========================================================== */
+
+.topPlaces .placeDesc {
+  margin: 0;
+
+  color: #aaa89f;
+
+  font-size: 12px;
+  font-weight: 400;
+
+  line-height: 1.7;
+}
+
+
+/* ==========================================================
+   EVEN CARD TEXT
+========================================================== */
+
+.topPlaces .placeCard:nth-of-type(even) .placeTitle {
+  color: var(--ssk-dark);
+}
+
+
+.topPlaces .placeCard:nth-of-type(even) .placeDesc {
+  color: #70685f;
+}
+
+
+/* ==========================================================
+   ARROW
+========================================================== */
+
+.topPlaces .placeArrow {
+  position: absolute;
+
+  right: 20px;
+  top: 50%;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  width: 33px;
+  height: 33px;
+
+  color: #ffffff;
+
+  font-size: 24px;
+  font-weight: 300;
+
+  background: rgba(233, 120, 0, 0.14);
+
+  border: 1px solid rgba(233, 120, 0, 0.3);
+
+  border-radius: 50%;
+
+  transform: translateY(-50%);
+
+  transition:
+    transform 0.3s ease,
+    background 0.3s ease,
+    color 0.3s ease;
+}
+
+
+/* Even arrow */
+
+.topPlaces .placeCard:nth-of-type(even) .placeArrow {
+  color: var(--ssk-orange);
+
+  background: rgba(233, 120, 0, 0.08);
+
+  border-color: rgba(233, 120, 0, 0.2);
+}
+
+
+/* ==========================================================
+   HOVER
+========================================================== */
+
+.topPlaces .placeCard:hover {
+  transform: translateY(-3px);
+
+  border-color: var(--ssk-orange) !important;
+
+  box-shadow:
+    0 14px 30px rgba(23, 23, 19, 0.13);
+}
+
+
+.topPlaces .placeCard:hover .placeBadge {
+  transform: rotate(-4deg) scale(1.05);
+
+  background: var(--ssk-orange);
+}
+
+
+.topPlaces .placeCard:hover .placeTitle {
+  color: var(--ssk-orange);
+}
+
+
+.topPlaces .placeCard:hover .placeArrow {
+  color: #ffffff;
+
+  background: var(--ssk-orange);
+
+  transform:
+    translateY(-50%)
+    translateX(4px);
+}
+
+
+/* ==========================================================
+   FOCUS
+========================================================== */
+
+.topPlaces .placeCard:focus {
+  outline: none;
+
+  border-color: var(--ssk-orange) !important;
+
+  box-shadow:
+    0 0 0 3px rgba(233, 120, 0, 0.12);
+}
+
+
+/* ==========================================================
+   LAST CARD
+========================================================== */
+
+.topPlaces .placeCard:last-child {
+  margin-bottom: 0;
+}
+
+
+/* ==========================================================
+   TABLET
+========================================================== */
+
+@media (max-width: 768px) {
+
+  .topPlaces {
+    padding: 25px 20px;
+
+    border-radius: 14px;
+  }
+
+
+  .topPlaces .sectionLead {
+    font-size: 21px;
+  }
+
+
+  .topPlaces .placeCard {
+    min-height: 110px;
+
+    padding:
+      17px
+      50px
+      17px
+      17px;
+  }
+
+
+  .topPlaces .placeBadge {
+    flex-basis: 48px;
+
+    width: 48px;
+    height: 48px;
+
+    font-size: 15px;
+  }
+
+
+  .topPlaces .placeTitle {
+    font-size: 15px;
+  }
+
+
+  .topPlaces .placeDesc {
+    font-size: 11px;
+  }
+
+}
+
+
+/* ==========================================================
+   MOBILE
+========================================================== */
+
+@media (max-width: 500px) {
+
+  .topPlaces {
+    margin-top: 25px;
+
+    padding: 20px 14px;
+  }
+
+
+  .topPlaces .sectionLead {
+    margin-bottom: 18px;
+
+    font-size: 19px;
+  }
+
+
+  .topPlaces .placeCard {
+    align-items: flex-start;
+
+    gap: 12px;
+
+    min-height: auto;
+
+    padding:
+      16px
+      40px
+      16px
+      14px;
+
+    border-radius: 10px;
+  }
+
+
+  .topPlaces .placeBadge {
+    flex: 0 0 42px;
+
+    width: 42px;
+    height: 42px;
+
+    font-size: 13px;
+
+    border-radius: 9px;
+  }
+
+
+  .topPlaces .placeTitle {
+    margin-bottom: 5px;
+
+    font-size: 14px;
+  }
+
+
+  .topPlaces .placeDesc {
+    font-size: 10px;
+
+    line-height: 1.6;
+  }
+
+
+  .topPlaces .placeArrow {
+    right: 10px;
+
+    width: 26px;
+    height: 26px;
+
+    font-size: 19px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   SSK LOGISTICS - SERVICES LIST
+========================================================== */
+
+.cab-service-list {
+  --ssk-orange: #ED1C24;
+  --ssk-orange-dark: #c96300;
+  --ssk-dark: #171713;
+  --ssk-dark-soft: #24241f;
+  --ssk-cream: #fff5e9;
+  --ssk-cream-dark: #f6e7d5;
+  --ssk-text: #6c675f;
+  --ssk-border: #eadac8;
+
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 12px;
+
+  margin-top: 30px;
+  padding: 28px;
+
+  overflow: hidden;
+
+  background:
+    radial-gradient(
+      circle at 0% 100%,
+      rgba(233, 120, 0, 0.12),
+      transparent 30%
+    ),
+    linear-gradient(
+      135deg,
+      #fff8ef 0%,
+      #f7eadb 100%
+    );
+
+  border: 1px solid var(--ssk-border);
+  border-radius: 18px;
+}
+
+
+/* Decorative circle */
+
+.cab-service-list::before {
+  content: "";
+
+  position: absolute;
+
+  top: -80px;
+  right: -80px;
+
+  width: 180px;
+  height: 180px;
+
+  border: 35px solid rgba(233, 120, 0, 0.06);
+  border-radius: 50%;
+
+  pointer-events: none;
+}
+
+
+/* ==========================================================
+   SERVICE ROW
+========================================================== */
+
+.cab-service-row {
+  position: relative;
+  z-index: 2;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 25px;
+
+  min-height: 115px;
+
+  padding: 20px 20px 20px 25px;
+
+  overflow: hidden;
+
+  background:
+    linear-gradient(
+      100deg,
+      #fffaf4 0%,
+      #fff2e2 100%
+    );
+
+  border: 1px solid #ead8c3;
+  border-radius: 11px;
+
+  transition:
+    transform 0.3s ease,
+    background 0.3s ease,
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+
+/* Orange left bar */
+
+.cab-service-row::before {
+  content: "";
+
+  position: absolute;
+
+  top: 50%;
+  left: 0;
+
+  width: 4px;
+  height: 55%;
+
+  background: var(--ssk-orange);
+
+  border-radius: 0 5px 5px 0;
+
+  transform: translateY(-50%);
+
+  transition:
+    height 0.3s ease,
+    width 0.3s ease;
+}
+
+
+/* Number watermark */
+
+.cab-service-row::after {
+  counter-increment: service-counter;
+
+  content: counter(service-counter, decimal-leading-zero);
+
+  position: absolute;
+
+  right: 85px;
+  bottom: -8px;
+
+  color: rgba(23, 23, 19, 0.035);
+
+  font-size: 60px;
+  font-weight: 800;
+
+  line-height: 1;
+
+  pointer-events: none;
+}
+
+
+.cab-service-list {
+  counter-reset: service-counter;
+}
+
+
+/* ==========================================================
+   DETAILS
+========================================================== */
+
+.cab-service-details {
+  position: relative;
+  z-index: 2;
+
+  flex: 1;
+}
+
+
+/* ==========================================================
+   SERVICE TITLE
+========================================================== */
+
+.cab-service-details h4 {
+  margin: 0;
+
+  color: var(--ssk-dark);
+
+  font-size: 17px;
+  font-weight: 700;
+
+  line-height: 1.4;
+
+  transition: color 0.3s ease;
+}
+
+
+/* ==========================================================
+   ORANGE LINE
+========================================================== */
+
+.cab-service-line {
+  display: block;
+
+  width: 42px;
+  height: 3px;
+
+  margin: 8px 0 9px;
+
+  background:
+    linear-gradient(
+      90deg,
+      var(--ssk-orange),
+      #f5a552
+    );
+
+  border-radius: 20px;
+
+  transition: width 0.3s ease;
+}
+
+
+/* ==========================================================
+   DESCRIPTION
+========================================================== */
+
+.cab-service-details p {
+  max-width: 760px;
+
+  margin: 0;
+
+  color: var(--ssk-text);
+
+  font-size: 11px;
+  font-weight: 400;
+
+  line-height: 1.7;
+}
+
+
+/* ==========================================================
+   ARROW
+========================================================== */
+
+.cab-service-arrow {
+  position: relative;
+  z-index: 3;
+
+  flex: 0 0 48px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  width: 48px;
+  height: 48px;
+
+  color: #ffffff;
+
+  background:
+    linear-gradient(
+      135deg,
+      #f58b1b,
+      var(--ssk-orange-dark)
+    );
+
+  border-radius: 10px;
+
+  box-shadow:
+    0 8px 18px rgba(233, 120, 0, 0.2);
+
+  transition:
+    transform 0.3s ease,
+    background 0.3s ease,
+    border-radius 0.3s ease;
+}
+
+
+.cab-service-arrow i {
+  color: #ffffff;
+
+  font-size: 13px;
+
+  transition: transform 0.3s ease;
+}
+
+
+/* ==========================================================
+   ALTERNATE ROW
+========================================================== */
+
+.cab-service-row:nth-child(even) {
+  background:
+    linear-gradient(
+      105deg,
+      var(--ssk-dark) 0%,
+      #25251f 100%
+    );
+
+  border-color: rgba(233, 120, 0, 0.18);
+}
+
+
+.cab-service-row:nth-child(even)
+.cab-service-details h4 {
+  color: #ffffff;
+}
+
+
+.cab-service-row:nth-child(even)
+.cab-service-details p {
+  color: #aaa79f;
+}
+
+
+.cab-service-row:nth-child(even)::after {
+  color: rgba(255, 255, 255, 0.035);
+}
+
+
+/* ==========================================================
+   HOVER
+========================================================== */
+
+.cab-service-row:hover {
+  transform: translateX(5px);
+
+  border-color: var(--ssk-orange);
+
+  box-shadow:
+    0 12px 28px rgba(47, 36, 21, 0.1);
+}
+
+
+.cab-service-row:hover::before {
+  height: 100%;
+}
+
+
+.cab-service-row:hover
+.cab-service-line {
+  width: 75px;
+}
+
+
+.cab-service-row:hover
+.cab-service-details h4 {
+  color: var(--ssk-orange);
+}
+
+
+.cab-service-row:hover
+.cab-service-arrow {
+  background: var(--ssk-dark);
+
+  border-radius: 50%;
+
+  transform: rotate(-5deg);
+}
+
+
+.cab-service-row:nth-child(even):hover
+.cab-service-arrow {
+  background: var(--ssk-orange);
+}
+
+
+.cab-service-row:hover
+.cab-service-arrow i {
+  transform: translateX(4px);
+}
+
+
+/* ==========================================================
+   TABLET
+========================================================== */
+
+@media (max-width: 768px) {
+
+  .cab-service-list {
+    padding: 22px;
+
+    border-radius: 14px;
+  }
+
+
+  .cab-service-row {
+    min-height: 105px;
+
+    padding: 17px 17px 17px 20px;
+  }
+
+
+  .cab-service-details h4 {
+    font-size: 15px;
+  }
+
+
+  .cab-service-details p {
+    font-size: 10.5px;
+  }
+
+
+  .cab-service-arrow {
+    flex-basis: 43px;
+
+    width: 43px;
+    height: 43px;
+  }
+
+
+  .cab-service-row::after {
+    right: 70px;
+
+    font-size: 50px;
+  }
+
+}
+
+
+/* ==========================================================
+   MOBILE
+========================================================== */
+
+@media (max-width: 500px) {
+
+  .cab-service-list {
+    gap: 10px;
+
+    margin-top: 22px;
+    padding: 14px;
+
+    border-radius: 12px;
+  }
+
+
+  .cab-service-row {
+    align-items: flex-start;
+
+    gap: 12px;
+
+    min-height: auto;
+
+    padding: 16px 13px 16px 18px;
+
+    border-radius: 9px;
+  }
+
+
+  .cab-service-details h4 {
+    padding-right: 5px;
+
+    font-size: 14px;
+  }
+
+
+  .cab-service-line {
+    width: 35px;
+
+    margin: 6px 0 7px;
+  }
+
+
+  .cab-service-details p {
+    font-size: 10px;
+
+    line-height: 1.6;
+  }
+
+
+  .cab-service-arrow {
+    flex: 0 0 36px;
+
+    width: 36px;
+    height: 36px;
+
+    margin-top: 3px;
+
+    border-radius: 8px;
+  }
+
+
+  .cab-service-arrow i {
+    font-size: 11px;
+  }
+
+
+  .cab-service-row::after {
+    display: none;
+  }
+
+
+  .cab-service-row:hover {
+    transform: translateY(-2px);
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   SSK LOGISTICS - KEYWORD GRID
+   Desktop: 2 Items Per Row
+   Mobile: 1 Item Per Row
+========================================================== */
+
+.keyword-grid {
+  --ssk-orange: #ED1C24;
+  --ssk-orange-dark: #c96300;
+  --ssk-dark: #171713;
+  --ssk-cream: #fff5e8;
+  --ssk-cream-dark: #f7e8d4;
+  --ssk-text: #56534d;
+
+  display: grid;
+
+  /* EXACTLY TWO ITEMS IN ONE ROW */
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+
+  gap: 12px;
+
+  width: 100%;
+
+  margin-top: 25px;
+  padding: 25px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #fff8ef 0%,
+      #f7ead9 100%
+    );
+
+  border: 1px solid #ead8c1;
+  border-radius: 16px;
+}
+
+
+/* ==========================================================
+   KEYWORD ITEM
+========================================================== */
+
+.keyword-item {
+  position: relative;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 11px;
+
+  min-width: 0;
+  min-height: 58px;
+
+  padding: 12px 16px;
+
+  color: var(--ssk-dark);
+
+  font-size: 12px;
+  font-weight: 600;
+
+  line-height: 1.5;
+
+  background: var(--ssk-cream);
+
+  border: 1px solid #ead7bf;
+  border-radius: 9px;
+
+  overflow: hidden;
+
+  transition:
+    transform 0.3s ease,
+    background 0.3s ease,
+    color 0.3s ease,
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+
+/* Small orange top line */
+
+.keyword-item::before {
+  content: "";
+
+  position: absolute;
+
+  top: 0;
+  left: 0;
+
+  width: 0;
+  height: 3px;
+
+  background: var(--ssk-orange);
+
+  transition: width 0.3s ease;
+}
+
+
+/* ==========================================================
+   ALTERNATE BLACK ITEM
+========================================================== */
+
+.keyword-item:nth-child(4n + 2),
+.keyword-item:nth-child(4n + 3) {
+  color: #ffffff;
+
+  background:
+    linear-gradient(
+      110deg,
+      #171713,
+      #272720
+    );
+
+  border-color: #303029;
+}
+
+
+/* ==========================================================
+   BULLET
+========================================================== */
+
+.keyword-bullet {
+  flex: 0 0 28px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  width: 28px;
+  height: 28px;
+
+  color: #ffffff;
+
+  font-size: 15px;
+  font-weight: 700;
+
+  background: var(--ssk-orange);
+
+  border-radius: 7px;
+
+  box-shadow:
+    0 5px 12px rgba(233, 120, 0, 0.2);
+
+  transition:
+    transform 0.3s ease,
+    border-radius 0.3s ease;
+}
+
+
+/* ==========================================================
+   HOVER
+========================================================== */
+
+.keyword-item:hover {
+  color: #ffffff;
+
+  background: var(--ssk-dark);
+
+  border-color: var(--ssk-orange);
+
+  transform: translateY(-3px);
+
+  box-shadow:
+    0 10px 22px rgba(23, 23, 19, 0.1);
+}
+
+
+.keyword-item:hover::before {
+  width: 100%;
+}
+
+
+.keyword-item:hover .keyword-bullet {
+  transform: rotate(-8deg);
+
+  border-radius: 50%;
+}
+
+
+/* Black items hover */
+
+.keyword-item:nth-child(4n + 2):hover,
+.keyword-item:nth-child(4n + 3):hover {
+  background:
+    linear-gradient(
+      110deg,
+      #24241f,
+      #171713
+    );
+}
+
+
+/* ==========================================================
+   TABLET
+   STILL 2 ITEMS PER ROW
+========================================================== */
+
+@media (max-width: 768px) {
+
+  .keyword-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    gap: 9px;
+
+    padding: 18px;
+  }
+
+
+  .keyword-item {
+    min-height: 54px;
+
+    padding: 10px 12px;
+
+    font-size: 10.5px;
+  }
+
+
+  .keyword-bullet {
+    flex-basis: 25px;
+
+    width: 25px;
+    height: 25px;
+
+    font-size: 13px;
+  }
+
+}
+
+
+/* ==========================================================
+   MOBILE
+   1 ITEM PER ROW
+========================================================== */
+
+@media (max-width: 550px) {
+
+  .keyword-grid {
+    grid-template-columns: 1fr;
+
+    gap: 8px;
+
+    margin-top: 20px;
+    padding: 13px;
+
+    border-radius: 12px;
+  }
+
+
+  .keyword-item {
+    min-height: 50px;
+
+    padding: 10px 12px;
+
+    font-size: 10.5px;
+
+    border-radius: 8px;
+  }
+
+
+  /*
+     Reset alternate pattern for mobile:
+     cream / black / cream / black
+  */
+
+  .keyword-item:nth-child(4n + 2),
+  .keyword-item:nth-child(4n + 3) {
+    color: var(--ssk-dark);
+
+    background: var(--ssk-cream);
+
+    border-color: #ead7bf;
+  }
+
+
+  .keyword-item:nth-child(even) {
+    color: #ffffff;
+
+    background:
+      linear-gradient(
+        110deg,
+        #171713,
+        #272720
+      );
+
+    border-color: #303029;
+  }
+
+
+  .keyword-item:hover {
+    color: #ffffff;
+
+    background: var(--ssk-dark);
+
+    border-color: var(--ssk-orange);
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   WHY CHOOSE SSK LOGISTICS
+   ALL CARDS SAME SIZE
+========================================================== */
+
+.why-choose-section {
+  --ssk-orange: #ED1C24;
+  --ssk-dark: #181815;
+  --ssk-text: #68645d;
+  --ssk-border: #e8dfd4;
+  --ssk-bg: #fbf7f1;
+
+  position: relative;
+
+  margin-top: 35px;
+  padding: 38px 32px;
+
+  overflow: hidden;
+
+  background:
+    radial-gradient(
+      circle at 100% 0%,
+      rgba(233, 120, 0, 0.07),
+      transparent 25%
+    ),
+    var(--ssk-bg);
+
+  border: 1px solid #eee4d8;
+  border-radius: 16px;
+}
+
+
+/* ==========================================================
+   TITLE
+========================================================== */
+
+.why-choose-section .section-title {
+  position: relative;
+
+  margin: 0 0 30px;
+  padding-bottom: 15px;
+
+  color: var(--ssk-dark) !important;
+
+  font-size: 32px;
+  font-weight: 700;
+
+  line-height: 1.3;
+}
+
+
+.why-choose-section .section-title span {
+  color: var(--ssk-orange);
+}
+
+
+.why-choose-section .section-title::after {
+  content: "";
+
+  position: absolute;
+
+  left: 0;
+  bottom: 0;
+
+  width: 100%;
+  height: 1px;
+
+  background:
+    linear-gradient(
+      90deg,
+      var(--ssk-orange) 0 70px,
+      #ddd4ca 70px
+    );
+}
+
+
+/* ==========================================================
+   GRID - EXACTLY TWO SAME SIZE CARDS
+========================================================== */
+
+.why-choose-section .bento-grid {
+  display: grid;
+
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+
+  gap: 16px;
+
+  width: 100%;
+}
+
+
+/* ==========================================================
+   ALL CARDS SAME DESIGN
+========================================================== */
+
+.why-choose-section .bento-card,
+.why-choose-section .bento-card:first-child {
+  position: relative;
+
+  grid-column: auto !important;
+
+  min-width: 0;
+  min-height: 245px;
+
+  padding: 27px 26px;
+
+  overflow: hidden;
+
+  background:
+    linear-gradient(
+      145deg,
+      #ffffff 0%,
+      #fffaf5 100%
+    );
+
+  border: 1px solid var(--ssk-border);
+
+  border-radius: 12px;
+
+  box-shadow:
+    0 7px 22px rgba(37, 29, 19, 0.045);
+
+  transition:
+    transform 0.3s ease,
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+
+/* ==========================================================
+   ORANGE TOP LINE
+========================================================== */
+
+.why-choose-section .bento-card::before,
+.why-choose-section .bento-card:first-child::before {
+  content: "";
+
+  position: absolute;
+
+  top: 0;
+  left: 32px;
+
+  width: 55px;
+  height: 4px;
+
+  background: var(--ssk-orange);
+
+  border-radius: 0 0 6px 6px;
+
+  transition: width 0.3s ease;
+}
+
+
+/* ==========================================================
+   REMOVE LARGE FIRST CARD 01
+========================================================== */
+
+.why-choose-section .bento-card:first-child::after {
+  content: none !important;
+
+  display: none !important;
+}
+
+
+/* ==========================================================
+   NUMBER
+========================================================== */
+
+.why-choose-section .bento-number {
+  position: relative;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  width: 55px;
+  height: 55px;
+
+  margin-bottom: 25px;
+
+  color: var(--ssk-orange);
+
+  font-size: 15px;
+  font-weight: 800;
+
+  background: #fff3e5;
+
+  border: 1px solid #f1d4b4;
+
+  border-radius: 10px;
+
+  transition:
+    color 0.3s ease,
+    background 0.3s ease,
+    transform 0.3s ease;
+}
+
+
+/* Small black line next to number */
+
+.why-choose-section .bento-number::after {
+  content: "";
+
+  position: absolute;
+
+  right: -10px;
+  bottom: 10px;
+
+  width: 12px;
+  height: 2px;
+
+  background: var(--ssk-dark);
+}
+
+
+/* ==========================================================
+   CARD HEADING
+========================================================== */
+
+.why-choose-section .bento-card h4 {
+  position: relative;
+  z-index: 2;
+
+  margin: 0 0 10px;
+
+  color: var(--ssk-dark);
+
+  font-size: 17px;
+  font-weight: 700;
+
+  line-height: 1.45;
+
+  transition: color 0.3s ease;
+}
+
+
+/* ==========================================================
+   DESCRIPTION
+========================================================== */
+
+.why-choose-section .bento-card p {
+  position: relative;
+  z-index: 2;
+
+  margin: 0;
+
+  color: var(--ssk-text);
+
+  font-size: 11px;
+  font-weight: 400;
+
+  line-height: 1.75;
+}
+
+
+/* ==========================================================
+   SMALL DECORATION
+========================================================== */
+
+.why-choose-section .bento-card::after {
+  content: "";
+
+  position: absolute;
+
+  right: -30px;
+  bottom: -30px;
+
+  width: 100px;
+  height: 100px;
+
+  border: 17px solid rgba(233, 120, 0, 0.035);
+
+  border-radius: 50%;
+
+  pointer-events: none;
+}
+
+
+/* Restore decoration for first card too */
+
+.why-choose-section .bento-card:first-child::after {
+  content: "";
+
+  display: block !important;
+
+  position: absolute;
+
+  right: -30px;
+  bottom: -30px;
+
+  width: 100px;
+  height: 100px;
+
+  border: 17px solid rgba(233, 120, 0, 0.035);
+
+  border-radius: 50%;
+
+  pointer-events: none;
+}
+
+
+/* ==========================================================
+   SUBTLE DARK CARD
+   Only every 4th card
+========================================================== */
+
+.why-choose-section .bento-card:nth-child(4n) {
+  background:
+    linear-gradient(
+      135deg,
+      #1c1c18,
+      #25251f
+    );
+
+  border-color: #303029;
+}
+
+
+.why-choose-section .bento-card:nth-child(4n) h4 {
+  color: #ffffff;
+}
+
+
+.why-choose-section .bento-card:nth-child(4n) p {
+  color: #aaa79f;
+}
+
+
+.why-choose-section .bento-card:nth-child(4n) .bento-number {
+  color: #ffffff;
+
+  background: var(--ssk-orange);
+
+  border-color: var(--ssk-orange);
+}
+
+
+.why-choose-section
+.bento-card:nth-child(4n)
+.bento-number::after {
+  background: #ffffff;
+}
+
+
+/* ==========================================================
+   HOVER
+========================================================== */
+
+.why-choose-section .bento-card:hover {
+  transform: translateY(-4px);
+
+  border-color: rgba(233, 120, 0, 0.55);
+
+  box-shadow:
+    0 15px 32px rgba(36, 27, 17, 0.09);
+}
+
+
+.why-choose-section .bento-card:hover::before {
+  width: 85px;
+}
+
+
+.why-choose-section .bento-card:hover .bento-number {
+  color: #ffffff;
+
+  background: var(--ssk-orange);
+
+  border-color: var(--ssk-orange);
+
+  transform: translateY(-2px);
+}
+
+
+.why-choose-section .bento-card:hover h4 {
+  color: var(--ssk-orange);
+}
+
+
+/* ==========================================================
+   TABLET
+========================================================== */
+
+@media (max-width: 768px) {
+
+  .why-choose-section {
+    padding: 28px 22px;
+  }
+
+
+  .why-choose-section .section-title {
+    font-size: 27px;
+  }
+
+
+  .why-choose-section .bento-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    gap: 12px;
+  }
+
+
+  .why-choose-section .bento-card,
+  .why-choose-section .bento-card:first-child {
+    grid-column: auto !important;
+
+    min-height: 230px;
+
+    padding: 22px 20px;
+  }
+
+
+  .why-choose-section .bento-card h4 {
+    font-size: 15px;
+  }
+
+
+  .why-choose-section .bento-card p {
+    font-size: 10.5px;
+  }
+
+}
+
+
+/* ==========================================================
+   MOBILE - ONE CARD PER ROW
+========================================================== */
+
+@media (max-width: 550px) {
+
+  .why-choose-section {
+    margin-top: 25px;
+
+    padding: 22px 14px;
+  }
+
+
+  .why-choose-section .section-title {
+    margin-bottom: 20px;
+
+    font-size: 23px;
+  }
+
+
+  .why-choose-section .bento-grid {
+    grid-template-columns: 1fr;
+
+    gap: 10px;
+  }
+
+
+  .why-choose-section .bento-card,
+  .why-choose-section .bento-card:first-child {
+    grid-column: auto !important;
+
+    min-height: auto;
+
+    padding: 20px;
+  }
+
+
+  .why-choose-section .bento-number {
+    width: 45px;
+    height: 45px;
+
+    margin-bottom: 17px;
+
+    font-size: 13px;
+  }
+
+
+  .why-choose-section .bento-card h4 {
+    font-size: 14px;
+  }
+
+
+  .why-choose-section .bento-card p {
+    font-size: 10px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   SSK LOGISTICS - FAQ SECTION
+========================================================== */
+
+.twm-faq-section-1 {
+  --ssk-orange: #ED1C24;
+  --ssk-orange-dark: #c96300;
+  --ssk-dark: #181815;
+  --ssk-text: #c48a39;
+  --ssk-cream: #e39219;
+  --ssk-border: #cf944c;
+
+  position: relative;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  padding: 10px 15px;
+
+  overflow: hidden;
+
+  background:
+    radial-gradient(
+      circle at 100% 0%,
+      rgba(233, 120, 0, 0.08),
+      transparent 24%
+    ),
+    linear-gradient(
+      135deg,
+      #fffaf5 0%,
+      #f8f0e7 100%
+    );
+
+  border: 1px solid var(--ssk-border);
+  border-radius: 18px;
+}
+
+
+/* remove bootstrap negative row margin inside this section */
+
+.twm-faq-section-1.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+
+/* ==========================================================
+   DECORATIVE BACKGROUND
+========================================================== */
+
+.twm-faq-section-1::before {
+  content: "?";
+
+  position: absolute;
+  right: 25px;
+  top: -45px;
+
+  color: rgba(233, 120, 0, 0.045);
+
+  font-size: 190px;
+  font-weight: 800;
+  line-height: 1;
+
+  pointer-events: none;
+}
+
+
+/* ==========================================================
+   WRAPPER
+========================================================== */
+
+.twm-faq-info-wrap {
+  position: relative;
+  z-index: 2;
+
+  width: 100%;
+}
+
+
+/* ==========================================================
+   SECTION HEAD
+========================================================== */
+
+.twm-faq-info-wrap .section-head {
+  position: relative;
+
+  margin-bottom: 28px;
+  padding-bottom: 18px;
+}
+
+
+/* Small orange label */
+
+.twm-faq-info-wrap .section-head::before {
+  content: "FREQUENTLY ASKED QUESTIONS";
+
+  display: block;
+
+  margin-bottom: 9px;
+
+  color: var(--ssk-orange);
+
+  font-size: 10px;
+  font-weight: 800;
+
+  letter-spacing: 1.7px;
+  text-transform: uppercase;
+}
+
+
+/* Heading */
+
+.twm-faq-info-wrap .twm-large-title {
+  max-width: 850px;
+
+  margin: 0;
+
+  color: var(--ssk-dark) !important;
+
+  font-size: clamp(25px, 3vw, 34px);
+  font-weight: 700;
+
+  line-height: 1.3;
+
+  letter-spacing: -0.5px;
+}
+
+
+/* Heading underline */
+
+.twm-faq-info-wrap .section-head::after {
+  content: "";
+
+  position: absolute;
+
+  left: 0;
+  bottom: 0;
+
+  width: 100%;
+  height: 1px;
+
+  background:
+    linear-gradient(
+      90deg,
+      var(--ssk-orange) 0 65px,
+      #ddd4c9 65px 100%
+    );
+}
+
+
+/* ==========================================================
+   FAQ CONTENT AREA
+========================================================== */
+
+.twm-faq-info {
+  position: relative;
+
+  width: 100%;
+}
+
+
+.twm-faq-info .twm-acdn {
+  display: flex;
+  flex-direction: column;
+
+  gap: 10px;
+}
+
+
+/* ==========================================================
+   COMMON ACCORDION ITEM SUPPORT
+
+   These selectors support common Bootstrap/FaqSection
+   structures without changing your JSX.
+========================================================== */
+
+.twm-faq-info .accordion-item,
+.twm-faq-info .faq-item,
+.twm-faq-info .acod-head {
+  position: relative;
+
+  overflow: hidden;
+
+  background: #ffffff;
+
+  border: 1px solid #e7ddd1 !important;
+
+  border-radius: 10px !important;
+
+  box-shadow:
+    0 5px 16px rgba(31, 24, 16, 0.035);
+
+  transition:
+    border-color 0.3s ease,
+    box-shadow 0.3s ease,
+    transform 0.3s ease;
+}
+
+
+/* ==========================================================
+   ACCORDION BUTTON
+========================================================== */
+
+.twm-faq-info .accordion-button {
+  position: relative;
+
+  min-height: 65px;
+
+  padding: 17px 60px 17px 20px;
+
+  color: var(--ssk-dark);
+
+  font-size: 13px;
+  font-weight: 700;
+
+  line-height: 1.5;
+
+  background: #ffffff;
+
+  border: none;
+  box-shadow: none !important;
+
+  transition:
+    color 0.3s ease,
+    background 0.3s ease;
+}
+
+
+/* Remove Bootstrap blue active color */
+
+.twm-faq-info .accordion-button:not(.collapsed) {
+  color: var(--ssk-orange);
+
+  background:
+    linear-gradient(
+      90deg,
+      #fff8f0,
+      #ffffff
+    );
+
+  box-shadow: none;
+}
+
+
+/* Orange left accent */
+
+.twm-faq-info .accordion-item::before {
+  content: "";
+
+  position: absolute;
+
+  z-index: 5;
+
+  top: 50%;
+  left: 0;
+
+  width: 3px;
+  height: 0;
+
+  background: var(--ssk-orange);
+
+  border-radius: 0 5px 5px 0;
+
+  transform: translateY(-50%);
+
+  transition: height 0.3s ease;
+
+  pointer-events: none;
+}
+
+
+.twm-faq-info .accordion-item:hover::before,
+.twm-faq-info .accordion-item:has(.accordion-button:not(.collapsed))::before {
+  height: 65%;
+}
+
+
+/* ==========================================================
+   BOOTSTRAP ARROW
+========================================================== */
+
+.twm-faq-info .accordion-button::after {
+  position: absolute;
+
+  right: 18px;
+
+  width: 32px;
+  height: 32px;
+
+  margin: 0;
+
+  background-color: #fff1e1;
+  background-position: center;
+  background-size: 12px;
+
+  border: 1px solid #f1d6b7;
+  border-radius: 50%;
+
+  transition:
+    transform 0.3s ease,
+    background-color 0.3s ease;
+}
+
+
+.twm-faq-info
+.accordion-button:not(.collapsed)::after {
+  background-color: var(--ssk-orange);
+
+  border-color: var(--ssk-orange);
+
+  filter: brightness(0) invert(1);
+}
+
+
+/* ==========================================================
+   ACCORDION BODY
+========================================================== */
+
+.twm-faq-info .accordion-body {
+  position: relative;
+
+  padding:
+    4px
+    55px
+    20px
+    20px;
+
+  color: var(--ssk-text);
+
+  font-size: 11px;
+  font-weight: 400;
+
+  line-height: 1.8;
+
+  background: #ffffff;
+}
+
+
+.twm-faq-info .accordion-body p {
+  margin: 0;
+
+  color: inherit;
+
+  font-size: inherit;
+
+  line-height: inherit;
+}
+
+
+/* Small orange line before answer */
+
+.twm-faq-info .accordion-body::before {
+  content: "";
+
+  display: block;
+
+  width: 35px;
+  height: 2px;
+
+  margin-bottom: 11px;
+
+  background: var(--ssk-orange);
+
+  border-radius: 10px;
+}
+
+
+/* ==========================================================
+   HOVER
+========================================================== */
+
+.twm-faq-info .accordion-item:hover {
+  border-color:
+    rgba(233, 120, 0, 0.4) !important;
+
+  transform: translateY(-2px);
+
+  box-shadow:
+    0 10px 25px rgba(36, 27, 17, 0.07);
+}
+
+
+.twm-faq-info
+.accordion-button.collapsed:hover {
+  color: var(--ssk-orange);
+}
+
+
+/* ==========================================================
+   IF YOUR FaqSection USES .faq-question / .faq-answer
+========================================================== */
+
+.twm-faq-info .faq-question {
+  position: relative;
+
+  width: 100%;
+
+  padding: 18px 55px 18px 20px;
+
+  color: var(--ssk-dark);
+
+  font-size: 13px;
+  font-weight: 700;
+
+  line-height: 1.5;
+
+  background: #ffffff;
+
+  border: 1px solid var(--ssk-border);
+  border-radius: 10px;
+
+  cursor: pointer;
+
+  transition: all 0.3s ease;
+}
+
+
+.twm-faq-info .faq-question:hover {
+  color: var(--ssk-orange);
+
+  border-color: var(--ssk-orange);
+}
+
+
+.twm-faq-info .faq-answer {
+  padding: 15px 20px 20px;
+
+  color: var(--ssk-text);
+
+  font-size: 11px;
+
+  line-height: 1.8;
+}
+
+
+/* ==========================================================
+   TABLET
+========================================================== */
+
+@media (max-width: 768px) {
+
+  .twm-faq-section-1 {
+    margin-top: 30px;
+
+    padding: 30px 22px;
+
+    border-radius: 14px;
+  }
+
+
+  .twm-faq-info-wrap .section-head {
+    margin-bottom: 22px;
+  }
+
+
+  .twm-faq-info-wrap .twm-large-title {
+    font-size: 26px;
+  }
+
+
+  .twm-faq-info .accordion-button {
+    min-height: 60px;
+
+    padding:
+      15px
+      55px
+      15px
+      17px;
+
+    font-size: 12px;
+  }
+
+
+  .twm-faq-info .accordion-body {
+    padding:
+      3px
+      45px
+      17px
+      17px;
+
+    font-size: 10.5px;
+  }
+
+}
+
+
+/* ==========================================================
+   MOBILE
+========================================================== */
+
+@media (max-width: 500px) {
+
+  .twm-faq-section-1 {
+    margin-top: 25px;
+
+    padding: 23px 14px;
+
+    border-radius: 12px;
+  }
+
+
+  .twm-faq-section-1::before {
+    right: -5px;
+
+    font-size: 120px;
+  }
+
+
+  .twm-faq-info-wrap .section-head {
+    margin-bottom: 18px;
+    padding-bottom: 14px;
+  }
+
+
+  .twm-faq-info-wrap .section-head::before {
+    margin-bottom: 7px;
+
+    font-size: 8px;
+
+    letter-spacing: 1.3px;
+  }
+
+
+  .twm-faq-info-wrap .twm-large-title {
+    font-size: 21px;
+
+    line-height: 1.35;
+  }
+
+
+  .twm-faq-info .twm-acdn {
+    gap: 8px;
+  }
+
+
+  .twm-faq-info .accordion-button {
+    min-height: 55px;
+
+    padding:
+      14px
+      48px
+      14px
+      14px;
+
+    font-size: 11px;
+  }
+
+
+  .twm-faq-info .accordion-button::after {
+    right: 11px;
+
+    width: 28px;
+    height: 28px;
+
+    background-size: 10px;
+  }
+
+
+  .twm-faq-info .accordion-body {
+    padding:
+      2px
+      14px
+      16px;
+
+    font-size: 10px;
+
+    line-height: 1.7;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   SSK LOGISTICS - ROUTE LIST
+========================================================== */
+
+.routeList {
+  --ssk-orange: #ED1C24;
+  --ssk-orange-dark: #c96300;
+  --ssk-dark: #181815;
+  --ssk-text: #68635c;
+  --ssk-cream: #fff7ed;
+  --ssk-border: #eadfd2;
+
+  display: grid;
+
+  /* 2 ROUTES IN ONE ROW */
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+
+  gap: 14px;
+
+  width: 100%;
+
+  margin-top: 25px;
+  padding: 25px;
+
+  background:
+    radial-gradient(
+      circle at 100% 0%,
+      rgba(233, 120, 0, 0.08),
+      transparent 28%
+    ),
+    #faf6f0;
+
+  border: 1px solid #eee3d6;
+  border-radius: 16px;
+}
+
+
+/* ==========================================================
+   ROUTE ITEM
+========================================================== */
+
+.routeItem {
+  position: relative;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 14px;
+
+  min-width: 0;
+  min-height: 92px;
+
+  padding: 11px 52px 11px 11px;
+
+  overflow: hidden;
+
+  color: inherit;
+  text-decoration: none;
+
+  background:
+    linear-gradient(
+      110deg,
+      #ffffff 0%,
+      #fffaf4 100%
+    );
+
+  border: 1px solid var(--ssk-border);
+
+  border-radius: 12px;
+
+  box-shadow:
+    0 5px 18px rgba(33, 25, 16, 0.04);
+
+  transition:
+    transform 0.3s ease,
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+
+/* Orange top accent */
+
+.routeItem::before {
+  content: "";
+
+  position: absolute;
+
+  top: 0;
+  left: 110px;
+
+  width: 40px;
+  height: 3px;
+
+  background: var(--ssk-orange);
+
+  border-radius: 0 0 5px 5px;
+
+  transition: width 0.3s ease;
+}
+
+
+/* ==========================================================
+   ROUTE IMAGE
+========================================================== */
+
+.routeThumb {
+  position: relative;
+
+  flex: 0 0 88px;
+
+  width: 88px;
+  height: 68px;
+
+  overflow: hidden;
+
+  background: #eee;
+
+  border-radius: 9px;
+}
+
+
+.routeThumb::after {
+  content: "";
+
+  position: absolute;
+
+  inset: 0;
+
+  border: 1px solid rgba(255, 255, 255, 0.25);
+
+  border-radius: inherit;
+
+  pointer-events: none;
+}
+
+
+.routeThumb img {
+  display: block;
+
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+
+  transition:
+    transform 0.45s ease,
+    filter 0.45s ease;
+}
+
+
+/* ==========================================================
+   ROUTE META
+========================================================== */
+
+.routeMeta {
+  flex: 1;
+
+  min-width: 0;
+}
+
+
+/* ==========================================================
+   ROUTE TITLE
+========================================================== */
+
+.routeTitle {
+  margin: 0;
+
+  color: var(--ssk-dark);
+
+  font-size: 13px;
+  font-weight: 700;
+
+  line-height: 1.45;
+
+  transition: color 0.3s ease;
+}
+
+
+/* ==========================================================
+   UNDERLINE
+========================================================== */
+
+.routeUnderline {
+  display: block;
+
+  width: 32px;
+  height: 2px;
+
+  margin-top: 8px;
+
+  background: var(--ssk-orange);
+
+  border-radius: 10px;
+
+  transition: width 0.3s ease;
+}
+
+
+/* ==========================================================
+   ARROW
+========================================================== */
+
+.routeArrow {
+  position: absolute;
+
+  top: 50%;
+  right: 14px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  width: 31px;
+  height: 31px;
+
+  color: #ffffff;
+
+  font-size: 21px;
+  font-weight: 400;
+
+  line-height: 1;
+
+  background: var(--ssk-dark);
+
+  border-radius: 50%;
+
+  transform: translateY(-50%);
+
+  transition:
+    color 0.3s ease,
+    background 0.3s ease,
+    transform 0.3s ease;
+}
+
+
+/* ==========================================================
+   SUBTLE ALTERNATE CARD
+========================================================== */
+
+.routeItem:nth-child(4n + 2),
+.routeItem:nth-child(4n + 3) {
+  background:
+    linear-gradient(
+      110deg,
+      #fff4e7 0%,
+      #fbeddb 100%
+    );
+
+  border-color: #ead3b9;
+}
+
+
+/* ==========================================================
+   HOVER
+========================================================== */
+
+.routeItem:hover {
+  color: inherit;
+  text-decoration: none;
+
+  transform: translateY(-3px);
+
+  border-color: rgba(233, 120, 0, 0.6);
+
+  box-shadow:
+    0 12px 27px rgba(35, 26, 16, 0.09);
+}
+
+
+/* extend top line */
+
+.routeItem:hover::before {
+  width: 75px;
+}
+
+
+/* zoom image */
+
+.routeItem:hover .routeThumb img {
+  transform: scale(1.08);
+}
+
+
+/* title orange */
+
+.routeItem:hover .routeTitle {
+  color: var(--ssk-orange);
+}
+
+
+/* underline expands */
+
+.routeItem:hover .routeUnderline {
+  width: 55px;
+}
+
+
+/* arrow orange */
+
+.routeItem:hover .routeArrow {
+  color: #ffffff;
+
+  background: var(--ssk-orange);
+
+  transform:
+    translateY(-50%)
+    translateX(3px);
+}
+
+
+/* ==========================================================
+   FOCUS / KEYBOARD
+========================================================== */
+
+.routeItem:focus-visible {
+  outline: none;
+
+  border-color: var(--ssk-orange);
+
+  box-shadow:
+    0 0 0 3px rgba(233, 120, 0, 0.13);
+}
+
+
+/* ==========================================================
+   TABLET
+   KEEP 2 PER ROW
+========================================================== */
+
+@media (max-width: 850px) {
+
+  .routeList {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    gap: 10px;
+
+    padding: 18px;
+  }
+
+
+  .routeItem {
+    min-height: 82px;
+
+    gap: 11px;
+
+    padding:
+      9px
+      43px
+      9px
+      9px;
+  }
+
+
+  .routeThumb {
+    flex-basis: 72px;
+
+    width: 72px;
+    height: 60px;
+  }
+
+
+  .routeItem::before {
+    left: 90px;
+  }
+
+
+  .routeTitle {
+    font-size: 11.5px;
+  }
+
+
+  .routeArrow {
+    right: 10px;
+
+    width: 28px;
+    height: 28px;
+
+    font-size: 19px;
+  }
+
+}
+
+
+/* ==========================================================
+   MOBILE - ONE ROUTE PER ROW
+========================================================== */
+
+@media (max-width: 550px) {
+
+  .routeList {
+    grid-template-columns: 1fr;
+
+    gap: 9px;
+
+    margin-top: 20px;
+    padding: 13px;
+
+    border-radius: 12px;
+  }
+
+
+  .routeItem {
+    min-height: 76px;
+
+    padding:
+      8px
+      42px
+      8px
+      8px;
+
+    border-radius: 9px;
+  }
+
+
+  .routeThumb {
+    flex: 0 0 70px;
+
+    width: 70px;
+    height: 58px;
+
+    border-radius: 7px;
+  }
+
+
+  .routeItem::before {
+    left: 88px;
+
+    width: 30px;
+  }
+
+
+  .routeTitle {
+    font-size: 11px;
+
+    line-height: 1.4;
+  }
+
+
+  .routeUnderline {
+    width: 26px;
+
+    margin-top: 6px;
+  }
+
+
+  .routeArrow {
+    right: 9px;
+
+    width: 27px;
+    height: 27px;
+
+    font-size: 18px;
+  }
+
+
+  .routeItem:hover {
+    transform: translateY(-2px);
+  }
+
+}
+
+
+/* ==========================================================
+   VERY SMALL MOBILE
+========================================================== */
+
+@media (max-width: 370px) {
+
+  .routeList {
+    padding: 10px;
+  }
+
+
+  .routeItem {
+    gap: 9px;
+
+    padding-right: 37px;
+  }
+
+
+  .routeThumb {
+    flex-basis: 60px;
+
+    width: 60px;
+    height: 54px;
+  }
+
+
+  .routeItem::before {
+    left: 76px;
+  }
+
+
+  .routeTitle {
+    font-size: 10px;
+  }
+
+
+  .routeArrow {
+    right: 7px;
+
+    width: 25px;
+    height: 25px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   SSK LOGISTICS - CONTACT INFORMATION
+   VERTICAL DESIGN
+   Phone -> Email -> Address
+========================================================== */
+
+.pc-contact {
+  --ssk-orange: #ED1C24;
+  --ssk-orange-dark: #c96300;
+  --ssk-dark: #191916;
+  --ssk-dark-soft: #24241f;
+  --ssk-cream: #fff7ed;
+  --ssk-text: #68635c;
+  --ssk-border: #eadbca;
+
+  position: relative;
+
+  width: 100%;
+
+  margin-top: 25px;
+  padding: 30px 27px;
+
+  overflow: hidden;
+
+  background:
+    radial-gradient(
+      circle at 100% 0%,
+      rgba(233, 120, 0, 0.11),
+      transparent 28%
+    ),
+    linear-gradient(
+      145deg,
+      #181815,
+      #22221d
+    );
+
+  border-radius: 18px;
+
+  box-shadow:
+    0 15px 35px rgba(23, 23, 19, 0.13);
+}
+
+
+/* orange line top */
+
+.pc-contact::before {
+  content: "";
+
+  position: absolute;
+
+  top: 0;
+  left: 45px;
+
+  width: 75px;
+  height: 4px;
+
+  background: var(--ssk-orange);
+
+  border-radius: 0 0 8px 8px;
+}
+
+
+/* ==========================================================
+   TITLE
+========================================================== */
+
+.pc-title {
+  position: relative;
+
+  margin: 0 0 25px;
+  padding-bottom: 14px;
+
+  color: #ffffff;
+
+  font-size: 27px;
+  font-weight: 700;
+
+  line-height: 1.3;
+}
+
+
+.pc-title::after {
+  content: "";
+
+  position: absolute;
+
+  left: 0;
+  bottom: 0;
+
+  width: 48px;
+  height: 3px;
+
+  background: var(--ssk-orange);
+
+  border-radius: 10px;
+}
+
+
+/* ==========================================================
+   IMPORTANT:
+   VERTICAL GRID
+========================================================== */
+
+.pc-grid {
+  display: grid !important;
+
+  /* ONE ITEM PER ROW */
+  grid-template-columns: 1fr !important;
+
+  gap: 12px;
+
+  width: 100%;
+}
+
+
+/* Reset old grid positioning */
+
+.pc-grid .pc-tile,
+.pc-grid .pc-tile:nth-child(1),
+.pc-grid .pc-tile:nth-child(2),
+.pc-grid .pc-tile:nth-child(3) {
+  grid-column: auto !important;
+
+  width: 100%;
+
+  min-width: 0;
+  min-height: auto;
+}
+
+
+/* ==========================================================
+   CONTACT TILE
+========================================================== */
+
+.pc-tile {
+  position: relative;
+
+  padding: 18px 19px;
+
+  overflow: hidden;
+
+  background:
+    linear-gradient(
+      120deg,
+      #fffaf4,
+      #fff3e5
+    );
+
+  border: 1px solid rgba(233, 120, 0, 0.17);
+
+  border-radius: 11px;
+
+  box-shadow:
+    0 5px 15px rgba(0, 0, 0, 0.04);
+
+  transition:
+    transform 0.3s ease,
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+
+/* small orange top line */
+
+.pc-tile::before {
+  content: "";
+
+  position: absolute;
+
+  top: 0;
+  left: 18px;
+
+  width: 35px;
+  height: 3px;
+
+  background: var(--ssk-orange);
+
+  border-radius: 0 0 5px 5px;
+
+  transition: width 0.3s ease;
+}
+
+
+/* ==========================================================
+   TILE HEADER
+========================================================== */
+
+.pc-tile-head {
+  display: flex;
+
+  align-items: center;
+
+  gap: 12px;
+
+  margin: 0 0 14px;
+}
+
+
+/* icon */
+
+.pc-tile-head > i {
+  flex: 0 0 40px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  width: 40px;
+  height: 40px;
+
+  color: #ffffff;
+
+  font-size: 14px;
+
+  background: var(--ssk-orange);
+
+  border-radius: 9px;
+
+  box-shadow:
+    0 6px 14px rgba(233, 120, 0, 0.2);
+}
+
+
+/* heading */
+
+.pc-tile-head > span {
+  min-width: 0;
+
+  color: var(--ssk-dark);
+
+  font-size: 13px;
+  font-weight: 700;
+
+  line-height: 1.35;
+}
+
+
+/* ==========================================================
+   PHONE NUMBERS
+========================================================== */
+
+.pc-list {
+  margin: 0 0 7px;
+}
+
+
+.pc-call {
+  display: flex;
+
+  align-items: center;
+
+  gap: 9px;
+
+  width: fit-content;
+
+  color: var(--ssk-dark);
+
+  font-size: 13px;
+  font-weight: 700;
+
+  line-height: 1.4;
+
+  text-decoration: none;
+
+  white-space: nowrap;
+
+  transition:
+    color 0.3s ease,
+    transform 0.3s ease;
+}
+
+
+/* orange dot */
+
+.pc-call::before {
+  content: "";
+
+  flex: 0 0 6px;
+
+  width: 6px;
+  height: 6px;
+
+  background: var(--ssk-orange);
+
+  border-radius: 50%;
+}
+
+
+.pc-call:hover {
+  color: var(--ssk-orange);
+
+  transform: translateX(3px);
+}
+
+
+/* ==========================================================
+   PHONE BUTTONS
+========================================================== */
+
+.pc-cta {
+  display: flex;
+
+  align-items: center;
+
+  flex-wrap: wrap;
+
+  gap: 8px;
+
+  margin-top: 15px;
+}
+
+
+/* WhatsApp */
+
+.pc-whats {
+  display: inline-flex;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 7px;
+
+  min-height: 38px;
+
+  padding: 9px 14px;
+
+  color: #ffffff !important;
+
+  font-size: 10px;
+  font-weight: 700;
+
+  text-decoration: none !important;
+
+  background: #218c4b;
+
+  border-radius: 7px;
+
+  transition:
+    transform 0.3s ease,
+    background 0.3s ease;
+}
+
+
+.pc-whats i {
+  color: #ffffff;
+
+  font-size: 14px;
+}
+
+
+.pc-whats:hover {
+  color: #ffffff;
+
+  background: #19793e;
+
+  transform: translateY(-2px);
+}
+
+
+/* Call */
+
+.pc-primary {
+  display: inline-flex;
+
+  align-items: center;
+  justify-content: center;
+
+  min-height: 38px;
+
+  padding: 9px 17px;
+
+  color: #ffffff !important;
+
+  font-size: 10px;
+  font-weight: 700;
+
+  text-decoration: none !important;
+
+  background: var(--ssk-dark);
+
+  border-radius: 7px;
+
+  transition:
+    transform 0.3s ease,
+    background 0.3s ease;
+}
+
+
+.pc-primary:hover {
+  color: #ffffff;
+
+  background: var(--ssk-orange);
+
+  transform: translateY(-2px);
+}
+
+
+/* ==========================================================
+   EMAIL
+========================================================== */
+
+.pc-email {
+  position: relative;
+
+  display: inline-block;
+
+  max-width: 100%;
+
+  color: var(--ssk-dark);
+
+  font-size: 12px;
+  font-weight: 600;
+
+  line-height: 1.6;
+
+  text-decoration: none;
+
+  /*
+     Prevent the ugly letter-by-letter breaking
+     visible in your screenshot.
+  */
+
+  word-break: normal;
+  overflow-wrap: anywhere;
+
+  transition: color 0.3s ease;
+}
+
+
+.pc-email:hover {
+  color: var(--ssk-orange);
+}
+
+
+/* underline */
+
+.pc-email::after {
+  content: "";
+
+  display: block;
+
+  width: 38px;
+  height: 2px;
+
+  margin-top: 7px;
+
+  background: var(--ssk-orange);
+
+  border-radius: 10px;
+
+  transition: width 0.3s ease;
+}
+
+
+.pc-email:hover::after {
+  width: 100%;
+}
+
+
+/* ==========================================================
+   ADDRESS
+========================================================== */
+
+.pc-address {
+  margin: 0;
+
+  color: var(--ssk-text);
+
+  font-size: 11px;
+  font-style: normal;
+
+  line-height: 1.75;
+
+  word-break: normal;
+  overflow-wrap: break-word;
+}
+
+
+.pc-address strong {
+  display: block;
+
+  margin-bottom: 5px;
+
+  color: var(--ssk-dark);
+
+  font-size: 14px;
+  font-weight: 700;
+
+  line-height: 1.4;
+}
+
+
+/* ==========================================================
+   ADDRESS TILE - SLIGHTLY DIFFERENT
+========================================================== */
+
+.pc-grid .pc-tile:nth-child(3) {
+  background:
+    linear-gradient(
+      120deg,
+      #ffffff,
+      #f8eee2
+    );
+}
+
+
+/* ==========================================================
+   HOVER
+========================================================== */
+
+.pc-tile:hover {
+  transform: translateY(-3px);
+
+  border-color: rgba(233, 120, 0, 0.55);
+
+  box-shadow:
+    0 10px 22px rgba(0, 0, 0, 0.09);
+}
+
+
+.pc-tile:hover::before {
+  width: 65px;
+}
+
+
+.pc-tile:hover .pc-tile-head > i {
+  background: var(--ssk-dark);
+}
+
+
+/* ==========================================================
+   TABLET
+========================================================== */
+
+@media (max-width: 900px) {
+
+  .pc-contact {
+    padding: 25px 20px;
+  }
+
+
+  .pc-title {
+    font-size: 24px;
+  }
+
+
+  /*
+    STILL ONE COLUMN:
+    Phone
+    Email
+    Address
+  */
+
+  .pc-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+}
+
+
+/* ==========================================================
+   MOBILE
+========================================================== */
+
+@media (max-width: 500px) {
+
+  .pc-contact {
+    margin-top: 20px;
+
+    padding: 22px 13px;
+
+    border-radius: 13px;
+  }
+
+
+  .pc-contact::before {
+    left: 25px;
+
+    width: 55px;
+  }
+
+
+  .pc-title {
+    margin-bottom: 19px;
+
+    font-size: 21px;
+  }
+
+
+  .pc-grid {
+    grid-template-columns: 1fr !important;
+
+    gap: 9px;
+  }
+
+
+  .pc-tile {
+    padding: 15px;
+
+    border-radius: 9px;
+  }
+
+
+  .pc-tile-head {
+    gap: 10px;
+
+    margin-bottom: 12px;
+  }
+
+
+  .pc-tile-head > i {
+    flex-basis: 36px;
+
+    width: 36px;
+    height: 36px;
+
+    font-size: 12px;
+  }
+
+
+  .pc-tile-head > span {
+    font-size: 12px;
+  }
+
+
+  .pc-call {
+    font-size: 11.5px;
+  }
+
+
+  .pc-email {
+    font-size: 11px;
+  }
+
+
+  .pc-address {
+    font-size: 10px;
+  }
+
+
+  .pc-address strong {
+    font-size: 12px;
+  }
+
+}
+
+
+/* ==========================================================
+   SMALL MOBILE
+========================================================== */
+
+@media (max-width: 360px) {
+
+  .pc-cta {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+  }
+
+
+  .pc-whats,
+  .pc-primary {
+    width: 100%;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   SSK LOGISTICS TOP HEADER
+========================================================== */
+
+.header-top {
+  width: 100%;
+}
+
+
+/* ==========================================================
+   MOBILE - CENTER ALL TOP HEADER DETAILS
+========================================================== */
+
+@media (max-width: 767px) {
+
+  .header-top {
+    padding: 12px 10px !important;
+  }
+
+
+  /* Bootstrap container */
+
+  .header-top .container {
+    width: 100%;
+
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+
+  /* Main wrapper */
+
+  .header-top .container > .d-flex {
+    display: flex !important;
+
+    flex-direction: column !important;
+
+    align-items: center !important;
+    justify-content: center !important;
+
+    width: 100%;
+
+    gap: 8px;
+
+    text-align: center;
+  }
+
+
+  /* Phone + Email wrapper */
+
+  .header-top .container > .d-flex > .d-flex {
+    display: flex !important;
+
+    flex-direction: column !important;
+
+    align-items: center !important;
+    justify-content: center !important;
+
+    width: 100%;
+
+    gap: 5px;
+
+    text-align: center;
+  }
+
+
+  /* Phone + Email */
+
+  .header-top .container > .d-flex > .d-flex a {
+    display: flex !important;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+
+    margin: 0 !important;
+
+    color: #ffffff;
+
+    font-size: 14px;
+
+    line-height: 1.4;
+
+    text-align: center;
+  }
+
+
+  /* Phone / Email icons */
+
+  .header-top
+  .container
+  > .d-flex
+  > .d-flex
+  a i {
+    margin-right: 8px !important;
+
+    font-size: 14px;
+  }
+
+
+  /* ========================================================
+     SOCIAL ICON WRAPPER
+  ======================================================== */
+
+  .header-top .container > .d-flex > div:last-child {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+
+    gap: 18px;
+
+    margin-top: 3px;
+
+    text-align: center;
+  }
+
+
+  /* Social links */
+
+  .header-top
+  .container
+  > .d-flex
+  > div:last-child
+  a {
+    display: inline-flex;
+
+    align-items: center;
+    justify-content: center;
+
+    margin: 0 !important;
+
+    color: #ffffff;
+
+    text-decoration: none;
+  }
+
+
+  /* Social icons */
+
+  .header-top
+  .container
+  > .d-flex
+  > div:last-child
+  a i {
+    font-size: 16px;
+  }
+
+}
+
+
+
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 0rem !important;
+        padding-left: 0rem !important;
+    }
+  }

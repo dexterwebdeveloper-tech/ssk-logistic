@@ -1,0 +1,865 @@
+/* ========================================================
+   SSK LOGISTICS ENQUIRY
+======================================================== */
+
+.ssk-enquiry-section {
+  --ssk-orange: #ED1C24;
+  --ssk-orange-dark: #233F88;
+  --ssk-orange-light: #fff3e6;
+
+  --ssk-dark: #171713;
+  --ssk-dark-light: #25251f;
+
+  --ssk-text: #6d6c66;
+  --ssk-border: #e9e5dd;
+  --ssk-bg: #f8f6f1;
+
+  position: relative;
+  overflow: hidden;
+
+  padding: 10px 10px;
+
+  background:
+    radial-gradient(
+      circle at 0% 0%,
+      rgba(233, 120, 0, 0.09),
+      transparent 25%
+    ),
+    #f8f6f1;
+
+  font-family: "Poppins", sans-serif;
+}
+
+.ssk-enquiry-container {
+  position: relative;
+  z-index: 2;
+
+  display: grid;
+
+  grid-template-columns: 0.8fr 1.2fr;
+
+  width: 100%;
+  max-width: 1320px;
+
+  margin: 0 auto;
+
+  overflow: hidden;
+
+  background: #fff;
+
+  border-radius: 25px;
+
+  box-shadow:
+    0 25px 80px rgba(30, 25, 17, 0.1);
+}
+
+
+/* ========================================================
+   LEFT SIDE
+======================================================== */
+
+.ssk-enquiry-info {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+
+  padding: 58px 50px;
+
+  overflow: hidden;
+
+  background:
+    radial-gradient(
+      circle at 100% 100%,
+      rgba(233, 120, 0, 0.14),
+      transparent 35%
+    ),
+    var(--ssk-dark);
+}
+
+
+/* Orange top line */
+
+.ssk-enquiry-info::before {
+  content: "";
+
+  position: absolute;
+
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 5px;
+
+  background: var(--ssk-orange);
+}
+
+
+.ssk-enquiry-eyebrow {
+  display: flex;
+
+  align-items: center;
+
+  gap: 10px;
+
+  margin-bottom: 20px;
+
+  color: var(--ssk-orange);
+
+  font-size: 11px;
+  font-weight: 700;
+
+  letter-spacing: 2px;
+}
+
+
+.ssk-enquiry-eyebrow span {
+  width: 32px;
+  height: 2px;
+
+  background: var(--ssk-orange);
+}
+
+
+.ssk-enquiry-info h2 {
+  max-width: 470px;
+
+  margin: 0;
+
+  color: #fff;
+
+  font-size: clamp(38px, 4vw, 55px);
+  font-weight: 700;
+
+  line-height: 1.12;
+
+  letter-spacing: -1.5px;
+}
+
+
+.ssk-enquiry-info h2 strong {
+  display: block;
+
+  color: var(--ssk-orange);
+
+  font-weight: 700;
+}
+
+
+.ssk-enquiry-description {
+  max-width: 480px;
+
+  margin: 24px 0 28px;
+
+  color: #b8b7b0;
+
+  font-size: 14px;
+  line-height: 1.85;
+}
+
+
+/* ========================================================
+   BENEFITS
+======================================================== */
+
+.ssk-enquiry-benefits {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 12px;
+
+  margin-bottom: 35px;
+}
+
+
+.ssk-enquiry-benefit {
+  display: flex;
+
+  align-items: center;
+
+  gap: 11px;
+
+  color: #f0efea;
+
+  font-size: 12px;
+  font-weight: 500;
+}
+
+
+.ssk-enquiry-benefit > span {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  width: 23px;
+  height: 23px;
+
+  color: #fff;
+
+  font-size: 9px;
+
+  background: rgba(233, 120, 0, 0.18);
+
+  border: 1px solid rgba(233, 120, 0, 0.45);
+
+  border-radius: 50%;
+}
+
+
+/* ========================================================
+   CONTACT CARD
+======================================================== */
+
+.ssk-enquiry-contact {
+  display: flex;
+
+  align-items: center;
+
+  gap: 16px;
+
+  margin-top: 5px;
+
+  padding: 18px;
+
+  background:
+    linear-gradient(
+      135deg,
+      var(--ssk-orange),
+      #233F88
+    );
+
+  border-radius: 13px;
+}
+
+
+.ssk-contact-icon {
+  flex: 0 0 52px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  width: 52px;
+  height: 52px;
+
+  color: #fff;
+
+  font-size: 25px;
+
+  background: rgba(0, 0, 0, 0.14);
+
+  border-radius: 11px;
+}
+
+
+.ssk-enquiry-contact small {
+  display: block;
+
+  margin-bottom: 2px;
+
+  color: rgba(255, 255, 255, 0.75);
+
+  font-size: 8px;
+  font-weight: 700;
+
+  letter-spacing: 1.2px;
+}
+
+
+.ssk-enquiry-contact span {
+  display: block;
+
+  color: #fff;
+
+  font-size: 11px;
+}
+
+
+.ssk-enquiry-contact a {
+  display: inline-block;
+
+  margin-top: 2px;
+
+  color: #fff;
+
+  font-size: 17px;
+  font-weight: 700;
+
+  text-decoration: none;
+}
+
+
+/* ========================================================
+   LOGISTICS VISUAL
+======================================================== */
+
+.ssk-logistics-visual {
+  display: flex;
+
+  align-items: center;
+
+  margin-top: auto;
+  padding-top: 50px;
+}
+
+
+.ssk-visual-icon {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  width: 48px;
+  height: 48px;
+
+  color: var(--ssk-orange);
+
+  font-size: 21px;
+
+  border: 1px solid rgba(233, 120, 0, 0.4);
+
+  border-radius: 50%;
+}
+
+
+.ssk-visual-icon.small {
+  width: 33px;
+  height: 33px;
+
+  font-size: 13px;
+
+  background: var(--ssk-orange);
+
+  color: #fff;
+}
+
+
+.ssk-visual-line {
+  width: 55px;
+
+  margin: 0 8px;
+
+  border-top: 1px dashed rgba(233, 120, 0, 0.5);
+}
+
+
+.ssk-visual-text {
+  margin-left: 12px;
+}
+
+
+.ssk-visual-text small {
+  display: block;
+
+  color: #77766f;
+
+  font-size: 8px;
+
+  letter-spacing: 1.5px;
+}
+
+
+.ssk-visual-text strong {
+  color: #fff;
+
+  font-size: 11px;
+  font-weight: 600;
+}
+
+
+/* ========================================================
+   RIGHT FORM
+======================================================== */
+
+.ssk-enquiry-form-wrapper {
+  padding: 55px 55px 48px;
+
+  background: #fff;
+}
+
+
+.ssk-form-top {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 30px;
+
+  margin-bottom: 35px;
+}
+
+
+.ssk-form-top span {
+  display: block;
+
+  margin-bottom: 5px;
+
+  color: var(--ssk-orange);
+
+  font-size: 10px;
+  font-weight: 700;
+
+  letter-spacing: 2px;
+}
+
+
+.ssk-form-top h3 {
+  margin: 0;
+
+  color: var(--ssk-dark);
+
+  font-size: 30px;
+  font-weight: 700;
+
+  letter-spacing: -0.6px;
+}
+
+
+.ssk-form-top-icon {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  width: 60px;
+  height: 60px;
+
+  color: var(--ssk-orange);
+
+  font-size: 23px;
+
+  background: var(--ssk-orange-light);
+
+  border-radius: 50%;
+}
+
+
+/* ========================================================
+   FORM GRID
+======================================================== */
+
+.ssk-enquiry-form {
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+
+  gap: 21px 18px;
+}
+
+
+.ssk-form-group label {
+  display: block;
+
+  margin-bottom: 8px;
+
+  color: #363630;
+
+  font-size: 11px;
+  font-weight: 600;
+}
+
+
+.ssk-form-group label span {
+  color: var(--ssk-orange);
+}
+
+
+.ssk-full-field {
+  grid-column: 1 / -1;
+}
+
+
+/* ========================================================
+   INPUTS
+======================================================== */
+
+.ssk-input-box {
+  display: flex;
+
+  align-items: center;
+
+  min-height: 57px;
+
+  padding: 0 17px;
+
+  background: #faf9f7;
+
+  border: 1px solid var(--ssk-border);
+
+  border-radius: 9px;
+
+  transition:
+    border-color 0.25s ease,
+    box-shadow 0.25s ease,
+    background 0.25s ease;
+}
+
+
+.ssk-input-box:focus-within {
+  background: #fff;
+
+  border-color: var(--ssk-orange);
+
+  box-shadow:
+    0 0 0 3px rgba(233, 120, 0, 0.08);
+}
+
+
+.ssk-input-box > svg {
+  flex: 0 0 17px;
+
+  margin-right: 12px;
+
+  color: var(--ssk-orange);
+
+  font-size: 14px;
+}
+
+
+.ssk-input-box input,
+.ssk-input-box select {
+  width: 100%;
+
+  padding: 0;
+
+  color: #373631;
+
+  font-family: inherit;
+  font-size: 12px;
+
+  background: transparent;
+
+  border: none;
+  outline: none;
+}
+
+
+.ssk-input-box input::placeholder {
+  color: #aaa8a1;
+}
+
+
+.ssk-input-box select {
+  cursor: pointer;
+}
+
+
+/* Error */
+
+.ssk-input-box.input-error {
+  border-color: #d83a2f;
+
+  background: #fff8f7;
+}
+
+
+.ssk-error {
+  display: block;
+
+  margin-top: 5px;
+
+  color: #d83a2f;
+
+  font-size: 9px;
+}
+
+
+/* ========================================================
+   TEXTAREA
+======================================================== */
+
+.ssk-textarea-box {
+  padding: 15px 17px;
+
+  background: #faf9f7;
+
+  border: 1px solid var(--ssk-border);
+
+  border-radius: 9px;
+
+  transition: all 0.25s ease;
+}
+
+
+.ssk-textarea-box:focus-within {
+  background: #fff;
+
+  border-color: var(--ssk-orange);
+
+  box-shadow:
+    0 0 0 3px rgba(233, 120, 0, 0.08);
+}
+
+
+.ssk-textarea-box textarea {
+  display: block;
+
+  width: 100%;
+
+  min-height: 95px;
+
+  padding: 0;
+
+  resize: vertical;
+
+  color: #373631;
+
+  font-family: inherit;
+  font-size: 12px;
+
+  background: transparent;
+
+  border: none;
+  outline: none;
+}
+
+
+.ssk-textarea-box textarea::placeholder {
+  color: #aaa8a1;
+}
+
+
+/* ========================================================
+   SUBMIT
+======================================================== */
+
+.ssk-submit-area {
+  margin-top: 5px;
+}
+
+
+.ssk-whatsapp-submit {
+  display: flex;
+
+  align-items: center;
+
+  width: 100%;
+
+  padding: 11px 16px;
+
+  color: #fff;
+
+  font-family: inherit;
+
+  text-align: left;
+
+  cursor: pointer;
+
+  background:
+    linear-gradient(
+      100deg,
+      var(--ssk-orange),
+      #233F88
+    );
+
+  border: none;
+
+  border-radius: 10px;
+
+  box-shadow:
+    0 12px 25px rgba(233, 120, 0, 0.18);
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+
+.ssk-whatsapp-submit:hover {
+  transform: translateY(-2px);
+
+  box-shadow:
+    0 17px 30px rgba(233, 120, 0, 0.25);
+}
+
+
+.ssk-submit-whatsapp {
+  flex: 0 0 45px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  width: 45px;
+  height: 45px;
+
+  margin-right: 13px;
+
+  color: #fff;
+
+  font-size: 21px;
+
+  background: rgba(0, 0, 0, 0.12);
+
+  border-radius: 8px;
+}
+
+
+.ssk-submit-content {
+  display: flex;
+
+  flex: 1;
+
+  flex-direction: column;
+
+  color: #fff;
+
+  font-size: 13px;
+  font-weight: 700;
+}
+
+
+.ssk-submit-content small {
+  margin-bottom: 1px;
+
+  color: rgba(255, 255, 255, 0.7);
+
+  font-size: 7px;
+  font-weight: 600;
+
+  letter-spacing: 1px;
+}
+
+
+.ssk-submit-arrow {
+  margin-right: 7px;
+
+  font-size: 16px;
+
+  transition: transform 0.3s ease;
+}
+
+
+.ssk-whatsapp-submit:hover .ssk-submit-arrow {
+  transform: translateX(5px);
+}
+
+
+.ssk-submit-area > p {
+  margin: 9px 0 0;
+
+  color: #aaa8a1;
+
+  font-size: 9px;
+
+  text-align: center;
+}
+
+
+/* ========================================================
+   BACKGROUND
+======================================================== */
+
+.ssk-enquiry-circle {
+  position: absolute;
+
+  border-radius: 50%;
+
+  pointer-events: none;
+}
+
+
+.circle-a {
+  top: -170px;
+  right: -120px;
+
+  width: 400px;
+  height: 400px;
+
+  border: 70px solid rgba(233, 120, 0, 0.035);
+}
+
+
+.circle-b {
+  bottom: -180px;
+  left: -150px;
+
+  width: 350px;
+  height: 350px;
+
+  background: rgba(233, 120, 0, 0.025);
+}
+
+
+/* ========================================================
+   RESPONSIVE
+======================================================== */
+
+@media (max-width: 1050px) {
+
+  .ssk-enquiry-container {
+    grid-template-columns: 1fr;
+  }
+
+  .ssk-enquiry-info {
+    padding: 50px;
+  }
+
+  .ssk-logistics-visual {
+    margin-top: 0;
+  }
+
+}
+
+
+@media (max-width: 700px) {
+
+  .ssk-enquiry-section {
+    padding: 65px 15px;
+  }
+
+  .ssk-enquiry-container {
+    border-radius: 16px;
+  }
+
+  .ssk-enquiry-info {
+    padding: 40px 25px;
+  }
+
+  .ssk-enquiry-info h2 {
+    font-size: 38px;
+  }
+
+  .ssk-enquiry-form-wrapper {
+    padding: 38px 22px;
+  }
+
+  .ssk-form-top h3 {
+    font-size: 25px;
+  }
+
+  .ssk-form-top-icon {
+    display: none;
+  }
+
+  .ssk-enquiry-form {
+    grid-template-columns: 1fr;
+  }
+
+  .ssk-full-field {
+    grid-column: auto;
+  }
+
+}
+
+
+@media (max-width: 450px) {
+
+  .ssk-logistics-visual {
+    display: none;
+  }
+
+  .ssk-enquiry-contact {
+    align-items: flex-start;
+  }
+
+  .ssk-form-top h3 {
+    font-size: 23px;
+  }
+
+}
