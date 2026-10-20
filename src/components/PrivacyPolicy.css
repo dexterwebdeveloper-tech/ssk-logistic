@@ -47,9 +47,9 @@
   background:
     linear-gradient(
       115deg,
-      #171713 0%,
-      #1c1c17 60%,
-      #211b14 100%
+      #2E3953 0%,
+      #2E3953 60%,
+      #2E3953 100%
     );
 }
 
@@ -113,7 +113,7 @@
 
   color: var(--ssk-orange);
 
-  font-size: 9px;
+  font-size: 15px;
   font-weight: 700;
 
   letter-spacing: 2px;
@@ -294,7 +294,7 @@
 
   padding: 28px 25px;
 
-  background: var(--ssk-dark);
+  background: #2E3953;
 
   border-radius: 14px;
 }
@@ -345,7 +345,7 @@
 
   color: var(--ssk-orange);
 
-  font-size: 8px;
+  font-size: 14px;
   font-weight: 700;
 
   letter-spacing: 1.6px;
@@ -375,7 +375,7 @@
 
   color: #9d9b94;
 
-  font-size: 9.5px;
+  font-size: 16px;
 
   line-height: 1.7;
 }
@@ -406,7 +406,7 @@
 
   color: #dddcd6;
 
-  font-size: 9px;
+  font-size: 16px;
 }
 
 
@@ -453,7 +453,7 @@
 
   color: var(--ssk-orange);
 
-  font-size: 7px;
+  font-size: 14px;
   font-weight: 700;
 
   letter-spacing: 1.5px;
@@ -475,7 +475,7 @@
 
   color: var(--ssk-text);
 
-  font-size: 8.5px;
+  font-size: 16px;
 
   line-height: 1.5;
 }
@@ -523,7 +523,7 @@
 
   color: #a09d95;
 
-  font-size: 6px;
+  font-size: 12px;
   font-weight: 600;
 
   letter-spacing: 1px;
@@ -537,7 +537,7 @@
 
   color: var(--ssk-dark);
 
-  font-size: 8.5px;
+  font-size: 16px;
   font-weight: 600;
 }
 
@@ -578,7 +578,7 @@
 
   color: var(--ssk-orange);
 
-  font-size: 8px;
+  font-size: 14px;
   font-weight: 700;
 
   letter-spacing: 1.5px;
@@ -600,7 +600,7 @@
 
   color: var(--ssk-text);
 
-  font-size: 10px;
+  font-size: 14px;
 
   line-height: 1.75;
 }
@@ -701,7 +701,7 @@
 
   color: #c5c1b9;
 
-  font-size: 7px;
+  font-size: 13px;
   font-weight: 700;
 
   letter-spacing: 1px;
@@ -713,7 +713,7 @@
 
   color: var(--ssk-dark);
 
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 700;
 }
 
@@ -727,7 +727,7 @@
 
   color: var(--ssk-text);
 
-  font-size: 9px;
+  font-size: 15px;
 
   line-height: 1.7;
 }
@@ -752,7 +752,7 @@
     linear-gradient(
       110deg,
       var(--ssk-orange),
-      #f18b20
+      #2E3953
     );
 
   border-radius: 11px;
@@ -775,7 +775,7 @@
 
   color: rgba(255, 255, 255, 0.7);
 
-  font-size: 7px;
+  font-size: 15px;
   font-weight: 700;
 
   letter-spacing: 1.5px;
@@ -797,7 +797,7 @@
 
   color: rgba(255, 255, 255, 0.8);
 
-  font-size: 8.5px;
+  font-size: 15px;
 
   line-height: 1.5;
 }

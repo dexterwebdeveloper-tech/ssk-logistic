@@ -92,14 +92,14 @@ const Expertisehome = () => {
               OUR EXPERTISE
             </div>
 
-            <h2>
+            <h2 className="text-dark">
               Experience That Keeps
               <span> Business Moving.</span>
             </h2>
           </div>
 
           <div className="ssk-expertise-header-right">
-            <p>
+            <p className="text-dark">
               From dedicated truck movement to multi-city distribution,
               SSK Logistics combines transportation experience, operational
               planning and dependable service to support modern supply chains.
@@ -107,7 +107,7 @@ const Expertisehome = () => {
 
             <div className="ssk-expertise-mini-line">
               <FaLocationDot />
-              <span>Reliable Logistics Across India</span>
+              <span className="text-dark">Reliable Logistics Across India</span>
             </div>
           </div>
 
@@ -145,7 +145,7 @@ const Expertisehome = () => {
               <h3>{item.title}</h3>
 
               {/* Description */}
-              <p>{item.description}</p>
+              <p className="text-white">{item.description}</p>
 
               {/* Bottom decoration */}
               <div className="ssk-expertise-card-bottom">

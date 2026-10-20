@@ -150,7 +150,7 @@
 
   color: var(--ssk-text);
 
-  font-size: 12px;
+  font-size: 16px;
 
   line-height: 1.85;
 }
@@ -363,8 +363,8 @@
   background:
     linear-gradient(
       145deg,
-      #191916,
-      #25251f
+      #2E3953,
+      #2E3953
     );
 
   border-radius: 20px;
@@ -978,7 +978,7 @@
 
 
   .ssk-network__description {
-    font-size: 10.5px;
+    font-size: 16px;
   }
 
 

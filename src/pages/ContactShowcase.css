@@ -105,9 +105,9 @@
 
 
 :root {
-  --brand-orange: #E3790F;
-  --brand-yellow: #E3790F;
-  --brand-red: #E3790F;
+  --brand-orange: #EE1B25;
+  --brand-yellow: #EE1B25;
+  --brand-red: #EE1B25;
 }
 
 .contactCard::before {

@@ -595,10 +595,10 @@ a{
 
 .topPlaces {
   --ssk-orange: #ED1C24;
-  --ssk-orange-dark: #c96300;
-  --ssk-dark: #171713;
+  --ssk-orange-dark: #233F88;
+  --ssk-dark: #233F88;
   --ssk-dark-soft: #24241f;
-  --ssk-cream: #fff6eb;
+  --ssk-cream: #475986;
   --ssk-cream-dark: #f6eadc;
   --ssk-text: #5f5b54;
 
@@ -730,7 +730,7 @@ a{
     linear-gradient(
       105deg,
       var(--ssk-dark) 0%,
-      #20201b 100%
+      #233F88 100%
     );
 
   border: 1px solid rgba(233, 120, 0, 0.16);
@@ -763,10 +763,10 @@ a{
   background:
     linear-gradient(
       105deg,
-      #fff2e3 0%,
-      #f8e6d0 100%
+      #233F88 0%,
+      #233F88 100%
     );
-
+color: white !important;
   border-color: #ead0b1 !important;
 }
 
@@ -822,7 +822,7 @@ a{
   background:
     linear-gradient(
       135deg,
-      #f58a1a,
+      #233F88,
       var(--ssk-orange-dark)
     );
 
@@ -882,9 +882,9 @@ a{
 .topPlaces .placeDesc {
   margin: 0;
 
-  color: #aaa89f;
+  color: #f1f1ed;
 
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 400;
 
   line-height: 1.7;
@@ -896,12 +896,12 @@ a{
 ========================================================== */
 
 .topPlaces .placeCard:nth-of-type(even) .placeTitle {
-  color: var(--ssk-dark);
+  color: white;
 }
 
 
 .topPlaces .placeCard:nth-of-type(even) .placeDesc {
-  color: #70685f;
+  color: #f7f4f1;
 }
 
 
@@ -1160,15 +1160,16 @@ a{
    SSK LOGISTICS - SERVICES LIST
 ========================================================== */
 
+
 .cab-service-list {
   --ssk-orange: #ED1C24;
-  --ssk-orange-dark: #c96300;
-  --ssk-dark: #171713;
-  --ssk-dark-soft: #24241f;
-  --ssk-cream: #fff5e9;
-  --ssk-cream-dark: #f6e7d5;
-  --ssk-text: #6c675f;
-  --ssk-border: #eadac8;
+  --ssk-orange-dark: #C91620;
+  --ssk-dark: #172B45;
+  --ssk-dark-soft: #294563;
+  --ssk-cream: #F5FAFF;
+  --ssk-cream-dark: #E4F2FF;
+  --ssk-text: #60758A;
+  --ssk-border: #CFE7F8;
 
   position: relative;
 
@@ -1185,19 +1186,19 @@ a{
   background:
     radial-gradient(
       circle at 0% 100%,
-      rgba(233, 120, 0, 0.12),
+      rgba(237, 28, 36, 0.035),
       transparent 30%
     ),
     linear-gradient(
       135deg,
-      #fff8ef 0%,
-      #f7eadb 100%
+      #F5FAFF 0%,
+      #EAF6FF 55%,
+      #E1F1FF 100%
     );
 
   border: 1px solid var(--ssk-border);
   border-radius: 18px;
 }
-
 
 /* Decorative circle */
 
@@ -1212,7 +1213,7 @@ a{
   width: 180px;
   height: 180px;
 
-  border: 35px solid rgba(233, 120, 0, 0.06);
+  border: 35px solid rgba(237, 28, 36, 0.035);
   border-radius: 50%;
 
   pointer-events: none;
@@ -1222,6 +1223,7 @@ a{
 /* ==========================================================
    SERVICE ROW
 ========================================================== */
+
 
 .cab-service-row {
   position: relative;
@@ -1243,11 +1245,11 @@ a{
   background:
     linear-gradient(
       100deg,
-      #fffaf4 0%,
-      #fff2e2 100%
+      #F8FCFF 0%,
+      #EAF6FF 100%
     );
 
-  border: 1px solid #ead8c3;
+  border: 1px solid #CFE7F8;
   border-radius: 11px;
 
   transition:
@@ -1258,7 +1260,7 @@ a{
 }
 
 
-/* Orange left bar */
+/* Subtle Red Left Bar */
 
 .cab-service-row::before {
   content: "";
@@ -1283,7 +1285,7 @@ a{
 }
 
 
-/* Number watermark */
+/* Number Watermark */
 
 .cab-service-row::after {
   counter-increment: service-counter;
@@ -1295,7 +1297,7 @@ a{
   right: 85px;
   bottom: -8px;
 
-  color: rgba(23, 23, 19, 0.035);
+  color: rgba(23, 43, 69, 0.045);
 
   font-size: 60px;
   font-weight: 800;
@@ -1306,9 +1308,12 @@ a{
 }
 
 
+/* Service Counter */
+
 .cab-service-list {
   counter-reset: service-counter;
 }
+
 
 
 /* ==========================================================
@@ -1377,7 +1382,7 @@ a{
 
   color: var(--ssk-text);
 
-  font-size: 11px;
+  font-size: 16px;
   font-weight: 400;
 
   line-height: 1.7;
@@ -1441,7 +1446,7 @@ a{
     linear-gradient(
       105deg,
       var(--ssk-dark) 0%,
-      #25251f 100%
+      #233F88 100%
     );
 
   border-color: rgba(233, 120, 0, 0.18);
@@ -1664,17 +1669,20 @@ a{
 
 /* ==========================================================
    SSK LOGISTICS - KEYWORD GRID
+   Premium Light Blue + Navy Blue + Minimal Red
    Desktop: 2 Items Per Row
    Mobile: 1 Item Per Row
 ========================================================== */
 
 .keyword-grid {
   --ssk-orange: #ED1C24;
-  --ssk-orange-dark: #c96300;
-  --ssk-dark: #171713;
-  --ssk-cream: #fff5e8;
-  --ssk-cream-dark: #f7e8d4;
-  --ssk-text: #56534d;
+  --ssk-orange-dark: #C91620;
+  --ssk-dark: #172B45;
+  --ssk-dark-soft: #294563;
+  --ssk-cream: #F8FCFF;
+  --ssk-cream-dark: #EAF6FF;
+  --ssk-text: #60758A;
+  --ssk-border: #CFE7F8;
 
   display: grid;
 
@@ -1691,11 +1699,12 @@ a{
   background:
     linear-gradient(
       135deg,
-      #fff8ef 0%,
-      #f7ead9 100%
+      #F5FAFF 0%,
+      #EAF6FF 55%,
+      #E1F1FF 100%
     );
 
-  border: 1px solid #ead8c1;
+  border: 1px solid var(--ssk-border);
   border-radius: 16px;
 }
 
@@ -1727,7 +1736,7 @@ a{
 
   background: var(--ssk-cream);
 
-  border: 1px solid #ead7bf;
+  border: 1px solid #CFE7F8;
   border-radius: 9px;
 
   overflow: hidden;
@@ -1741,7 +1750,9 @@ a{
 }
 
 
-/* Small orange top line */
+/* ==========================================================
+   SMALL RED TOP LINE
+========================================================== */
 
 .keyword-item::before {
   content: "";
@@ -1761,26 +1772,26 @@ a{
 
 
 /* ==========================================================
-   ALTERNATE BLACK ITEM
+   ALTERNATE NAVY BLUE ITEM
 ========================================================== */
 
 .keyword-item:nth-child(4n + 2),
 .keyword-item:nth-child(4n + 3) {
-  color: #ffffff;
+  color: #FFFFFF;
 
   background:
     linear-gradient(
       110deg,
-      #171713,
-      #272720
+      #172B45 0%,
+      #294563 100%
     );
 
-  border-color: #303029;
+  border-color: #365471;
 }
 
 
 /* ==========================================================
-   BULLET
+   BULLET - RED ACCENT
 ========================================================== */
 
 .keyword-bullet {
@@ -1794,7 +1805,7 @@ a{
   width: 28px;
   height: 28px;
 
-  color: #ffffff;
+  color: #FFFFFF;
 
   font-size: 15px;
   font-weight: 700;
@@ -1804,7 +1815,7 @@ a{
   border-radius: 7px;
 
   box-shadow:
-    0 5px 12px rgba(233, 120, 0, 0.2);
+    0 5px 12px rgba(237, 28, 36, 0.12);
 
   transition:
     transform 0.3s ease,
@@ -1813,11 +1824,11 @@ a{
 
 
 /* ==========================================================
-   HOVER
+   HOVER EFFECT
 ========================================================== */
 
 .keyword-item:hover {
-  color: #ffffff;
+  color: #FFFFFF;
 
   background: var(--ssk-dark);
 
@@ -1826,7 +1837,7 @@ a{
   transform: translateY(-3px);
 
   box-shadow:
-    0 10px 22px rgba(23, 23, 19, 0.1);
+    0 10px 22px rgba(23, 43, 69, 0.12);
 }
 
 
@@ -1842,16 +1853,20 @@ a{
 }
 
 
-/* Black items hover */
+/* ==========================================================
+   NAVY BLUE ITEMS HOVER
+========================================================== */
 
 .keyword-item:nth-child(4n + 2):hover,
 .keyword-item:nth-child(4n + 3):hover {
   background:
     linear-gradient(
       110deg,
-      #24241f,
-      #171713
+      #294563 0%,
+      #172B45 100%
     );
+
+  border-color: var(--ssk-orange);
 }
 
 
@@ -1922,9 +1937,8 @@ a{
   }
 
 
-  /*
-     Reset alternate pattern for mobile:
-     cream / black / cream / black
+  /* Reset alternate pattern for mobile:
+     light blue / navy / light blue / navy
   */
 
   .keyword-item:nth-child(4n + 2),
@@ -1933,28 +1947,42 @@ a{
 
     background: var(--ssk-cream);
 
-    border-color: #ead7bf;
+    border-color: #CFE7F8;
   }
 
 
   .keyword-item:nth-child(even) {
-    color: #ffffff;
+    color: #FFFFFF;
 
     background:
       linear-gradient(
         110deg,
-        #171713,
-        #272720
+        #172B45 0%,
+        #294563 100%
       );
 
-    border-color: #303029;
+    border-color: #365471;
   }
 
 
   .keyword-item:hover {
-    color: #ffffff;
+    color: #FFFFFF;
 
     background: var(--ssk-dark);
+
+    border-color: var(--ssk-orange);
+  }
+
+
+  /* Keep navy hover on even items */
+
+  .keyword-item:nth-child(even):hover {
+    background:
+      linear-gradient(
+        110deg,
+        #294563 0%,
+        #172B45 100%
+      );
 
     border-color: var(--ssk-orange);
   }
@@ -1979,18 +2007,22 @@ a{
 
 
 
-
 /* ==========================================================
    WHY CHOOSE SSK LOGISTICS
    ALL CARDS SAME SIZE
 ========================================================== */
 
+/* ==========================================================
+   WHY CHOOSE SECTION
+   Premium Light Blue + Navy Blue + Minimal Red
+========================================================== */
+
 .why-choose-section {
   --ssk-orange: #ED1C24;
-  --ssk-dark: #181815;
-  --ssk-text: #68645d;
-  --ssk-border: #e8dfd4;
-  --ssk-bg: #fbf7f1;
+  --ssk-dark: #172B45;
+  --ssk-text: #60758A;
+  --ssk-border: #CFE7F8;
+  --ssk-bg: #F5FAFF;
 
   position: relative;
 
@@ -2002,12 +2034,16 @@ a{
   background:
     radial-gradient(
       circle at 100% 0%,
-      rgba(233, 120, 0, 0.07),
+      rgba(237, 28, 36, 0.025),
       transparent 25%
     ),
-    var(--ssk-bg);
+    linear-gradient(
+      135deg,
+      #F5FAFF 0%,
+      #EAF6FF 100%
+    );
 
-  border: 1px solid #eee4d8;
+  border: 1px solid var(--ssk-border);
   border-radius: 16px;
 }
 
@@ -2051,7 +2087,7 @@ a{
     linear-gradient(
       90deg,
       var(--ssk-orange) 0 70px,
-      #ddd4ca 70px
+      #CFE7F8 70px
     );
 }
 
@@ -2091,8 +2127,8 @@ a{
   background:
     linear-gradient(
       145deg,
-      #ffffff 0%,
-      #fffaf5 100%
+      #FFFFFF 0%,
+      #F5FAFF 100%
     );
 
   border: 1px solid var(--ssk-border);
@@ -2100,7 +2136,7 @@ a{
   border-radius: 12px;
 
   box-shadow:
-    0 7px 22px rgba(37, 29, 19, 0.045);
+    0 7px 22px rgba(23, 43, 69, 0.045);
 
   transition:
     transform 0.3s ease,
@@ -2110,7 +2146,7 @@ a{
 
 
 /* ==========================================================
-   ORANGE TOP LINE
+   RED TOP LINE
 ========================================================== */
 
 .why-choose-section .bento-card::before,
@@ -2166,9 +2202,9 @@ a{
   font-size: 15px;
   font-weight: 800;
 
-  background: #fff3e5;
+  background: #EAF6FF;
 
-  border: 1px solid #f1d4b4;
+  border: 1px solid #CFE7F8;
 
   border-radius: 10px;
 
@@ -2179,7 +2215,7 @@ a{
 }
 
 
-/* Small black line next to number */
+/* Small Navy Blue Line Next to Number */
 
 .why-choose-section .bento-number::after {
   content: "";
@@ -2229,7 +2265,7 @@ a{
 
   color: var(--ssk-text);
 
-  font-size: 11px;
+  font-size: 15px;
   font-weight: 400;
 
   line-height: 1.75;
@@ -2251,7 +2287,7 @@ a{
   width: 100px;
   height: 100px;
 
-  border: 17px solid rgba(233, 120, 0, 0.035);
+  border: 17px solid rgba(70, 150, 210, 0.055);
 
   border-radius: 50%;
 
@@ -2259,7 +2295,7 @@ a{
 }
 
 
-/* Restore decoration for first card too */
+/* Restore Decoration for First Card Too */
 
 .why-choose-section .bento-card:first-child::after {
   content: "";
@@ -2274,7 +2310,7 @@ a{
   width: 100px;
   height: 100px;
 
-  border: 17px solid rgba(233, 120, 0, 0.035);
+  border: 17px solid rgba(70, 150, 210, 0.055);
 
   border-radius: 50%;
 
@@ -2283,34 +2319,34 @@ a{
 
 
 /* ==========================================================
-   SUBTLE DARK CARD
-   Only every 4th card
+   SUBTLE NAVY BLUE CARD
+   Only Every 4th Card
 ========================================================== */
 
 .why-choose-section .bento-card:nth-child(4n) {
   background:
     linear-gradient(
       135deg,
-      #1c1c18,
-      #25251f
+      #172B45 0%,
+      #294563 100%
     );
 
-  border-color: #303029;
+  border-color: #365471;
 }
 
 
 .why-choose-section .bento-card:nth-child(4n) h4 {
-  color: #ffffff;
+  color: #FFFFFF;
 }
 
 
 .why-choose-section .bento-card:nth-child(4n) p {
-  color: #aaa79f;
+  color: #C8D8E8;
 }
 
 
 .why-choose-section .bento-card:nth-child(4n) .bento-number {
-  color: #ffffff;
+  color: #FFFFFF;
 
   background: var(--ssk-orange);
 
@@ -2321,7 +2357,7 @@ a{
 .why-choose-section
 .bento-card:nth-child(4n)
 .bento-number::after {
-  background: #ffffff;
+  background: #FFFFFF;
 }
 
 
@@ -2332,10 +2368,10 @@ a{
 .why-choose-section .bento-card:hover {
   transform: translateY(-4px);
 
-  border-color: rgba(233, 120, 0, 0.55);
+  border-color: rgba(237, 28, 36, 0.35);
 
   box-shadow:
-    0 15px 32px rgba(36, 27, 17, 0.09);
+    0 15px 32px rgba(23, 43, 69, 0.10);
 }
 
 
@@ -2345,7 +2381,7 @@ a{
 
 
 .why-choose-section .bento-card:hover .bento-number {
-  color: #ffffff;
+  color: #FFFFFF;
 
   background: var(--ssk-orange);
 
@@ -2483,13 +2519,18 @@ a{
    SSK LOGISTICS - FAQ SECTION
 ========================================================== */
 
+/* ==========================================================
+   FAQ SECTION
+   Premium Light Blue + Navy Blue + Minimal Red
+========================================================== */
+
 .twm-faq-section-1 {
   --ssk-orange: #ED1C24;
-  --ssk-orange-dark: #c96300;
-  --ssk-dark: #181815;
-  --ssk-text: #c48a39;
-  --ssk-cream: #e39219;
-  --ssk-border: #cf944c;
+  --ssk-orange-dark: #C91620;
+  --ssk-dark: #172B45;
+  --ssk-text: #60758A;
+  --ssk-cream: #F8FCFF;
+  --ssk-border: #CFE7F8;
 
   position: relative;
   margin-top: 40px;
@@ -2501,13 +2542,13 @@ a{
   background:
     radial-gradient(
       circle at 100% 0%,
-      rgba(233, 120, 0, 0.08),
+      rgba(237, 28, 36, 0.025),
       transparent 24%
     ),
     linear-gradient(
       135deg,
-      #fffaf5 0%,
-      #f8f0e7 100%
+      #F5FAFF 0%,
+      #EAF6FF 100%
     );
 
   border: 1px solid var(--ssk-border);
@@ -2515,7 +2556,7 @@ a{
 }
 
 
-/* remove bootstrap negative row margin inside this section */
+/* Remove Bootstrap Negative Row Margin */
 
 .twm-faq-section-1.row {
   margin-left: 0;
@@ -2534,7 +2575,7 @@ a{
   right: 25px;
   top: -45px;
 
-  color: rgba(233, 120, 0, 0.045);
+  color: rgba(70, 150, 210, 0.065);
 
   font-size: 190px;
   font-weight: 800;
@@ -2568,7 +2609,7 @@ a{
 }
 
 
-/* Small orange label */
+/* Small Red Label */
 
 .twm-faq-info-wrap .section-head::before {
   content: "FREQUENTLY ASKED QUESTIONS";
@@ -2605,7 +2646,7 @@ a{
 }
 
 
-/* Heading underline */
+/* Heading Underline */
 
 .twm-faq-info-wrap .section-head::after {
   content: "";
@@ -2622,7 +2663,7 @@ a{
     linear-gradient(
       90deg,
       var(--ssk-orange) 0 65px,
-      #ddd4c9 65px 100%
+      #CFE7F8 65px 100%
     );
 }
 
@@ -2648,9 +2689,6 @@ a{
 
 /* ==========================================================
    COMMON ACCORDION ITEM SUPPORT
-
-   These selectors support common Bootstrap/FaqSection
-   structures without changing your JSX.
 ========================================================== */
 
 .twm-faq-info .accordion-item,
@@ -2660,14 +2698,14 @@ a{
 
   overflow: hidden;
 
-  background: #ffffff;
+  background: #FFFFFF;
 
-  border: 1px solid #e7ddd1 !important;
+  border: 1px solid #CFE7F8 !important;
 
   border-radius: 10px !important;
 
   box-shadow:
-    0 5px 16px rgba(31, 24, 16, 0.035);
+    0 5px 16px rgba(23, 43, 69, 0.04);
 
   transition:
     border-color 0.3s ease,
@@ -2694,7 +2732,7 @@ a{
 
   line-height: 1.5;
 
-  background: #ffffff;
+  background: #FFFFFF;
 
   border: none;
   box-shadow: none !important;
@@ -2705,7 +2743,7 @@ a{
 }
 
 
-/* Remove Bootstrap blue active color */
+/* Active Accordion */
 
 .twm-faq-info .accordion-button:not(.collapsed) {
   color: var(--ssk-orange);
@@ -2713,15 +2751,15 @@ a{
   background:
     linear-gradient(
       90deg,
-      #fff8f0,
-      #ffffff
+      #EAF6FF 0%,
+      #FFFFFF 100%
     );
 
   box-shadow: none;
 }
 
 
-/* Orange left accent */
+/* Subtle Red Left Accent */
 
 .twm-faq-info .accordion-item::before {
   content: "";
@@ -2749,7 +2787,9 @@ a{
 
 
 .twm-faq-info .accordion-item:hover::before,
-.twm-faq-info .accordion-item:has(.accordion-button:not(.collapsed))::before {
+.twm-faq-info .accordion-item:has(
+  .accordion-button:not(.collapsed)
+)::before {
   height: 65%;
 }
 
@@ -2768,11 +2808,11 @@ a{
 
   margin: 0;
 
-  background-color: #fff1e1;
+  background-color: #EAF6FF;
   background-position: center;
   background-size: 12px;
 
-  border: 1px solid #f1d6b7;
+  border: 1px solid #CFE7F8;
   border-radius: 50%;
 
   transition:
@@ -2781,13 +2821,16 @@ a{
 }
 
 
+/* Active Arrow */
+
 .twm-faq-info
 .accordion-button:not(.collapsed)::after {
-  background-color: var(--ssk-orange);
+  background-color: #D8EDFF;
 
-  border-color: var(--ssk-orange);
+  border-color: #B9DAF2;
 
-  filter: brightness(0) invert(1);
+  /* Preserve Bootstrap Arrow Visibility */
+  filter: none;
 }
 
 
@@ -2806,12 +2849,12 @@ a{
 
   color: var(--ssk-text);
 
-  font-size: 11px;
+  font-size: 14px;
   font-weight: 400;
 
   line-height: 1.8;
 
-  background: #ffffff;
+  background: #FFFFFF;
 }
 
 
@@ -2826,7 +2869,7 @@ a{
 }
 
 
-/* Small orange line before answer */
+/* Small Red Line Before Answer */
 
 .twm-faq-info .accordion-body::before {
   content: "";
@@ -2845,17 +2888,17 @@ a{
 
 
 /* ==========================================================
-   HOVER
+   HOVER EFFECT
 ========================================================== */
 
 .twm-faq-info .accordion-item:hover {
   border-color:
-    rgba(233, 120, 0, 0.4) !important;
+    rgba(237, 28, 36, 0.30) !important;
 
   transform: translateY(-2px);
 
   box-shadow:
-    0 10px 25px rgba(36, 27, 17, 0.07);
+    0 10px 25px rgba(23, 43, 69, 0.09);
 }
 
 
@@ -2866,7 +2909,7 @@ a{
 
 
 /* ==========================================================
-   IF YOUR FaqSection USES .faq-question / .faq-answer
+   FAQ QUESTION / FAQ ANSWER SUPPORT
 ========================================================== */
 
 .twm-faq-info .faq-question {
@@ -2883,7 +2926,7 @@ a{
 
   line-height: 1.5;
 
-  background: #ffffff;
+  background: #FFFFFF;
 
   border: 1px solid var(--ssk-border);
   border-radius: 10px;
@@ -2898,6 +2941,8 @@ a{
   color: var(--ssk-orange);
 
   border-color: var(--ssk-orange);
+
+  background: #F5FAFF;
 }
 
 
@@ -2909,6 +2954,8 @@ a{
   font-size: 11px;
 
   line-height: 1.8;
+
+  background: #FFFFFF;
 }
 
 
@@ -3073,6 +3120,7 @@ a{
 
 
 
+
 /* ==========================================================
    SSK LOGISTICS - ROUTE LIST
 ========================================================== */
@@ -3082,8 +3130,8 @@ a{
   --ssk-orange-dark: #c96300;
   --ssk-dark: #181815;
   --ssk-text: #68635c;
-  --ssk-cream: #fff7ed;
-  --ssk-border: #eadfd2;
+  --ssk-cream: #EBF6FF;
+  --ssk-border: #EBF6FF;
 
   display: grid;
 
@@ -3103,7 +3151,7 @@ a{
       rgba(233, 120, 0, 0.08),
       transparent 28%
     ),
-    #faf6f0;
+    #EBF6FF;
 
   border: 1px solid #eee3d6;
   border-radius: 16px;
@@ -3136,8 +3184,8 @@ a{
   background:
     linear-gradient(
       110deg,
-      #ffffff 0%,
-      #fffaf4 100%
+      #EBF6FF 0%,
+      #EBF6FF 100%
     );
 
   border: 1px solid var(--ssk-border);
@@ -3320,8 +3368,8 @@ a{
   background:
     linear-gradient(
       110deg,
-      #fff4e7 0%,
-      #fbeddb 100%
+      #EBF6FF 0%,
+      #EBF6FF 100%
     );
 
   border-color: #ead3b9;
@@ -3608,14 +3656,19 @@ a{
    Phone -> Email -> Address
 ========================================================== */
 
+/* ==========================================================
+   PC CONTACT SECTION
+   Premium Light Blue + Navy Blue + Minimal Red
+========================================================== */
+
 .pc-contact {
   --ssk-orange: #ED1C24;
-  --ssk-orange-dark: #c96300;
-  --ssk-dark: #191916;
-  --ssk-dark-soft: #24241f;
-  --ssk-cream: #fff7ed;
-  --ssk-text: #68635c;
-  --ssk-border: #eadbca;
+  --ssk-orange-dark: #C91620;
+  --ssk-dark: #172B45;
+  --ssk-dark-soft: #294563;
+  --ssk-cream: #F8FCFF;
+  --ssk-text: #60758A;
+  --ssk-border: #CFE7F8;
 
   position: relative;
 
@@ -3629,23 +3682,26 @@ a{
   background:
     radial-gradient(
       circle at 100% 0%,
-      rgba(233, 120, 0, 0.11),
+      rgba(237, 28, 36, 0.025),
       transparent 28%
     ),
     linear-gradient(
       145deg,
-      #181815,
-      #22221d
+      #F5FAFF 0%,
+      #EAF6FF 100%
     );
 
+  border: 1px solid var(--ssk-border);
   border-radius: 18px;
 
   box-shadow:
-    0 15px 35px rgba(23, 23, 19, 0.13);
+    0 15px 35px rgba(23, 43, 69, 0.07);
 }
 
 
-/* orange line top */
+/* ==========================================================
+   SUBTLE RED TOP LINE
+========================================================== */
 
 .pc-contact::before {
   content: "";
@@ -3674,7 +3730,7 @@ a{
   margin: 0 0 25px;
   padding-bottom: 14px;
 
-  color: #ffffff;
+  color: var(--ssk-dark);
 
   font-size: 27px;
   font-weight: 700;
@@ -3701,14 +3757,12 @@ a{
 
 
 /* ==========================================================
-   IMPORTANT:
-   VERTICAL GRID
+   VERTICAL GRID - ONE ITEM PER ROW
 ========================================================== */
 
 .pc-grid {
   display: grid !important;
 
-  /* ONE ITEM PER ROW */
   grid-template-columns: 1fr !important;
 
   gap: 12px;
@@ -3717,7 +3771,7 @@ a{
 }
 
 
-/* Reset old grid positioning */
+/* Reset Old Grid Positioning */
 
 .pc-grid .pc-tile,
 .pc-grid .pc-tile:nth-child(1),
@@ -3746,16 +3800,16 @@ a{
   background:
     linear-gradient(
       120deg,
-      #fffaf4,
-      #fff3e5
+      #FFFFFF 0%,
+      #F5FAFF 100%
     );
 
-  border: 1px solid rgba(233, 120, 0, 0.17);
+  border: 1px solid var(--ssk-border);
 
   border-radius: 11px;
 
   box-shadow:
-    0 5px 15px rgba(0, 0, 0, 0.04);
+    0 5px 15px rgba(23, 43, 69, 0.04);
 
   transition:
     transform 0.3s ease,
@@ -3764,7 +3818,7 @@ a{
 }
 
 
-/* small orange top line */
+/* Small Red Top Line */
 
 .pc-tile::before {
   content: "";
@@ -3800,7 +3854,7 @@ a{
 }
 
 
-/* icon */
+/* Icon */
 
 .pc-tile-head > i {
   flex: 0 0 40px;
@@ -3813,7 +3867,7 @@ a{
   width: 40px;
   height: 40px;
 
-  color: #ffffff;
+  color: #FFFFFF;
 
   font-size: 14px;
 
@@ -3822,11 +3876,11 @@ a{
   border-radius: 9px;
 
   box-shadow:
-    0 6px 14px rgba(233, 120, 0, 0.2);
+    0 6px 14px rgba(237, 28, 36, 0.12);
 }
 
 
-/* heading */
+/* Heading */
 
 .pc-tile-head > span {
   min-width: 0;
@@ -3875,7 +3929,7 @@ a{
 }
 
 
-/* orange dot */
+/* Small Red Dot */
 
 .pc-call::before {
   content: "";
@@ -3915,7 +3969,7 @@ a{
 }
 
 
-/* WhatsApp */
+/* WhatsApp Button */
 
 .pc-whats {
   display: inline-flex;
@@ -3929,14 +3983,14 @@ a{
 
   padding: 9px 14px;
 
-  color: #ffffff !important;
+  color: #FFFFFF !important;
 
   font-size: 10px;
   font-weight: 700;
 
   text-decoration: none !important;
 
-  background: #218c4b;
+  background: #218C4B;
 
   border-radius: 7px;
 
@@ -3947,22 +4001,22 @@ a{
 
 
 .pc-whats i {
-  color: #ffffff;
+  color: #FFFFFF;
 
   font-size: 14px;
 }
 
 
 .pc-whats:hover {
-  color: #ffffff;
+  color: #FFFFFF;
 
-  background: #19793e;
+  background: #19793E;
 
   transform: translateY(-2px);
 }
 
 
-/* Call */
+/* Call Button */
 
 .pc-primary {
   display: inline-flex;
@@ -3974,7 +4028,7 @@ a{
 
   padding: 9px 17px;
 
-  color: #ffffff !important;
+  color: #FFFFFF !important;
 
   font-size: 10px;
   font-weight: 700;
@@ -3992,7 +4046,7 @@ a{
 
 
 .pc-primary:hover {
-  color: #ffffff;
+  color: #FFFFFF;
 
   background: var(--ssk-orange);
 
@@ -4020,10 +4074,7 @@ a{
 
   text-decoration: none;
 
-  /*
-     Prevent the ugly letter-by-letter breaking
-     visible in your screenshot.
-  */
+  /* Prevent Letter-by-Letter Breaking */
 
   word-break: normal;
   overflow-wrap: anywhere;
@@ -4037,7 +4088,7 @@ a{
 }
 
 
-/* underline */
+/* Red Underline */
 
 .pc-email::after {
   content: "";
@@ -4103,8 +4154,8 @@ a{
   background:
     linear-gradient(
       120deg,
-      #ffffff,
-      #f8eee2
+      #FFFFFF 0%,
+      #EAF6FF 100%
     );
 }
 
@@ -4116,10 +4167,10 @@ a{
 .pc-tile:hover {
   transform: translateY(-3px);
 
-  border-color: rgba(233, 120, 0, 0.55);
+  border-color: rgba(237, 28, 36, 0.30);
 
   box-shadow:
-    0 10px 22px rgba(0, 0, 0, 0.09);
+    0 10px 22px rgba(23, 43, 69, 0.10);
 }
 
 
@@ -4149,12 +4200,8 @@ a{
   }
 
 
-  /*
-    STILL ONE COLUMN:
-    Phone
-    Email
-    Address
-  */
+  /* Still One Column:
+     Phone / Email / Address */
 
   .pc-grid {
     grid-template-columns: 1fr !important;
@@ -4269,6 +4316,7 @@ a{
   }
 
 }
+
 
 
 

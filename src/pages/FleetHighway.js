@@ -3,11 +3,12 @@ import React from "react";
 import "../css/FleetHighway.css";
 
 const cars = [
-  "/images/Galleryy/9.jpg",
-  "/images/Galleryy/1.jpg",
-  "/images/Galleryy/2.jpg",
-  "/images/Galleryy/3.jpg",
-  "/images/Galleryy/4.jpg",
+  "/images/gallery/1.jpeg",
+  "/images/gallery/6.jpeg",
+  "/images/gallery/3.jpeg",
+  "/images/gallery/4.jpeg",
+  "/images/gallery/5.jpeg",
+
 ];
 
 const FleetHighway = () => {

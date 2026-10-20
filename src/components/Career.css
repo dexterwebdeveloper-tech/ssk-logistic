@@ -121,7 +121,7 @@
 
   color: var(--ssk-text);
 
-  font-size: 13px;
+  font-size: 16px;
 
   line-height: 1.7;
 }
@@ -285,7 +285,7 @@
 
   color: var(--ssk-dark);
 
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 700;
 
   line-height: 1.35;
@@ -312,7 +312,7 @@
 
   color: #89867f;
 
-  font-size: 8px;
+  font-size: 14px;
 }
 
 
@@ -502,7 +502,7 @@
 
   color: #89867f;
 
-  font-size: 8.5px;
+  font-size: 15px;
 
   line-height: 1.45;
 }
@@ -571,7 +571,7 @@
 
   color: var(--ssk-orange);
 
-  font-size: 8px;
+  font-size: 15px;
   font-weight: 700;
 
   letter-spacing: 2px;
@@ -595,7 +595,7 @@
 
   color: #89867f;
 
-  font-size: 10px;
+  font-size: 16px;
 }
 
 
@@ -617,7 +617,7 @@
 
   color: #3e3c37;
 
-  font-size: 9px;
+  font-size: 13px;
   font-weight: 600;
 }
 
@@ -808,7 +808,7 @@
 
   color: #403e39;
 
-  font-size: 9px;
+  font-size: 15px;
   font-weight: 600;
 
   text-overflow: ellipsis;
@@ -824,7 +824,7 @@
 
   color: var(--ssk-orange);
 
-  font-size: 7px;
+  font-size: 15px;
   font-weight: 600;
 }
 
@@ -954,7 +954,7 @@
 
   color: #9c9991;
 
-  font-size: 7.5px;
+  font-size: 10px;
 
   line-height: 1.5;
 

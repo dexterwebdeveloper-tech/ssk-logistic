@@ -4,7 +4,7 @@
 
 .ssk-about-page {
   --ssk-orange: #ED1C24;
-  --ssk-orange-dark: #c96300;
+  --ssk-orange-dark: #002A79;
   --ssk-orange-light: #fff1e1;
 
   --ssk-dark: #171713;
@@ -456,7 +456,7 @@
 
   color: var(--ssk-dark);
 
-  font-size: 9.5px;
+  font-size: 13px;
   font-weight: 700;
 }
 
@@ -466,7 +466,7 @@
 
   color: var(--ssk-muted);
 
-  font-size: 7.5px;
+  font-size: 13px;
 
   line-height: 1.4;
 }
@@ -507,7 +507,7 @@
     linear-gradient(
       100deg,
       var(--ssk-orange),
-      #f28b1d
+    #002A79
     );
 
   border-radius: 7px;
@@ -566,7 +566,7 @@
 
   color: #aaa69e;
 
-  font-size: 6px;
+  font-size: 13px;
   font-weight: 700;
 
   letter-spacing: 1px;
@@ -580,7 +580,7 @@
 
   color: var(--ssk-dark);
 
-  font-size: 8.5px;
+  font-size: 15px;
   font-weight: 600;
 }
 
@@ -621,7 +621,7 @@
 
   color: var(--ssk-orange);
 
-  font-size: 8px;
+  font-size: 16px;
   font-weight: 700;
 
   letter-spacing: 1.8px;
@@ -656,7 +656,7 @@
 
   color: var(--ssk-text);
 
-  font-size: 9.5px;
+  font-size: 16px;
 
   line-height: 1.7;
 }
@@ -771,7 +771,7 @@
 
   color: var(--ssk-dark);
 
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 700;
 }
 
@@ -781,7 +781,7 @@
 
   color: var(--ssk-text);
 
-  font-size: 8.5px;
+  font-size: 15px;
 
   line-height: 1.55;
 }

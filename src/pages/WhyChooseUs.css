@@ -4,7 +4,7 @@
 
 .why-choose-two {
   --ssk-orange: #ED1C24;
-  --ssk-orange-dark: #c96400;
+  --ssk-orange-dark: #264597;
   --ssk-orange-light: #fff1e1;
 
   --ssk-dark: #171713;
@@ -199,7 +199,7 @@
 
   color: var(--ssk-dark);
 
-  font-size: 9px;
+  font-size: 16px;
   font-weight: 600;
 }
 
@@ -215,7 +215,7 @@
 
   color: #ffffff;
 
-  font-size: 7px;
+  font-size: 14px;
 
   background: var(--ssk-orange);
 
@@ -419,7 +419,7 @@
   background:
     linear-gradient(
       135deg,
-      #f28a1d 0%,
+      #264597 0%,
       var(--ssk-orange) 100%
     );
 

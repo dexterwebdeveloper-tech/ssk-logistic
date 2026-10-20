@@ -122,9 +122,9 @@
   --ssk-orange-dark: #c96300;
   --ssk-orange-soft: #ff9b38;
 
-  --ssk-dark: #151512;
-  --ssk-dark-two: #1c1c18;
-  --ssk-card: #22221d;
+  --ssk-dark: #111d39;
+  --ssk-dark-two: #0e1528;
+  --ssk-card: #0e1c41;
 
   --ssk-white: #ffffff;
   --ssk-cream: #fff9f2;
@@ -138,15 +138,15 @@
   background:
     radial-gradient(
       circle at 90% 10%,
-      rgba(233, 120, 0, 0.12),
+      #EBF6FF,
       transparent 25%
     ),
     radial-gradient(
       circle at 0% 90%,
-      rgba(233, 120, 0, 0.07),
+      #EBF6FF,
       transparent 30%
     ),
-    #151512;
+    #EBF6FF;
 
   font-family: "Poppins", sans-serif;
 }
@@ -267,7 +267,7 @@
 
   color: #b8b7b0;
 
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.9;
 }
 
@@ -324,8 +324,8 @@
   background:
     linear-gradient(
       145deg,
-      #22221d 0%,
-      #1c1c18 100%
+      #2e3953 0%,
+      #2e3953 100%
     );
 
   border: 1px solid rgba(255, 255, 255, 0.075);
@@ -368,8 +368,8 @@
   background:
     linear-gradient(
       145deg,
-      #27251e 0%,
-      #1d1c17 100%
+      #2e3953 0%,
+      #2e3953 100%
     );
 }
 
@@ -390,8 +390,8 @@
   background:
     linear-gradient(
       145deg,
-      #302619 0%,
-      #201d17 100%
+      #2e3953 0%,
+      #2e3953 100%
     );
 
   border-color: rgba(233, 120, 0, 0.25);
@@ -490,7 +490,7 @@
 
   color: var(--ssk-orange);
 
-  font-size: 9px;
+  font-size: 16px;
   font-weight: 700;
 
   letter-spacing: 1.4px;
@@ -516,7 +516,7 @@
 
   color: #aaa9a2;
 
-  font-size: 12.5px;
+  font-size: 16px;
   line-height: 1.8;
 }
 
