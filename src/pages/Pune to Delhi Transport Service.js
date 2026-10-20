@@ -450,7 +450,7 @@ const productSchema = {
   "@context": "https://schema.org",
   "@type": "Product",
   "name": "Pune to Delhi Transport Service",
-  "image": "https://ssklogistics.com/assets/images/pune-to-delhi-transport-service.webp",
+  "image": "https://ssklogistics.in/assets/images/pune-to-delhi-transport-service.webp",
   "description": "SSK Logistics provides Pune to Delhi Transport Service for businesses requiring dependable interstate movement of goods, cargo, freight and commercial consignments between Pune and Delhi. Pune to Delhi transport service can support manufacturers, distributors, wholesalers, retailers, warehouses and industrial businesses that require regular, scheduled or project-based transportation between Maharashtra and Delhi. Pune to Delhi transportation service can be coordinated according to cargo type, shipment volume, vehicle capacity, pickup requirements and delivery schedules. Pune Delhi goods transport can cover commercial products, industrial materials, packaged goods, machinery, equipment, retail inventory and other business consignments. Pune to Delhi goods transportation can support supplier deliveries, warehouse transfers, distribution movements and recurring business shipments along the route. Pune to Delhi cargo transport is suitable for commercial and industrial cargo requiring organized road transportation, while Pune to Delhi freight transport can accommodate larger consignments and recurring business freight requirements. Pune to Delhi logistics service can include vehicle coordination, route planning, pickup scheduling and delivery coordination based on specific shipment needs. As a Pune Delhi transport company, SSK Logistics can arrange suitable transportation solutions for businesses requiring direct or dedicated vehicle movement, including full truck load requirements. The service can connect factories, warehouses, distribution centers, suppliers and customer destinations across Pune, Delhi and other locations along the transportation network. SSK Logistics focuses on flexible interstate transportation arrangements designed around cargo specifications, business schedules and destination requirements for reliable Pune to Delhi goods, cargo and freight movement.",
   "brand": {
     "@type": "Brand",
@@ -461,7 +461,7 @@ const productSchema = {
     "priceCurrency": "INR",
     "price": "Contact for Transport Service Pricing",
     "availability": "https://schema.org/InStock",
-    "url": "https://ssklogistics.com/pune-to-delhi-transport-service"
+    "url": "https://ssklogistics.in/pune-to-delhi-transport-service"
   }
 };
 
@@ -726,8 +726,8 @@ const productSchema = {
                                             <span>Email</span>
                                         </header>
 
-                                        <a href="mailto:info@ssklogistics.com" className="pc-email">
-                                            info@ssklogistics.com
+                                        <a href="mailto:info@ssklogistics.in" className="pc-email">
+                                            info@ssklogistics.in
                                         </a>
                                     </section>
 

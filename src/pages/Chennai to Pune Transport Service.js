@@ -446,7 +446,7 @@ const productSchema = {
   "@context": "https://schema.org",
   "@type": "Product",
   "name": "Chennai to Pune Transport Service",
-  "image": "https://ssklogistics.com/assets/images/chennai-to-pune-transport-service.webp",
+  "image": "https://ssklogistics.in/assets/images/chennai-to-pune-transport-service.webp",
   "description": "SSK Logistics provides Chennai to Pune Transport Service for businesses requiring dependable interstate movement of goods, cargo, freight and commercial consignments between Chennai and Pune. Chennai to Pune transport service can support manufacturers, distributors, wholesalers, retailers, warehouses, suppliers and industrial businesses that require regular, scheduled or project-based transportation between Tamil Nadu and Maharashtra. Chennai to Pune transportation service can be coordinated according to cargo type, shipment volume, vehicle capacity, pickup requirements and delivery schedules. Chennai Pune goods transport can cover commercial products, industrial materials, packaged goods, machinery, equipment, inventory and other business consignments. Chennai to Pune goods transportation can support supplier deliveries, warehouse transfers, stock movement, distribution requirements and recurring commercial shipments along the route. Chennai to Pune cargo transport is suitable for commercial and industrial cargo requiring organized road transportation, while Chennai to Pune freight transport can accommodate larger consignments and recurring business freight requirements. Chennai to Pune logistics service can include vehicle coordination, route planning, pickup scheduling and delivery coordination according to individual shipment requirements. SSK Logistics can arrange dedicated vehicles, full truck load transportation and suitable road transport solutions for businesses moving goods between Chennai and Pune. The service can connect factories, warehouses, suppliers, distribution centers, retailers and customer destinations across Chennai, Pune and surrounding industrial areas. Chennai Pune transport requirements can be supported with flexible vehicle planning for different cargo volumes, shipment sizes and delivery schedules. SSK Logistics focuses on organized Chennai to Pune goods, cargo and freight transportation designed around cargo specifications, business schedules and destination requirements.",
   "brand": {
     "@type": "Brand",
@@ -457,7 +457,7 @@ const productSchema = {
     "priceCurrency": "INR",
     "price": "Contact for Transport Service Pricing",
     "availability": "https://schema.org/InStock",
-    "url": "https://ssklogistics.com/chennai-to-pune-transport-service"
+    "url": "https://ssklogistics.in/chennai-to-pune-transport-service"
   }
 };
 
@@ -718,8 +718,8 @@ const productSchema = {
                                             <span>Email</span>
                                         </header>
 
-                                        <a href="mailto:info@ssklogistics.com" className="pc-email">
-                                            info@ssklogistics.com
+                                        <a href="mailto:info@ssklogistics.in" className="pc-email">
+                                            info@ssklogistics.in
                                         </a>
                                     </section>
 

@@ -450,7 +450,7 @@ const productSchema = {
   "@context": "https://schema.org",
   "@type": "Product",
   "name": "Commercial Transportation Services in Pune",
-  "image": "https://ssklogistics.com/assets/images/commercial-transportation-services-in-pune.webp",
+  "image": "https://ssklogistics.in/assets/images/commercial-transportation-services-in-pune.webp",
   "description": "SSK Logistics provides Commercial Transportation Services in Pune for businesses that require dependable movement of commercial goods, freight, cargo, inventory and business materials across local, regional and interstate routes. Commercial transportation services Pune can support manufacturers, distributors, wholesalers, retailers, suppliers, warehouses and other businesses with organized goods movement based on shipment size, vehicle requirements, destination and delivery schedules. As a commercial transport company Pune, SSK Logistics assists with practical transportation coordination for regular consignments, business deliveries, warehouse transfers and distribution requirements. Commercial goods transportation Pune can cover packaged products, industrial materials, retail inventory, machinery, equipment and other commercial consignments, while commercial logistics services Pune can include freight coordination, route planning, vehicle arrangement and shipment scheduling. Commercial freight transport Pune provides businesses with transportation support for regional and interstate cargo movement, while commercial cargo transportation Pune can be planned according to the nature and dimensions of the shipment. Commercial truck transport Pune is suitable for businesses requiring dedicated or shared vehicle arrangements, and commercial goods transport Pune can support recurring movement between factories, warehouses, suppliers, distributors and customer locations. Business transportation requirements can include B2B shipment movement, supplier deliveries, branch transfers, warehouse-to-market distribution and interstate commercial logistics. SSK Logistics focuses on flexible commercial transportation solutions designed around business schedules, cargo requirements and destination routes, helping companies coordinate their goods movement from Pune to locations across Maharashtra and other parts of India.",
   "brand": {
     "@type": "Brand",
@@ -461,7 +461,7 @@ const productSchema = {
     "priceCurrency": "INR",
     "price": "Contact for Transport Service Pricing",
     "availability": "https://schema.org/InStock",
-    "url": "https://ssklogistics.com/commercial-transportation-services-in-pune"
+    "url": "https://ssklogistics.in/commercial-transportation-services-in-pune"
   }
 };
 
@@ -723,8 +723,8 @@ const productSchema = {
                                             <span>Email</span>
                                         </header>
 
-                                        <a href="mailto:info@ssklogistics.com" className="pc-email">
-                                            info@ssklogistics.com
+                                        <a href="mailto:info@ssklogistics.in" className="pc-email">
+                                            info@ssklogistics.in
                                         </a>
                                     </section>
 

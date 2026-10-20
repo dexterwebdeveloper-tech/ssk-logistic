@@ -456,7 +456,7 @@ const productSchema = {
   "@context": "https://schema.org",
   "@type": "Product",
   "name": "Pune to Mumbai Transport Service",
-  "image": "https://ssklogistics.com/assets/images/pune-to-mumbai-transport-service.webp",
+  "image": "https://ssklogistics.in/assets/images/pune-to-mumbai-transport-service.webp",
   "description": "SSK Logistics provides Pune to Mumbai Transport Service for businesses requiring dependable movement of goods, cargo, freight and commercial consignments between Pune and Mumbai. Pune to Mumbai transport service can support manufacturers, distributors, wholesalers, retailers, warehouses and other businesses that regularly move products and materials along this important Maharashtra route. Pune to Mumbai transportation service can be coordinated according to cargo type, shipment size, vehicle requirements and preferred delivery schedules. Pune Mumbai transport service requirements may include regular business deliveries, warehouse transfers, supplier movements and commercial distribution. Pune to Mumbai goods transport and Pune to Mumbai goods transportation can cover packaged products, industrial materials, machinery, equipment, retail inventory and other commercial consignments. Pune to Mumbai cargo transport can support different cargo requirements with suitable vehicle arrangements, while Pune to Mumbai freight transport is useful for businesses managing recurring or scheduled shipments between the two cities. Pune to Mumbai logistics service can include transportation coordination, route planning, vehicle deployment and shipment scheduling, while Pune Mumbai logistics requirements may involve connecting factories, warehouses, distribution centers, suppliers and customer destinations. SSK Logistics also supports businesses requiring dedicated transportation, full truck load movement and regular commercial freight coordination on the Pune-Mumbai route. The service is designed for practical and flexible goods movement between Pune and Mumbai, with transportation planning based on cargo characteristics, pickup requirements and delivery destinations.",
   "brand": {
     "@type": "Brand",
@@ -467,7 +467,7 @@ const productSchema = {
     "priceCurrency": "INR",
     "price": "Contact for Transport Service Pricing",
     "availability": "https://schema.org/InStock",
-    "url": "https://ssklogistics.com/pune-to-mumbai-transport-service"
+    "url": "https://ssklogistics.in/pune-to-mumbai-transport-service"
   }
 };
 
@@ -728,8 +728,8 @@ const productSchema = {
                                             <span>Email</span>
                                         </header>
 
-                                        <a href="mailto:info@ssklogistics.com" className="pc-email">
-                                            info@ssklogistics.com
+                                        <a href="mailto:info@ssklogistics.in" className="pc-email">
+                                            info@ssklogistics.in
                                         </a>
                                     </section>
 

@@ -449,7 +449,7 @@ const productSchema = {
   "@context": "https://schema.org",
   "@type": "Product",
   "name": "Pune to Goa Transport Service",
-  "image": "https://ssklogistics.com/assets/images/pune-to-goa-transport-service.webp",
+  "image": "https://ssklogistics.in/assets/images/pune-to-goa-transport-service.webp",
   "description": "SSK Logistics provides Pune to Goa Transport Service for businesses requiring dependable movement of goods, cargo, freight and commercial consignments between Pune and Goa. Pune to Goa transport service can support manufacturers, distributors, wholesalers, retailers, warehouses, suppliers and commercial businesses that require regular, scheduled or project-based transportation along the route. Pune to Goa transportation service can be coordinated according to cargo type, shipment volume, vehicle capacity, pickup requirements and delivery schedules. Pune Goa goods transport can cover commercial products, industrial materials, packaged goods, retail inventory, machinery, equipment and other business consignments. Pune to Goa goods transportation can support supplier deliveries, warehouse transfers, stock movement, distribution requirements and recurring commercial shipments. Pune to Goa cargo transport is suitable for businesses handling commercial and industrial cargo, while Pune to Goa freight transport can accommodate larger consignments and regular freight movement. Pune to Goa logistics service can include vehicle coordination, route planning, pickup scheduling and delivery coordination according to the requirements of each shipment. SSK Logistics can arrange dedicated vehicles, full truck load transportation and suitable road transport solutions for businesses moving goods between Pune and Goa. The service can connect factories, warehouses, suppliers, distributors, hotels, retailers, commercial establishments and customer destinations across Goa and surrounding areas. Pune Goa transport requirements can be supported with flexible vehicle planning for different cargo volumes, shipment sizes and delivery schedules. SSK Logistics focuses on organized Pune to Goa goods, cargo and freight transportation designed around cargo specifications, business schedules and destination requirements.",
   "brand": {
     "@type": "Brand",
@@ -460,7 +460,7 @@ const productSchema = {
     "priceCurrency": "INR",
     "price": "Contact for Transport Service Pricing",
     "availability": "https://schema.org/InStock",
-    "url": "https://ssklogistics.com/pune-to-goa-transport-service"
+    "url": "https://ssklogistics.in/pune-to-goa-transport-service"
   }
 };
 
@@ -722,8 +722,8 @@ const productSchema = {
                                             <span>Email</span>
                                         </header>
 
-                                        <a href="mailto:info@ssklogistics.com" className="pc-email">
-                                            info@ssklogistics.com
+                                        <a href="mailto:info@ssklogistics.in" className="pc-email">
+                                            info@ssklogistics.in
                                         </a>
                                     </section>
 

@@ -456,7 +456,7 @@ const productSchema = {
   "@context": "https://schema.org",
   "@type": "Product",
   "name": "Transportation Service Company in PCMC",
-  "image": "https://ssklogistics.com/assets/images/transportation-service-company-in-pcmc.webp",
+  "image": "https://ssklogistics.in/assets/images/transportation-service-company-in-pcmc.webp",
   "description": "SSK Logistics provides Transportation Service Company in PCMC solutions for businesses requiring dependable goods movement, cargo transportation, freight handling and commercial logistics support across Pimpri-Chinchwad. Transportation company PCMC services can support manufacturers, distributors, wholesalers, retailers, warehouses and industrial businesses with regular, scheduled or project-based transportation requirements. Transportation services PCMC can be coordinated according to cargo type, shipment volume, vehicle capacity, pickup requirements and delivery schedules. Transport company PCMC solutions can cover commercial goods, industrial materials, machinery, equipment, packaged products, inventory and other suitable consignments. Transport service provider PCMC requirements can be managed through planned vehicle coordination, route scheduling, pickup arrangements and delivery coordination. Goods transport company PCMC services can support movement between factories, warehouses, suppliers, distribution centers and customer locations across Pimpri-Chinchwad and surrounding industrial areas. SSK Logistics can arrange dedicated vehicles, full truck load transportation and other road transport solutions based on shipment specifications and business schedules. The service can support transportation requirements for industrial zones, commercial establishments, manufacturing units, warehouses and distribution operations throughout PCMC. Flexible transportation planning can be used for different cargo volumes, shipment sizes, delivery frequencies and destination requirements. Businesses seeking a transportation service company in PCMC can coordinate practical goods, cargo and freight movement solutions designed around their operational schedules and supply chain requirements.",
   "brand": {
     "@type": "Brand",
@@ -467,7 +467,7 @@ const productSchema = {
     "priceCurrency": "INR",
     "price": "Contact for Transport Service Pricing",
     "availability": "https://schema.org/InStock",
-    "url": "https://ssklogistics.com/transportation-service-company-in-pcmc"
+    "url": "https://ssklogistics.in/transportation-service-company-in-pcmc"
   }
 };
 
@@ -728,8 +728,8 @@ const productSchema = {
                                             <span>Email</span>
                                         </header>
 
-                                        <a href="mailto:info@ssklogistics.com" className="pc-email">
-                                            info@ssklogistics.com
+                                        <a href="mailto:info@ssklogistics.in" className="pc-email">
+                                            info@ssklogistics.in
                                         </a>
                                     </section>
 

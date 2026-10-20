@@ -457,7 +457,7 @@ const productSchema = {
   "@context": "https://schema.org",
   "@type": "Product",
   "name": "Logistics Companies in Pune",
-  "image": "https://ssklogistics.com/assets/images/logistics-companies-in-pune.webp",
+  "image": "https://ssklogistics.in/assets/images/logistics-companies-in-pune.webp",
   "description": "SSK Logistics provides structured logistics support for businesses searching for logistics companies in Pune for commercial, industrial, freight and cargo transportation requirements. Logistics companies Pune services can help manufacturers, distributors, wholesalers, retailers, warehouses and corporate businesses coordinate the movement of goods between factories, suppliers, storage facilities, distribution centres and customer locations. As a logistics company in Pune, SSK Logistics can assist with transportation planning based on cargo type, shipment volume, destination and delivery schedule. Logistics service providers Pune can support businesses with regular transportation requirements, scheduled dispatches and project-based goods movement, while logistics providers in Pune can coordinate suitable vehicles for different commercial and industrial consignments. Logistics services Pune can include local, regional and interstate transportation support depending on the route and business requirement. Best logistics companies Pune searches commonly relate to dependable goods movement, suitable transportation arrangements and consistent service coordination, while top logistics companies Pune requirements may involve freight, cargo and industrial transportation. Freight logistics companies Pune can support larger commercial consignments and business freight movement, while cargo logistics companies Pune can assist with organized transportation of different types of goods. Industrial logistics Pune services can support manufacturers and industrial businesses with movement of raw materials, machinery, equipment and finished products. SSK Logistics focuses on practical transportation coordination and business-oriented logistics support for companies operating across Pune and connected destinations.",
   "brand": {
     "@type": "Brand",
@@ -468,7 +468,7 @@ const productSchema = {
     "priceCurrency": "INR",
     "price": "Contact for Logistics Service Pricing",
     "availability": "https://schema.org/InStock",
-    "url": "https://ssklogistics.com/logistics-companies-in-pune"
+    "url": "https://ssklogistics.in/logistics-companies-in-pune"
   }
 };
 
@@ -731,8 +731,8 @@ const productSchema = {
                                             <span>Email</span>
                                         </header>
 
-                                        <a href="mailto:info@ssklogistics.com" className="pc-email">
-                                            info@ssklogistics.com
+                                        <a href="mailto:info@ssklogistics.in" className="pc-email">
+                                            info@ssklogistics.in
                                         </a>
                                     </section>
 

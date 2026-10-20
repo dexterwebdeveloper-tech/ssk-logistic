@@ -462,7 +462,7 @@ const productSchema = {
   "@context": "https://schema.org",
   "@type": "Product",
   "name": "Transporters in Pune",
-  "image": "https://ssklogistics.com/assets/images/transporters-in-pune.webp",
+  "image": "https://ssklogistics.in/assets/images/transporters-in-pune.webp",
   "description": "SSK Logistics provides organized transportation support for businesses searching for transporters in Pune for goods movement, freight transportation, commercial shipments and industrial cargo requirements. Transporters in Pune can assist manufacturers, distributors, wholesalers, retailers, warehouses and businesses with moving goods between factories, suppliers, storage facilities, distribution centres and customer locations. Businesses searching for best transporters in Pune often require suitable vehicles, dependable coordination and transportation arrangements based on cargo type, route and delivery schedule. Transporters Near Pune can support businesses requiring goods movement around Pune and nearby industrial or commercial locations. Reliable transporters Pune services can be planned for regular shipments as well as individual commercial consignments. Goods transporters Pune can assist with the movement of business products, raw materials, equipment, machinery and other commercial goods. Truck transporters Pune are suitable for shipments requiring larger commercial vehicles and dedicated goods transportation, while freight transporters Pune can support businesses handling regular or project-based freight movement. SSK Logistics can coordinate transportation requirements according to shipment volume, vehicle capacity, destination and preferred delivery schedule. The service can support local, regional and interstate goods movement, making it suitable for businesses looking for practical transportation assistance and dependable logistics coordination across Pune and connected routes.",
   "brand": {
     "@type": "Brand",
@@ -473,7 +473,7 @@ const productSchema = {
     "priceCurrency": "INR",
     "price": "Contact for Transport Service Pricing",
     "availability": "https://schema.org/InStock",
-    "url": "https://ssklogistics.com/transporters-in-pune"
+    "url": "https://ssklogistics.in/transporters-in-pune"
   }
 };
 
@@ -733,8 +733,8 @@ const productSchema = {
                                             <span>Email</span>
                                         </header>
 
-                                        <a href="mailto:info@ssklogistics.com" className="pc-email">
-                                            info@ssklogistics.com
+                                        <a href="mailto:info@ssklogistics.in" className="pc-email">
+                                            info@ssklogistics.in
                                         </a>
                                     </section>
 

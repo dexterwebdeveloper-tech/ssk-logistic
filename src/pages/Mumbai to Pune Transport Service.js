@@ -434,7 +434,7 @@ const productSchema = {
   "@context": "https://schema.org",
   "@type": "Product",
   "name": "Mumbai to Pune Transport Service",
-  "image": "https://ssklogistics.com/assets/images/mumbai-to-pune-transport-service.webp",
+  "image": "https://ssklogistics.in/assets/images/mumbai-to-pune-transport-service.webp",
   "description": "SSK Logistics provides Mumbai to Pune Transport Service for businesses requiring dependable movement of goods, cargo, freight and commercial consignments between Mumbai and Pune. Mumbai to Pune transport service can support manufacturers, distributors, wholesalers, retailers, warehouses, suppliers and industrial businesses that require regular, scheduled or project-based transportation along this major Maharashtra commercial route. Mumbai to Pune transportation service can be coordinated according to cargo type, shipment volume, vehicle capacity, pickup requirements and delivery schedules. Mumbai Pune goods transport can cover commercial products, industrial materials, packaged goods, machinery, equipment, retail inventory and other business consignments. Mumbai to Pune goods transportation can support supplier deliveries, warehouse transfers, stock movement, distribution requirements and recurring commercial shipments between the two cities. Mumbai to Pune cargo transport is suitable for commercial and industrial cargo requiring organized road transportation, while Mumbai to Pune freight transport can accommodate larger consignments and recurring business freight requirements. Mumbai to Pune logistics service can include vehicle coordination, route planning, pickup scheduling and delivery coordination based on individual shipment requirements. SSK Logistics can arrange dedicated vehicles, full truck load transportation and suitable road transport solutions for businesses moving goods between Mumbai and Pune. The service can connect factories, warehouses, ports, suppliers, distributors, commercial establishments and customer destinations across Mumbai, Pune and surrounding industrial areas. Mumbai Pune transport requirements can be supported with flexible vehicle planning for different cargo volumes, shipment sizes and delivery schedules. SSK Logistics focuses on organized Mumbai to Pune goods, cargo and freight transportation designed around cargo specifications, business schedules and destination requirements.",
   "brand": {
     "@type": "Brand",
@@ -445,7 +445,7 @@ const productSchema = {
     "priceCurrency": "INR",
     "price": "Contact for Transport Service Pricing",
     "availability": "https://schema.org/InStock",
-    "url": "https://ssklogistics.com/mumbai-to-pune-transport-service"
+    "url": "https://ssklogistics.in/mumbai-to-pune-transport-service"
   }
 };
 
@@ -716,8 +716,8 @@ const productSchema = {
                                             <span>Email</span>
                                         </header>
 
-                                        <a href="mailto:info@ssklogistics.com" className="pc-email">
-                                            info@ssklogistics.com
+                                        <a href="mailto:info@ssklogistics.in" className="pc-email">
+                                            info@ssklogistics.in
                                         </a>
                                     </section>
 

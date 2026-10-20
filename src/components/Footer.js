@@ -101,8 +101,8 @@ const FooterTwo = () => {
 
                       <p>
 
-                        <a href="mailto:info@ssklogistics.com">
-                          info@ssklogistics.com
+                        <a href="mailto:info@ssklogistics.in">
+                          info@ssklogistics.in
                         </a>
 
                       </p>

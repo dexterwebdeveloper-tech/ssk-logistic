@@ -463,7 +463,7 @@ const productSchema = {
   "@context": "https://schema.org",
   "@type": "Product",
   "name": "Pune Transport Office",
-  "image": "https://ssklogistics.com/assets/images/pune-transport-office.webp",
+  "image": "https://ssklogistics.in/assets/images/pune-transport-office.webp",
   "description": "SSK Logistics provides transportation and logistics coordination for businesses searching for a Pune Transport Office to manage goods movement, cargo transportation, freight requirements and commercial shipment arrangements. Transport Office Pune services can assist businesses with transportation enquiries, vehicle coordination, shipment planning and scheduled goods movement across local, regional and interstate routes. A transport company office Pune can support businesses that require organized communication for commercial transportation requirements, while transport service office Pune can help coordinate vehicle and route requirements based on cargo type and destination. Goods transport office Pune services can be suitable for manufacturers, distributors, wholesalers, retailers and other businesses that regularly move commercial goods. Logistics office Pune requirements can involve shipment coordination, transportation planning and business logistics support. Transport booking office Pune services can assist customers with arranging vehicles for planned goods transportation, while cargo transport office Pune can support commercial cargo movement and shipment coordination. Freight transport office Pune services can be suitable for businesses handling larger or recurring consignments, and transportation office Pune can assist with general commercial movement requirements. Truck booking office Pune services can help businesses arrange suitable truck transportation according to cargo volume, vehicle capacity, route and delivery schedule. SSK Logistics focuses on practical transportation coordination and responsive logistics support for businesses requiring dependable goods movement from Pune to nearby and interstate destinations.",
   "brand": {
     "@type": "Brand",
@@ -474,7 +474,7 @@ const productSchema = {
     "priceCurrency": "INR",
     "price": "Contact for Transport Service Pricing",
     "availability": "https://schema.org/InStock",
-    "url": "https://ssklogistics.com/pune-transport-office"
+    "url": "https://ssklogistics.in/pune-transport-office"
   }
 };
 
@@ -735,8 +735,8 @@ const productSchema = {
                                             <span>Email</span>
                                         </header>
 
-                                        <a href="mailto:info@ssklogistics.com" className="pc-email">
-                                            info@ssklogistics.com
+                                        <a href="mailto:info@ssklogistics.in" className="pc-email">
+                                            info@ssklogistics.in
                                         </a>
                                     </section>
 

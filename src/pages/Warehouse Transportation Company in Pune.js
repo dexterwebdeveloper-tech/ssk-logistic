@@ -454,7 +454,7 @@ const productSchema = {
   "@context": "https://schema.org",
   "@type": "Product",
   "name": "Warehouse Transportation Company in Pune",
-  "image": "https://ssklogistics.com/assets/images/warehouse-transportation-company-in-pune.webp",
+  "image": "https://ssklogistics.in/assets/images/warehouse-transportation-company-in-pune.webp",
   "description": "SSK Logistics provides Warehouse Transportation Company in Pune solutions for businesses requiring organized movement of goods between warehouses, factories, suppliers, distribution centers, retailers and customer destinations. Warehouse transportation company Pune services can support manufacturers, wholesalers, distributors, e-commerce operations, retailers and industrial businesses with scheduled, recurring and project-based transportation requirements. Warehouse transport services Pune can be coordinated according to inventory volume, cargo type, vehicle capacity, pickup requirements and delivery schedules. Warehouse logistics company Pune solutions can support planned movement of stock, commercial goods, industrial materials, packaged products, machinery, equipment and other suitable consignments. Warehouse transportation services Pune can include vehicle coordination, pickup scheduling, route planning, shipment movement and delivery coordination for inbound and outbound warehouse operations. Warehouse goods transport Pune requirements can be managed for stock transfers, supplier deliveries, distribution movements, replenishment shipments and inter-warehouse transportation. Warehouse cargo transportation Pune can accommodate different cargo volumes through suitable commercial vehicles and dedicated transportation arrangements. SSK Logistics can coordinate full truck load transportation, dedicated vehicles and flexible road transport solutions based on warehouse schedules and shipment specifications. Warehouse freight transport Pune services can support larger commercial consignments moving between storage facilities and business destinations. Warehouse distribution transportation Pune can help connect inventory locations with manufacturing units, distributors, retailers and customer delivery points. Businesses requiring warehouse transportation in Pune can use structured logistics coordination designed around operational timelines, cargo requirements and recurring supply chain activities. SSK Logistics focuses on dependable warehouse goods, cargo and freight transportation across Pune and surrounding industrial and commercial areas.",
   "brand": {
     "@type": "Brand",
@@ -465,7 +465,7 @@ const productSchema = {
     "priceCurrency": "INR",
     "price": "Contact for Logistics Service Pricing",
     "availability": "https://schema.org/InStock",
-    "url": "https://ssklogistics.com/warehouse-transportation-company-in-pune"
+    "url": "https://ssklogistics.in/warehouse-transportation-company-in-pune"
   }
 };
 
@@ -727,8 +727,8 @@ const productSchema = {
                                             <span>Email</span>
                                         </header>
 
-                                        <a href="mailto:info@ssklogistics.com" className="pc-email">
-                                            info@ssklogistics.com
+                                        <a href="mailto:info@ssklogistics.in" className="pc-email">
+                                            info@ssklogistics.in
                                         </a>
                                     </section>
 

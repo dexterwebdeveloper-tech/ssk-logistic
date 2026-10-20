@@ -454,7 +454,7 @@ const productSchema = {
   "@context": "https://schema.org",
   "@type": "Product",
   "name": "LG Transport Services Vendor in Pune",
-  "image": "https://ssklogistics.com/assets/images/lg-transport-services-vendor-in-pune.webp",
+  "image": "https://ssklogistics.in/assets/images/lg-transport-services-vendor-in-pune.webp",
   "description": "SSK Logistics provides LG Transport Services Vendor in Pune solutions for businesses and supply chain operations requiring organized transportation, logistics, goods movement and cargo handling support. LG transportation vendor Pune requirements can be coordinated for commercial shipments, industrial consignments, warehouse transfers, distribution movements and regular business transportation needs. LG logistics vendor Pune services can support structured movement of goods between suppliers, warehouses, manufacturing locations, distribution centers and customer destinations. LG goods transport vendor Pune solutions can be arranged according to shipment volume, cargo type, vehicle capacity, pickup requirements and delivery schedules. As an LG transport service provider Pune businesses can coordinate suitable road transportation arrangements for recurring and project-based requirements. LG logistics service provider Pune requirements can include transportation planning, vehicle coordination, route scheduling, shipment movement and delivery coordination. LG supply chain vendor Pune services can support businesses that require dependable transportation assistance as part of their wider procurement, warehousing and distribution operations. LG cargo transportation Pune requirements can cover commercial cargo, packaged products, equipment, inventory, industrial materials and other suitable consignments. SSK Logistics can coordinate dedicated vehicles, full truck load transportation and other road-based logistics solutions based on shipment specifications and operational schedules. The service is designed to support organized goods movement across Pune and surrounding industrial, commercial and warehouse locations while maintaining practical coordination between pickup and delivery points. Businesses seeking an LG transport vendor in Pune can use flexible transportation arrangements aligned with cargo requirements, delivery timelines and ongoing supply chain activities.",
   "brand": {
     "@type": "Brand",
@@ -465,7 +465,7 @@ const productSchema = {
     "priceCurrency": "INR",
     "price": "Contact for Logistics Service Pricing",
     "availability": "https://schema.org/InStock",
-    "url": "https://ssklogistics.com/lg-transport-services-vendor-in-pune"
+    "url": "https://ssklogistics.in/lg-transport-services-vendor-in-pune"
   }
 };
 
@@ -725,8 +725,8 @@ const productSchema = {
                                             <span>Email</span>
                                         </header>
 
-                                        <a href="mailto:info@ssklogistics.com" className="pc-email">
-                                            info@ssklogistics.com
+                                        <a href="mailto:info@ssklogistics.in" className="pc-email">
+                                            info@ssklogistics.in
                                         </a>
                                     </section>
 

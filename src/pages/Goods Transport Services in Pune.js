@@ -452,7 +452,7 @@ const productSchema = {
   "@context": "https://schema.org",
   "@type": "Product",
   "name": "Goods Transport Services in Pune",
-  "image": "https://ssklogistics.com/assets/images/goods-transport-services-in-pune.webp",
+  "image": "https://ssklogistics.in/assets/images/goods-transport-services-in-pune.webp",
   "description": "SSK Logistics provides Goods Transport Services in Pune for businesses requiring organized and dependable movement of commercial goods, materials, cargo and consignments across local, regional and interstate routes. Goods transport services Pune requirements can include regular shipment movement, vehicle coordination, route planning and transportation arrangements based on cargo volume, destination and delivery schedules. Businesses searching for goods transportation Pune can coordinate the movement of industrial materials, commercial products, machinery, packaged goods, retail stock and other business consignments through suitable transportation solutions. As a goods transport company Pune, SSK Logistics supports manufacturers, distributors, wholesalers, retailers, traders and commercial establishments with practical goods movement and logistics coordination. Goods transporters Pune requirements may involve arranging appropriate vehicles for different load capacities and transportation routes, while a goods transport service provider Pune can assist with planned dispatches, recurring shipments and destination-based transportation needs. SSK Logistics also supports commercial and industrial goods movement from Pune to various cities across Maharashtra and interstate destinations, with an emphasis on responsive coordination, suitable vehicle arrangements and smooth transportation planning.",
   "brand": {
     "@type": "Brand",
@@ -463,7 +463,7 @@ const productSchema = {
     "priceCurrency": "INR",
     "price": "Contact for Goods Transport Service Pricing",
     "availability": "https://schema.org/InStock",
-    "url": "https://ssklogistics.com/goods-transport-services-in-pune"
+    "url": "https://ssklogistics.in/goods-transport-services-in-pune"
   }
 };
 
@@ -729,8 +729,8 @@ const productSchema = {
                                             <span>Email</span>
                                         </header>
 
-                                        <a href="mailto:info@ssklogistics.com" className="pc-email">
-                                            info@ssklogistics.com
+                                        <a href="mailto:info@ssklogistics.in" className="pc-email">
+                                            info@ssklogistics.in
                                         </a>
                                     </section>
 

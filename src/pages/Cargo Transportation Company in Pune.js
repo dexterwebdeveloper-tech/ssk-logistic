@@ -449,7 +449,7 @@ const productSchema = {
   "@context": "https://schema.org",
   "@type": "Product",
   "name": "Cargo Transportation Company in Pune",
-  "image": "https://ssklogistics.com/assets/images/cargo-transportation-company-in-pune.webp",
+  "image": "https://ssklogistics.in/assets/images/cargo-transportation-company-in-pune.webp",
   "description": "SSK Logistics provides Cargo Transportation Company in Pune solutions for businesses requiring organized movement of commercial, industrial and specialized cargo across local, regional and interstate routes. Cargo transportation company Pune requirements can include shipment planning, vehicle coordination, route management and transportation support for different types of consignments. Cargo transport company Pune services can assist manufacturers, distributors, wholesalers, retailers and industrial businesses with regular or project-based cargo movement. Cargo transportation services Pune and cargo transport services Pune can cover commercial shipments, industrial materials, packaged goods, machinery, equipment and other business consignments. Cargo transporters Pune requirements can be supported through suitable vehicle arrangements based on cargo volume, dimensions, weight and destination, while a cargo logistics company Pune can coordinate transportation as part of wider logistics operations. Cargo logistics services Pune may include freight movement, warehouse transfers, supplier transportation and distribution support. Freight cargo transportation Pune can be arranged for regional and interstate business routes, while industrial cargo transport Pune and commercial cargo transportation Pune are suited to manufacturing materials, commercial products and business shipments. Heavy cargo transport Pune requirements may involve large or high-weight consignments, while high value cargo transportation Pune can be planned with appropriate handling and transportation coordination. Container cargo transport Pune supports containerized shipments, and road cargo transportation Pune provides practical movement between warehouses, factories, suppliers and customer destinations. Full truck load cargo transport Pune can be used for dedicated vehicle requirements where a complete vehicle is assigned to a shipment. ODC transportation Pune requirements can include oversized or dimensionally difficult cargo that needs careful vehicle selection, route planning and movement coordination. SSK Logistics focuses on flexible cargo transportation arrangements designed around the specific requirements of businesses operating from Pune.",
   "brand": {
     "@type": "Brand",
@@ -460,7 +460,7 @@ const productSchema = {
     "priceCurrency": "INR",
     "price": "Contact for Transport Service Pricing",
     "availability": "https://schema.org/InStock",
-    "url": "https://ssklogistics.com/cargo-transportation-company-in-pune"
+    "url": "https://ssklogistics.in/cargo-transportation-company-in-pune"
   }
 };
 
@@ -725,8 +725,8 @@ const productSchema = {
                                             <span>Email</span>
                                         </header>
 
-                                        <a href="mailto:info@ssklogistics.com" className="pc-email">
-                                            info@ssklogistics.com
+                                        <a href="mailto:info@ssklogistics.in" className="pc-email">
+                                            info@ssklogistics.in
                                         </a>
                                     </section>
 

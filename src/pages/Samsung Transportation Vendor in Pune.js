@@ -455,7 +455,7 @@ const productSchema = {
   "@context": "https://schema.org",
   "@type": "Product",
   "name": "Samsung Transportation Vendor in Pune",
-  "image": "https://ssklogistics.com/assets/images/samsung-transportation-vendor-in-pune.webp",
+  "image": "https://ssklogistics.in/assets/images/samsung-transportation-vendor-in-pune.webp",
   "description": "SSK Logistics provides Samsung Transportation Vendor in Pune solutions for businesses requiring dependable transportation, logistics, goods movement, cargo handling and supply chain support. Samsung transportation vendor Pune requirements can be coordinated for commercial shipments, industrial consignments, warehouse transfers, distribution movements and recurring business transportation needs. Samsung transport services vendor Pune solutions can support planned movement of goods between suppliers, manufacturing locations, warehouses, distribution centers and customer destinations. Samsung logistics vendor Pune services can be arranged according to cargo type, shipment volume, vehicle capacity, pickup requirements and delivery schedules. Samsung goods transport vendor Pune requirements can cover packaged products, commercial goods, industrial materials, equipment, inventory and other suitable consignments. As a Samsung transport service provider Pune businesses can coordinate dedicated or scheduled road transportation based on shipment requirements and operational timelines. Samsung logistics service provider Pune solutions can include vehicle coordination, route planning, pickup scheduling, shipment movement and delivery coordination. Samsung supply chain vendor Pune services can support transportation requirements connected with procurement, warehousing, distribution and inventory movement. Samsung cargo transportation vendor Pune requirements can be managed for different shipment sizes through suitable commercial vehicles and planned road transport arrangements. SSK Logistics can coordinate dedicated vehicles, full truck load transportation and other logistics solutions based on cargo specifications and business schedules. The service can support movement between Pune's industrial areas, warehouses, distribution centers, commercial locations and surrounding business destinations. Businesses seeking a Samsung transportation vendor in Pune can use flexible logistics arrangements designed around cargo requirements, delivery schedules and recurring supply chain activities.",
   "brand": {
     "@type": "Brand",
@@ -466,7 +466,7 @@ const productSchema = {
     "priceCurrency": "INR",
     "price": "Contact for Logistics Service Pricing",
     "availability": "https://schema.org/InStock",
-    "url": "https://ssklogistics.com/samsung-transportation-vendor-in-pune"
+    "url": "https://ssklogistics.in/samsung-transportation-vendor-in-pune"
   }
 };
 
@@ -727,8 +727,8 @@ const productSchema = {
                                             <span>Email</span>
                                         </header>
 
-                                        <a href="mailto:info@ssklogistics.com" className="pc-email">
-                                            info@ssklogistics.com
+                                        <a href="mailto:info@ssklogistics.in" className="pc-email">
+                                            info@ssklogistics.in
                                         </a>
                                     </section>
 

@@ -229,12 +229,12 @@ const TermsConditions = () => {
                 </div>
               </a>
 
-              <a href="mailto:info@ssklogistics.com">
+              <a href="mailto:info@ssklogistics.in">
                 <FaEnvelope />
 
                 <div>
                   <small>EMAIL US</small>
-                  <strong>info@ssklogistics.com</strong>
+                  <strong>info@ssklogistics.in</strong>
                 </div>
               </a>
 

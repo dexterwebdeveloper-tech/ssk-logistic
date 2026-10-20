@@ -454,7 +454,7 @@ const productSchema = {
   "@context": "https://schema.org",
   "@type": "Product",
   "name": "Pune to Hyderabad Transport Service",
-  "image": "https://ssklogistics.com/assets/images/pune-to-hyderabad-transport-service.webp",
+  "image": "https://ssklogistics.in/assets/images/pune-to-hyderabad-transport-service.webp",
   "description": "SSK Logistics provides Pune to Hyderabad Transport Service for businesses requiring dependable interstate movement of goods, cargo, freight and commercial consignments between Pune and Hyderabad. Pune to Hyderabad transport service can support manufacturers, distributors, wholesalers, retailers, warehouses and industrial businesses that need regular or scheduled transportation between Maharashtra and Telangana. Pune to Hyderabad transportation service can be coordinated according to cargo type, shipment volume, vehicle capacity, pickup location and delivery requirements. Pune Hyderabad goods transport can cover commercial products, industrial materials, packaged goods, machinery, equipment, inventory and other business consignments. Pune to Hyderabad goods transportation can support supplier deliveries, warehouse transfers, distribution movements and recurring business shipments along the route. Pune to Hyderabad cargo transport is suitable for commercial and industrial cargo requiring organized road transportation, while Pune to Hyderabad freight transport can support larger, recurring or project-based consignments. SSK Logistics can coordinate suitable vehicles based on the nature, weight and volume of the shipment, including dedicated transportation requirements for businesses requiring direct cargo movement. The service can connect factories, warehouses, suppliers, distribution centers and customer locations across Pune, Hyderabad and intermediate logistics routes. Transportation planning can include vehicle coordination, route management, pickup scheduling and delivery coordination according to business requirements. SSK Logistics focuses on flexible interstate transportation solutions for companies seeking organized Pune to Hyderabad goods, cargo and freight movement.",
   "brand": {
     "@type": "Brand",
@@ -465,7 +465,7 @@ const productSchema = {
     "priceCurrency": "INR",
     "price": "Contact for Transport Service Pricing",
     "availability": "https://schema.org/InStock",
-    "url": "https://ssklogistics.com/pune-to-hyderabad-transport-service"
+    "url": "https://ssklogistics.in/pune-to-hyderabad-transport-service"
   }
 };
 
@@ -725,8 +725,8 @@ const productSchema = {
                                             <span>Email</span>
                                         </header>
 
-                                        <a href="mailto:info@ssklogistics.com" className="pc-email">
-                                            info@ssklogistics.com
+                                        <a href="mailto:info@ssklogistics.in" className="pc-email">
+                                            info@ssklogistics.in
                                         </a>
                                     </section>
 

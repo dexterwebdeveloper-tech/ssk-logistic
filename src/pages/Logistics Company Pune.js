@@ -454,7 +454,7 @@ const productSchema = {
   "@context": "https://schema.org",
   "@type": "Product",
   "name": "Logistics Company Pune",
-  "image": "https://ssklogistics.com/assets/images/logistics-company-pune.webp",
+  "image": "https://ssklogistics.in/assets/images/logistics-company-pune.webp",
   "description": "SSK Logistics is a logistics company in Pune offering organized logistics services for businesses, manufacturers, distributors, retailers and commercial operations. Logistics services in Pune are designed to support the movement of goods between warehouses, factories, suppliers, offices, distribution points and customer locations. As a logistics provider in Pune, SSK Logistics can assist businesses with dependable transportation planning, shipment coordination and commercial movement requirements. Logistics solutions Pune and Pune logistics services can be arranged according to cargo type, route, delivery schedule and business requirements. Pune logistics company services are suitable for companies looking for structured transportation support for regular and project-based consignments. Best logistics service in Pune and reliable logistics company Pune are commonly required by businesses that need timely coordination and consistent goods movement. Freight logistics company Pune services can support commercial cargo transportation, while commercial logistics services Pune are suitable for distributors, traders, wholesalers and businesses handling regular shipments. Industrial logistics company Pune services can assist manufacturing and industrial businesses with planned transportation of raw materials, machinery, equipment and finished goods. Logistics transportation Pune solutions can be tailored for local, regional and interstate movement depending on the shipment requirements. SSK Logistics focuses on practical logistics coordination, suitable vehicle planning and reliable transportation support for different commercial supply-chain needs.",
   "brand": {
     "@type": "Brand",
@@ -465,7 +465,7 @@ const productSchema = {
     "priceCurrency": "INR",
     "price": "Contact for Logistics Service Pricing",
     "availability": "https://schema.org/InStock",
-    "url": "https://ssklogistics.com/logistics-company-pune"
+    "url": "https://ssklogistics.in/logistics-company-pune"
   }
 };
 
@@ -726,8 +726,8 @@ const productSchema = {
                                             <span>Email</span>
                                         </header>
 
-                                        <a href="mailto:info@ssklogistics.com" className="pc-email">
-                                            info@ssklogistics.com
+                                        <a href="mailto:info@ssklogistics.in" className="pc-email">
+                                            info@ssklogistics.in
                                         </a>
                                     </section>
 

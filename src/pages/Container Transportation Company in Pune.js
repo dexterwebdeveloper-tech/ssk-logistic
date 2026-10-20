@@ -450,7 +450,7 @@ const productSchema = {
   "@context": "https://schema.org",
   "@type": "Product",
   "name": "Container Transportation Company in Pune",
-  "image": "https://ssklogistics.com/assets/images/container-transportation-company-in-pune.webp",
+  "image": "https://ssklogistics.in/assets/images/container-transportation-company-in-pune.webp",
   "description": "SSK Logistics provides Container Transportation Company in Pune services for businesses requiring organized and dependable movement of containerized cargo across Pune, Maharashtra and interstate destinations. Container transportation company Pune requirements can include the movement of commercial shipments, industrial materials, export-import cargo, machinery, equipment and other goods packed or transported in standard containers. Container transport company Pune services can be coordinated according to container size, cargo weight, pickup location, destination and required delivery schedule. Container transportation services Pune are suitable for manufacturers, exporters, importers, distributors, warehouses, logistics operators and commercial businesses that need reliable road transportation for containerized consignments. Container transport services Pune can support movement between factories, warehouses, distribution centers, industrial locations, ports and customer destinations. SSK Logistics can coordinate suitable transportation arrangements for full container loads and business cargo requiring dedicated vehicle movement. Container transportation requirements may also involve route planning, vehicle coordination, loading and unloading coordination and communication regarding pickup and delivery schedules. Businesses looking for container transport solutions in Pune can use such services for regular supply chain movements as well as project-based shipments. SSK Logistics focuses on practical container transportation coordination based on cargo specifications, vehicle requirements and destination routes, supporting businesses with flexible movement solutions for local, regional and interstate logistics needs.",
   "brand": {
     "@type": "Brand",
@@ -461,7 +461,7 @@ const productSchema = {
     "priceCurrency": "INR",
     "price": "Contact for Transport Service Pricing",
     "availability": "https://schema.org/InStock",
-    "url": "https://ssklogistics.com/container-transportation-company-in-pune"
+    "url": "https://ssklogistics.in/container-transportation-company-in-pune"
   }
 };
 
@@ -725,8 +725,8 @@ const productSchema = {
                                             <span>Email</span>
                                         </header>
 
-                                        <a href="mailto:info@ssklogistics.com" className="pc-email">
-                                            info@ssklogistics.com
+                                        <a href="mailto:info@ssklogistics.in" className="pc-email">
+                                            info@ssklogistics.in
                                         </a>
                                     </section>
 

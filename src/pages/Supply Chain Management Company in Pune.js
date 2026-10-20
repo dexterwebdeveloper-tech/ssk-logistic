@@ -461,7 +461,7 @@ const productSchema = {
   "@context": "https://schema.org",
   "@type": "Product",
   "name": "Supply Chain Management Company in Pune",
-  "image": "https://ssklogistics.com/assets/images/supply-chain-management-company-in-pune.webp",
+  "image": "https://ssklogistics.in/assets/images/supply-chain-management-company-in-pune.webp",
   "description": "SSK Logistics supports businesses looking for a Supply Chain Management Company in Pune with coordinated logistics, transportation and shipment movement solutions designed around commercial and industrial requirements. Supply chain management company Pune requirements can involve planning the movement of goods from suppliers and manufacturers to warehouses, distributors, retailers and final business destinations. Supply chain management services Pune can include transportation coordination, freight movement, cargo planning, warehouse transfer support, shipment scheduling and route management. As a supply chain company Pune, SSK Logistics assists businesses with practical supply chain logistics Pune solutions for recurring consignments, distribution requirements and interstate transportation. Supply chain solutions Pune can be structured around cargo type, shipment frequency, destination, vehicle requirements and delivery timelines, while a supply chain service provider Pune can help coordinate different stages of commercial goods movement. Supply chain management services in Pune may support manufacturers, wholesalers, distributors, retailers, e-commerce businesses and industrial companies managing regular material flows. Logistics and supply chain company Pune requirements can include freight transportation, warehouse-to-warehouse movement, supplier transportation and business distribution support. Supply chain consulting company Pune requirements may involve transportation planning and logistics coordination based on operational needs. End to end supply chain Pune support can connect procurement-side transportation, warehouse transfers and onward goods movement, while supply chain transportation Pune focuses on reliable movement of products, materials and commercial consignments between important supply chain locations. SSK Logistics provides flexible coordination intended to help businesses organize transportation and logistics activities across Pune, Maharashtra and interstate routes.",
   "brand": {
     "@type": "Brand",
@@ -472,7 +472,7 @@ const productSchema = {
     "priceCurrency": "INR",
     "price": "Contact for Logistics Service Pricing",
     "availability": "https://schema.org/InStock",
-    "url": "https://ssklogistics.com/supply-chain-management-company-in-pune"
+    "url": "https://ssklogistics.in/supply-chain-management-company-in-pune"
   }
 };
 
@@ -736,8 +736,8 @@ const productSchema = {
                                             <span>Email</span>
                                         </header>
 
-                                        <a href="mailto:info@ssklogistics.com" className="pc-email">
-                                            info@ssklogistics.com
+                                        <a href="mailto:info@ssklogistics.in" className="pc-email">
+                                            info@ssklogistics.in
                                         </a>
                                     </section>
 

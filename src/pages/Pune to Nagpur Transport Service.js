@@ -444,7 +444,7 @@ const productSchema = {
   "@context": "https://schema.org",
   "@type": "Product",
   "name": "Pune to Nagpur Transport Service",
-  "image": "https://ssklogistics.com/assets/images/pune-to-nagpur-transport-service.webp",
+  "image": "https://ssklogistics.in/assets/images/pune-to-nagpur-transport-service.webp",
   "description": "SSK Logistics provides Pune to Nagpur Transport Service for businesses requiring dependable interstate movement of goods, cargo, freight and commercial consignments between Pune and Nagpur. Pune to Nagpur transport service can support manufacturers, distributors, wholesalers, retailers, warehouses and industrial businesses that require regular, scheduled or project-based transportation across Maharashtra. Pune to Nagpur transportation service can be coordinated according to cargo type, shipment volume, vehicle capacity, pickup requirements and delivery schedules. Pune Nagpur goods transport can cover commercial products, industrial materials, packaged goods, machinery, equipment, inventory and other business consignments. Pune to Nagpur goods transportation can support supplier deliveries, warehouse transfers, distribution movements and recurring business shipments along the route. Pune to Nagpur cargo transport is suitable for commercial and industrial cargo requiring organized road transportation, while Pune to Nagpur freight transport can accommodate larger consignments and recurring business freight requirements. Pune to Nagpur logistics service can include vehicle coordination, route planning, pickup scheduling and delivery coordination based on the specific requirements of each shipment. SSK Logistics can arrange suitable transportation solutions for businesses requiring dedicated vehicles, full truck load movement and regular cargo transportation between Pune and Nagpur. The service can connect factories, warehouses, suppliers, distribution centers and customer destinations across Pune, Nagpur and other locations along the Maharashtra transportation network. SSK Logistics focuses on flexible goods, cargo and freight transportation arrangements designed around cargo specifications, business schedules and destination requirements.",
   "brand": {
     "@type": "Brand",
@@ -455,7 +455,7 @@ const productSchema = {
     "priceCurrency": "INR",
     "price": "Contact for Transport Service Pricing",
     "availability": "https://schema.org/InStock",
-    "url": "https://ssklogistics.com/pune-to-nagpur-transport-service"
+    "url": "https://ssklogistics.in/pune-to-nagpur-transport-service"
   }
 };
 
@@ -718,8 +718,8 @@ const productSchema = {
                                             <span>Email</span>
                                         </header>
 
-                                        <a href="mailto:info@ssklogistics.com" className="pc-email">
-                                            info@ssklogistics.com
+                                        <a href="mailto:info@ssklogistics.in" className="pc-email">
+                                            info@ssklogistics.in
                                         </a>
                                     </section>
 

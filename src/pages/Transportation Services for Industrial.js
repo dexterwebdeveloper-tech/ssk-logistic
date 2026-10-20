@@ -460,7 +460,7 @@ const productSchema = {
   "@context": "https://schema.org",
   "@type": "Product",
   "name": "Transportation Services for Industrial",
-  "image": "https://ssklogistics.com/assets/images/transportation-services-for-industrial.webp",
+  "image": "https://ssklogistics.in/assets/images/transportation-services-for-industrial.webp",
   "description": "SSK Logistics provides Transportation Services for Industrial requirements involving the planned movement of industrial goods, machinery, equipment, raw materials, commercial cargo and heavy consignments. Industrial transportation services can support manufacturers, engineering companies, factories, distributors and industrial businesses that require dependable movement of materials between plants, warehouses, project locations and commercial destinations. Industrial transport services Pune are coordinated around cargo type, load requirements, route distance and delivery schedules, while industrial goods transportation can cover machinery, production materials, packaged industrial products, equipment and other business consignments. As an industrial logistics services Pune provider, SSK Logistics assists with transportation planning, vehicle coordination and shipment movement for regular as well as project-based requirements. Industrial transport company Pune requirements may include local distribution, Maharashtra routes and interstate goods movement, while industrial cargo transportation Pune and industrial freight transportation Pune can be arranged according to the size and nature of the consignment. Heavy equipment transportation Pune and heavy goods transport Pune require appropriate vehicle selection and route planning, particularly when handling large, bulky or high-weight materials. SSK Logistics focuses on practical transportation coordination for industrial businesses seeking organized cargo movement, responsive communication and flexible logistics support.",
   "brand": {
     "@type": "Brand",
@@ -471,7 +471,7 @@ const productSchema = {
     "priceCurrency": "INR",
     "price": "Contact for Transport Service Pricing",
     "availability": "https://schema.org/InStock",
-    "url": "https://ssklogistics.com/transportation-services-for-industrial"
+    "url": "https://ssklogistics.in/transportation-services-for-industrial"
   }
 };
 
@@ -731,8 +731,8 @@ const productSchema = {
                                             <span>Email</span>
                                         </header>
 
-                                        <a href="mailto:info@ssklogistics.com" className="pc-email">
-                                            info@ssklogistics.com
+                                        <a href="mailto:info@ssklogistics.in" className="pc-email">
+                                            info@ssklogistics.in
                                         </a>
                                     </section>
 

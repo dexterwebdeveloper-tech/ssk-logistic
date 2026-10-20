@@ -443,7 +443,7 @@ const productSchema = {
   "@context": "https://schema.org",
   "@type": "Product",
   "name": "Pune to Bangalore Transport Service",
-  "image": "https://ssklogistics.com/assets/images/pune-to-bangalore-transport-service.webp",
+  "image": "https://ssklogistics.in/assets/images/pune-to-bangalore-transport-service.webp",
   "description": "SSK Logistics provides Pune to Bangalore Transport Service for businesses requiring organized and dependable movement of goods, cargo, freight and commercial consignments between Pune and Bangalore. Pune to Bangalore transport service can support manufacturers, distributors, wholesalers, retailers, warehouses and commercial businesses that need regular or scheduled transportation between Maharashtra and Karnataka. Pune to Bangalore transportation service can be coordinated according to cargo type, shipment volume, vehicle capacity, pickup requirements and delivery timelines. Pune Bangalore goods transport can support the movement of commercial products, industrial materials, packaged goods, machinery, equipment, inventory and business consignments. Pune to Bangalore goods transportation can be arranged for regular supply chain movements, warehouse transfers, supplier deliveries and business distribution requirements. Pune to Bangalore cargo transport is suitable for commercial and industrial shipments requiring road transportation, while Pune to Bangalore freight transport can support recurring and project-based consignments between the two cities. Pune to Bangalore logistics service can include transportation planning, vehicle coordination, route management and shipment scheduling based on specific business requirements. SSK Logistics also supports Pune to Bangalore transportation for full truck load and dedicated vehicle requirements where businesses need direct movement of larger consignments. The service can connect factories, warehouses, distribution centers, suppliers and customer locations while supporting practical interstate goods movement. With flexible transportation coordination and destination-focused planning, SSK Logistics helps businesses manage their Pune to Bangalore freight and cargo transportation requirements efficiently.",
   "brand": {
     "@type": "Brand",
@@ -454,7 +454,7 @@ const productSchema = {
     "priceCurrency": "INR",
     "price": "Contact for Transport Service Pricing",
     "availability": "https://schema.org/InStock",
-    "url": "https://ssklogistics.com/pune-to-bangalore-transport-service"
+    "url": "https://ssklogistics.in/pune-to-bangalore-transport-service"
   }
 };
 
@@ -722,8 +722,8 @@ const productSchema = {
                                             <span>Email</span>
                                         </header>
 
-                                        <a href="mailto:info@ssklogistics.com" className="pc-email">
-                                            info@ssklogistics.com
+                                        <a href="mailto:info@ssklogistics.in" className="pc-email">
+                                            info@ssklogistics.in
                                         </a>
                                     </section>
 

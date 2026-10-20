@@ -54,11 +54,11 @@ const Header = () => {
               </a>
 
               <a
-                href="mailto:info@ssklogistics.com"
+                href="mailto:info@ssklogistics.in"
                 className="text-white text-decoration-none fw-bold"
               >
                 <i className="far fa-envelope me-2"></i>
-                info@ssklogistics.com
+                info@ssklogistics.in
               </a>
             </div>
 

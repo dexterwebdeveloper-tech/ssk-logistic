@@ -461,7 +461,7 @@ const productSchema = {
   "@context": "https://schema.org",
   "@type": "Product",
   "name": "Industrial Transport Company in Pune",
-  "image": "https://ssklogistics.com/assets/images/industrial-transport-company-in-pune.webp",
+  "image": "https://ssklogistics.in/assets/images/industrial-transport-company-in-pune.webp",
   "description": "SSK Logistics is an Industrial Transport Company in Pune supporting manufacturers, factories, engineering businesses, warehouses, distributors and industrial enterprises with organized transportation for goods, machinery, equipment and commercial cargo. Industrial transport company Pune requirements can involve regular movement of raw materials, finished products, machinery, production equipment and other industrial consignments between factories, warehouses, suppliers, project sites and business destinations. Industrial transportation Pune solutions can be coordinated according to cargo dimensions, load capacity, route distance and delivery schedules, while industrial transport services Pune support both local and interstate movement. Industrial goods transport Pune can cover manufacturing materials, packaged industrial products, components and heavy commercial consignments. As an industrial logistics company Pune, SSK Logistics assists businesses with transportation coordination, vehicle arrangements, shipment planning and route management. Industrial cargo transport Pune and industrial freight transport Pune can be arranged for different commercial load requirements, including recurring shipments and project-based transportation. Heavy transport company Pune requirements may involve the movement of bulky or high-weight cargo, while heavy cargo transportation Pune requires suitable vehicle selection and practical route planning. Machinery transport Pune and equipment transportation Pune can support factories, engineering companies and industrial projects moving valuable business assets between locations. Factory transportation services can also include regular material transfers, warehouse-to-factory movement, factory-to-customer deliveries and other industrial supply chain requirements. SSK Logistics focuses on flexible transportation coordination designed around the specific needs of industrial businesses.",
   "brand": {
     "@type": "Brand",
@@ -472,7 +472,7 @@ const productSchema = {
     "priceCurrency": "INR",
     "price": "Contact for Transport Service Pricing",
     "availability": "https://schema.org/InStock",
-    "url": "https://ssklogistics.com/industrial-transport-company-in-pune"
+    "url": "https://ssklogistics.in/industrial-transport-company-in-pune"
   }
 };
 
@@ -734,8 +734,8 @@ const productSchema = {
                                             <span>Email</span>
                                         </header>
 
-                                        <a href="mailto:info@ssklogistics.com" className="pc-email">
-                                            info@ssklogistics.com
+                                        <a href="mailto:info@ssklogistics.in" className="pc-email">
+                                            info@ssklogistics.in
                                         </a>
                                     </section>
 

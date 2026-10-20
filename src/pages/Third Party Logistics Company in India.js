@@ -451,7 +451,7 @@ const productSchema = {
   "@context": "https://schema.org",
   "@type": "Product",
   "name": "Third Party Logistics Company in India",
-  "image": "https://ssklogistics.com/assets/images/third-party-logistics-company-in-india.webp",
+  "image": "https://ssklogistics.in/assets/images/third-party-logistics-company-in-india.webp",
   "description": "SSK Logistics provides Third Party Logistics Company in India solutions for businesses that need coordinated transportation, freight movement, cargo handling support and supply chain logistics without managing every transportation activity internally. Third party logistics company India requirements can include outsourced logistics coordination for manufacturers, distributors, wholesalers, retailers, e-commerce businesses and industrial organizations operating across multiple locations. As a 3PL logistics company India, SSK Logistics can support businesses with transportation planning, vehicle coordination, goods movement, freight management and distribution-related logistics requirements. Third party logistics services India can be structured around shipment frequency, cargo type, delivery locations, vehicle requirements and business schedules, while 3PL logistics services India can assist companies with recurring transportation and supply chain movement. A third party logistics provider India can coordinate transportation activities between suppliers, factories, warehouses, distribution centers and customer destinations. SSK Logistics supports practical 3PL arrangements for businesses requiring local, regional and interstate goods transportation, including commercial cargo, industrial materials, finished products and regular business consignments. Outsourced logistics coordination can help businesses organize freight movement, warehouse transfers, distribution transportation and route planning through a centralized service arrangement. Third party logistics solutions can also support growing businesses that require scalable transportation coordination across different cities and states. SSK Logistics focuses on flexible 3PL logistics support designed around business requirements, shipment volumes, destination networks and transportation schedules across India.",
   "brand": {
     "@type": "Brand",
@@ -462,7 +462,7 @@ const productSchema = {
     "priceCurrency": "INR",
     "price": "Contact for Logistics Service Pricing",
     "availability": "https://schema.org/InStock",
-    "url": "https://ssklogistics.com/third-party-logistics-company-in-india"
+    "url": "https://ssklogistics.in/third-party-logistics-company-in-india"
   }
 };
 
@@ -726,8 +726,8 @@ const productSchema = {
                                             <span>Email</span>
                                         </header>
 
-                                        <a href="mailto:info@ssklogistics.com" className="pc-email">
-                                            info@ssklogistics.com
+                                        <a href="mailto:info@ssklogistics.in" className="pc-email">
+                                            info@ssklogistics.in
                                         </a>
                                     </section>
 

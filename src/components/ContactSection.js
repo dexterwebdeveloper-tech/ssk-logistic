@@ -77,7 +77,7 @@ const ContactSection = () => {
 
               <h4>Email</h4>
 
-              <p>info@ssklogistics.com</p>
+              <p>info@ssklogistics.in</p>
 
             </div>
 
@@ -95,7 +95,7 @@ const ContactSection = () => {
     <h4>Support Email</h4>
 
     <p>
-      support@ssklogistics.com
+      support@ssklogistics.in
     </p>
 
   </div>

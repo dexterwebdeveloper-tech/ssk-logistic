@@ -455,7 +455,7 @@ const productSchema = {
   "@context": "https://schema.org",
   "@type": "Product",
   "name": "Best Logistics Companies in Pune",
-  "image": "https://ssklogistics.com/assets/images/best-logistics-companies-in-pune.webp",
+  "image": "https://ssklogistics.in/assets/images/best-logistics-companies-in-pune.webp",
   "description": "SSK Logistics supports businesses searching for logistics companies in Pune with practical transportation and goods movement solutions for commercial, industrial and distribution requirements. Best logistics companies Pune services can include planned cargo transportation, shipment coordination, commercial goods movement and logistics support for businesses operating across local and regional routes. Top logistics companies Pune requirements often involve dependable vehicle arrangements, timely dispatch coordination and suitable transportation for different types of consignments. Leading logistics companies in Pune are commonly sought by manufacturers, distributors, wholesalers, retailers and corporate businesses that need structured logistics support. Reliable logistics companies Pune can help manage recurring transportation requirements between warehouses, factories, suppliers, distribution centres and customer locations. Reputed logistics companies Pune services can be suitable for businesses handling regular shipments as well as project-based transportation requirements. SSK Logistics provides logistics assistance based on cargo characteristics, route, vehicle requirements, delivery schedules and business-specific transportation needs. Services can support commercial freight, industrial goods, warehouse movement and regional transportation, helping businesses coordinate their logistics requirements through a dedicated service provider. Whether the requirement involves routine goods movement, freight transportation, industrial cargo or business distribution, SSK Logistics focuses on organized transportation coordination and practical logistics support for Pune-based businesses.",
   "brand": {
     "@type": "Brand",
@@ -466,7 +466,7 @@ const productSchema = {
     "priceCurrency": "INR",
     "price": "Contact for Logistics Service Pricing",
     "availability": "https://schema.org/InStock",
-    "url": "https://ssklogistics.com/best-logistics-companies-in-pune"
+    "url": "https://ssklogistics.in/best-logistics-companies-in-pune"
   }
 };
 
@@ -728,8 +728,8 @@ const productSchema = {
                                             <span>Email</span>
                                         </header>
 
-                                        <a href="mailto:info@ssklogistics.com" className="pc-email">
-                                            info@ssklogistics.com
+                                        <a href="mailto:info@ssklogistics.in" className="pc-email">
+                                            info@ssklogistics.in
                                         </a>
                                     </section>
 

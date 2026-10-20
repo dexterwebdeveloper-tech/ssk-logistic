@@ -451,7 +451,7 @@ const productSchema = {
   "@context": "https://schema.org",
   "@type": "Product",
   "name": "Pune to Surat Transport Service",
-  "image": "https://ssklogistics.com/assets/images/pune-to-surat-transport-service.webp",
+  "image": "https://ssklogistics.in/assets/images/pune-to-surat-transport-service.webp",
   "description": "SSK Logistics provides Pune to Surat Transport Service for businesses requiring dependable interstate movement of goods, cargo, freight and commercial consignments between Pune and Surat. Pune to Surat transport service can support manufacturers, distributors, wholesalers, retailers, warehouses and industrial businesses that require regular, scheduled or project-based transportation between Maharashtra and Gujarat. Pune to Surat transportation service can be coordinated according to cargo type, shipment volume, vehicle capacity, pickup requirements and delivery schedules. Pune Surat goods transport can cover commercial products, industrial materials, packaged goods, machinery, equipment, inventory and other business consignments. Pune to Surat goods transportation can support supplier deliveries, warehouse transfers, distribution movements and recurring business shipments along the route. Pune to Surat cargo transport is suitable for commercial and industrial cargo requiring organized road transportation, while Pune to Surat freight transport can accommodate larger consignments and recurring business freight requirements. Pune to Surat logistics service can include vehicle coordination, route planning, pickup scheduling and delivery coordination based on individual shipment requirements. As a Pune Surat transport company, SSK Logistics can arrange suitable transportation solutions for businesses requiring dedicated vehicles and planned cargo movement between the two cities. The service can connect factories, warehouses, suppliers, distribution centers and customer destinations across Pune, Surat and other locations along the transportation network. SSK Logistics focuses on flexible interstate transportation arrangements designed around cargo specifications, business schedules and destination requirements for organized Pune to Surat goods, cargo and freight movement.",
   "brand": {
     "@type": "Brand",
@@ -462,7 +462,7 @@ const productSchema = {
     "priceCurrency": "INR",
     "price": "Contact for Transport Service Pricing",
     "availability": "https://schema.org/InStock",
-    "url": "https://ssklogistics.com/pune-to-surat-transport-service"
+    "url": "https://ssklogistics.in/pune-to-surat-transport-service"
   }
 };
 
@@ -728,8 +728,8 @@ const productSchema = {
                                             <span>Email</span>
                                         </header>
 
-                                        <a href="mailto:info@ssklogistics.com" className="pc-email">
-                                            info@ssklogistics.com
+                                        <a href="mailto:info@ssklogistics.in" className="pc-email">
+                                            info@ssklogistics.in
                                         </a>
                                     </section>
 

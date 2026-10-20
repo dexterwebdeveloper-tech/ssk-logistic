@@ -464,7 +464,7 @@ const productSchema = {
   "@context": "https://schema.org",
   "@type": "Product",
   "name": "Best Logistics Company in Pune",
-  "image": "https://ssklogistics.com/assets/images/best-logistics-company-in-pune.webp",
+  "image": "https://ssklogistics.in/assets/images/best-logistics-company-in-pune.webp",
   "description": "SSK Logistics supports businesses looking for a Best Logistics Company in Pune with organized transportation, freight coordination, cargo movement and commercial logistics solutions. Best logistics company Pune requirements can include dependable goods transportation, vehicle coordination, shipment planning and route management for businesses moving materials within Pune, across Maharashtra and to interstate destinations. As a best logistics service provider Pune, SSK Logistics can assist manufacturers, distributors, wholesalers, retailers and commercial enterprises with practical transportation arrangements based on cargo requirements, delivery schedules and destination routes. Best logistics services Pune may include goods transportation, freight movement, cargo handling coordination, commercial vehicle arrangements and regular shipment support. Businesses searching for a best logistics provider in Pune can use coordinated transportation solutions for recurring consignments, industrial materials, commercial goods and business shipments. Best freight logistics company requirements are supported through planned vehicle deployment, route coordination and communication throughout the transportation process. SSK Logistics focuses on flexible logistics coordination for businesses that need structured freight and goods movement from Pune to local, regional and interstate markets while keeping transportation requirements organized and responsive.",
   "brand": {
     "@type": "Brand",
@@ -475,7 +475,7 @@ const productSchema = {
     "priceCurrency": "INR",
     "price": "Contact for Logistics Service Pricing",
     "availability": "https://schema.org/InStock",
-    "url": "https://ssklogistics.com/best-logistics-company-in-pune"
+    "url": "https://ssklogistics.in/best-logistics-company-in-pune"
   }
 };
 
@@ -737,8 +737,8 @@ const productSchema = {
                                             <span>Email</span>
                                         </header>
 
-                                        <a href="mailto:info@ssklogistics.com" className="pc-email">
-                                            info@ssklogistics.com
+                                        <a href="mailto:info@ssklogistics.in" className="pc-email">
+                                            info@ssklogistics.in
                                         </a>
                                     </section>
 

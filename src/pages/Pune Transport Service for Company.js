@@ -458,7 +458,7 @@ const productSchema = {
   "@context": "https://schema.org",
   "@type": "Product",
   "name": "Pune Transport Service for Company",
-  "image": "https://ssklogistics.com/assets/images/pune-transport-service-for-company.webp",
+  "image": "https://ssklogistics.in/assets/images/pune-transport-service-for-company.webp",
   "description": "SSK Logistics provides Pune Transport Service for Company requirements, helping businesses coordinate the movement of goods, commercial materials, cargo and regular consignments across Pune, Maharashtra and interstate destinations. Transport service for companies Pune can support manufacturers, distributors, wholesalers, retailers, warehouses and corporate businesses that need organized transportation for recurring or project-based shipments. Corporate transport services Pune are planned around cargo type, vehicle requirements, route distance, dispatch schedules and destination needs, while company goods transport Pune can cover commercial products, industrial materials, packaged goods, equipment and other business consignments. Business transport services Pune may include local distribution, warehouse transfers, supplier movements, branch deliveries and interstate transportation. For corporate goods transportation Pune, SSK Logistics assists with practical vehicle coordination and shipment movement suited to commercial requirements. Company logistics services Pune can also support businesses that need transportation coordination as part of their wider supply chain, including warehouse-to-business and business-to-customer cargo movement. Corporate logistics requirements can involve regular freight transportation, cargo coordination, route planning and delivery scheduling for multiple business destinations. SSK Logistics focuses on flexible commercial transportation solutions that help companies manage their goods movement with responsive coordination and suitable vehicle arrangements.",
   "brand": {
     "@type": "Brand",
@@ -469,7 +469,7 @@ const productSchema = {
     "priceCurrency": "INR",
     "price": "Contact for Transport Service Pricing",
     "availability": "https://schema.org/InStock",
-    "url": "https://ssklogistics.com/pune-transport-service-for-company"
+    "url": "https://ssklogistics.in/pune-transport-service-for-company"
   }
 };
 
@@ -733,8 +733,8 @@ const productSchema = {
                                             <span>Email</span>
                                         </header>
 
-                                        <a href="mailto:info@ssklogistics.com" className="pc-email">
-                                            info@ssklogistics.com
+                                        <a href="mailto:info@ssklogistics.in" className="pc-email">
+                                            info@ssklogistics.in
                                         </a>
                                     </section>
 

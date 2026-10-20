@@ -440,7 +440,7 @@ const productSchema = {
   "@context": "https://schema.org",
   "@type": "Product",
   "name": "Pune to Kolhapur Transport Service",
-  "image": "https://ssklogistics.com/assets/images/pune-to-kolhapur-transport-service.webp",
+  "image": "https://ssklogistics.in/assets/images/pune-to-kolhapur-transport-service.webp",
   "description": "SSK Logistics provides Pune to Kolhapur Transport Service for businesses requiring dependable movement of goods, cargo, freight and commercial consignments between Pune and Kolhapur. Pune to Kolhapur transport service can support manufacturers, distributors, wholesalers, retailers, warehouses and industrial businesses that need regular, scheduled or project-based transportation along this important Maharashtra route. Pune to Kolhapur transportation service can be arranged according to cargo type, shipment quantity, vehicle capacity, pickup requirements and delivery schedules. Pune Kolhapur goods transport can cover commercial products, industrial materials, packaged goods, machinery, equipment, inventory and other business consignments. Pune to Kolhapur goods transportation can support supplier deliveries, warehouse transfers, stock movement, distribution requirements and recurring commercial shipments. Pune to Kolhapur cargo transport is suitable for businesses handling commercial and industrial cargo, while Pune to Kolhapur freight transport can accommodate larger consignments and regular business freight movement. Pune to Kolhapur logistics service can include vehicle coordination, route planning, pickup scheduling and delivery coordination based on individual shipment requirements. SSK Logistics can arrange dedicated vehicles, full truck load transportation and suitable road transport solutions for businesses moving goods between Pune and Kolhapur. The service can connect factories, warehouses, suppliers, distributors, commercial establishments and customer destinations across Pune, Kolhapur and surrounding industrial areas. Pune Kolhapur transport company requirements can be supported with flexible vehicle planning and shipment coordination for different cargo volumes. SSK Logistics focuses on organized Pune to Kolhapur goods, cargo and freight transportation designed around business schedules, cargo specifications and delivery requirements.",
   "brand": {
     "@type": "Brand",
@@ -451,7 +451,7 @@ const productSchema = {
     "priceCurrency": "INR",
     "price": "Contact for Transport Service Pricing",
     "availability": "https://schema.org/InStock",
-    "url": "https://ssklogistics.com/pune-to-kolhapur-transport-service"
+    "url": "https://ssklogistics.in/pune-to-kolhapur-transport-service"
   }
 };
 
@@ -720,8 +720,8 @@ const productSchema = {
                                             <span>Email</span>
                                         </header>
 
-                                        <a href="mailto:info@ssklogistics.com" className="pc-email">
-                                            info@ssklogistics.com
+                                        <a href="mailto:info@ssklogistics.in" className="pc-email">
+                                            info@ssklogistics.in
                                         </a>
                                     </section>
 

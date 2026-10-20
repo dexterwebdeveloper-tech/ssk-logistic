@@ -5,7 +5,7 @@ import "./ContactShowcase.css";
 
 const defaultData = {
   contactNumbers: ["+91 9876543210 "],
-  email: "info@ssklogistics.com",
+  email: "info@ssklogistics.in",
 };
 
 const phoneToWhatsApp = (num) => {
