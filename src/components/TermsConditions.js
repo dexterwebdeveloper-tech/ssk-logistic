@@ -220,12 +220,12 @@ const TermsConditions = () => {
 
             <div className="terms-contact-actions">
 
-              <a href="tel:+919876543210">
+              <a href="tel:+918956581790">
                 <FaPhone />
 
                 <div>
                   <small>CALL US</small>
-                  <strong>+91 9876543210</strong>
+                  <strong>+91 8956581790</strong>
                 </div>
               </a>
 

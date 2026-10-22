@@ -4,7 +4,7 @@ import React from "react";
 import "./ContactShowcase.css";
 
 const defaultData = {
-  contactNumbers: ["+91 9876543210 "],
+  contactNumbers: ["+91 8956581790 "],
   email: "info@ssklogistics.in",
 };
 

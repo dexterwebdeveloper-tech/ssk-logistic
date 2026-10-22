@@ -59,7 +59,7 @@ const ContactSection = () => {
 
               <h4>Call Us</h4>
 
-              <p>+91 98765 43210</p>
+              <p>+91 8956581790</p>
 
             </div>
 
@@ -141,7 +141,7 @@ const ContactSection = () => {
                 safety, speed and complete customer satisfaction.
               </p>
 
-              <a href="tel:+919876543210" className="contact-btn">
+              <a href="tel:+918956581790" className="contact-btn">
 
                 Contact Now
 

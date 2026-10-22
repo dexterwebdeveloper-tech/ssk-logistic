@@ -151,7 +151,7 @@ const Career = () => {
 
     if (!validateForm()) return;
 
-    const whatsappNumber = "919876543210";
+    const whatsappNumber = "918956581790";
 
     const message = `
 *Career Application - SSK Logistics*

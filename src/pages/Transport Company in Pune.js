@@ -481,7 +481,7 @@ const productSchema = {
         <div>
 <Helmet>
   <title>
-    Transport Company in Pune | Goods, Freight & Commercial Transportation Services | +91 9876543210
+    Transport Company in Pune | Goods, Freight & Commercial Transportation Services | +91 8956581790
   </title>
 
   <meta
@@ -706,20 +706,20 @@ const productSchema = {
                                         </header>
 
                                         <div className="pc-list">
-                                            <a href="tel:+919876543210 " className="pc-call">+91 9876543210 </a>
+                                            <a href="tel:+918956581790 " className="pc-call">+91 8956581790 </a>
                                         </div>
 
 
                                         <div className="pc-cta">
                                             <a
-                                                href="https://wa.me/919876543210 "
+                                                href="https://wa.me/918956581790 "
                                                 target="_blank"
                                                 rel="noopener noreferrer"
                                                 className="pc-whats"
                                             >
                                                 <i className="bi bi-whatsapp"></i> WhatsApp
                                             </a>
-                                            <a href="tel:+919876543210 " className="pc-primary">
+                                            <a href="tel:+918956581790 " className="pc-primary">
                                                 Call Now
                                             </a>
                                         </div>

@@ -46,11 +46,11 @@ const Header = () => {
 
             <div className="d-flex align-items-center flex-wrap">
               <a
-                href="tel:+919876543210"
+                href="tel:+918956581790"
                 className="text-white me-4 text-decoration-none fw-bold"
               >
                 <i className="fas fa-phone-volume me-2"></i>
-                +91 9876543210
+                +91 8956581790
               </a>
 
               <a

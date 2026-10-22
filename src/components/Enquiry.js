@@ -90,7 +90,7 @@ const Enquiry = () => {
 
     if (!validateForm()) return;
 
-    const whatsappNumber = "919876543210";
+    const whatsappNumber = "918956581790";
 
     const whatsappMessage = `
 *New Logistics Enquiry - SSK Logistics*
@@ -198,11 +198,11 @@ Please share the availability and quotation for this requirement.
               <span>Talk to our logistics team</span>
 
               <a
-                href="https://wa.me/919876543210"
+                href="https://wa.me/918956581790"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                +91 9876543210
+                +91 8956581790
               </a>
             </div>
 
